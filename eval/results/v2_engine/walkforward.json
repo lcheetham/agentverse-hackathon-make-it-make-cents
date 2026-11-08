@@ -1,0 +1,189 @@
+{
+  "cutoff_utc": "2026-10-24 17:38:17",
+  "cutoff_days_ago": 14,
+  "universe": 60,
+  "judged": 39,
+  "verdict_counts": {
+    "Probably luck": 38,
+    "Can't tell yet": 1
+  },
+  "excluded": {
+    "< 20 resolved positions before cut-off": 17,
+    "no fills before cut-off": 4
+  },
+  "delay_s": 3600,
+  "half_spread": 0.005,
+  "fee_rate": 0.0,
+  "N": 1000,
+  "top10": {
+    "wallets": [
+      "0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
+      "0x3eb31daa061a19855cbf0a4884c202fb86976a2a",
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7",
+      "0x5fdd66ffd0325d4e8d1d86fbec50caa31770a747",
+      "0xe18ecc345e00ee7c4f2d1f676f3dd2acb112f826",
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+      "0xc4d1a863e9cc45d02ba22d3a1ae9ba7822018ce8",
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c"
+    ],
+    "n_wallets": 10,
+    "copies": 225,
+    "status_counts": {
+      "ok": 225,
+      "unresolved": 6,
+      "missed (resolved before copy)": 5
+    },
+    "mean_ret": -0.18710780564703275,
+    "lo": -0.3413876802581601,
+    "hi": -0.025918191513387943,
+    "n_clusters": 146,
+    "gbp10_pnl": -420.9925627058236,
+    "sharpe_per_copy": -0.1966965603188026,
+    "max_drawdown_on_200": 1.614037354007155,
+    "win_rate": 0.4533333333333333,
+    "leader_mean_ret_same_positions": -0.10559982030733761
+  },
+  "agent_approved": {
+    "wallets": [],
+    "n_wallets": 0,
+    "copies": 0,
+    "status_counts": {},
+    "mean_ret": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_clusters": 0,
+    "gbp10_pnl": 0.0,
+    "sharpe_per_copy": NaN,
+    "max_drawdown_on_200": 0.0,
+    "win_rate": NaN,
+    "leader_mean_ret_same_positions": null
+  },
+  "any_skilled": {
+    "wallets": [],
+    "n_wallets": 0,
+    "copies": 0,
+    "status_counts": {},
+    "mean_ret": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_clusters": 0,
+    "gbp10_pnl": 0.0,
+    "sharpe_per_copy": NaN,
+    "max_drawdown_on_200": 0.0,
+    "win_rate": NaN,
+    "leader_mean_ret_same_positions": null
+  },
+  "agent_approved_v1": {
+    "wallets": [],
+    "n_wallets": 0,
+    "copies": 0,
+    "status_counts": {},
+    "mean_ret": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_clusters": 0,
+    "gbp10_pnl": 0.0,
+    "sharpe_per_copy": NaN,
+    "max_drawdown_on_200": 0.0,
+    "win_rate": NaN,
+    "leader_mean_ret_same_positions": null
+  },
+  "bottom_line_copy_or_watch": {
+    "wallets": [],
+    "n_wallets": 0,
+    "copies": 0,
+    "status_counts": {},
+    "mean_ret": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_clusters": 0,
+    "gbp10_pnl": 0.0,
+    "sharpe_per_copy": NaN,
+    "max_drawdown_on_200": 0.0,
+    "win_rate": NaN,
+    "leader_mean_ret_same_positions": null
+  },
+  "approved_minus_top10": {
+    "mean": 0.18710780564703275,
+    "lo": 0.023706353455194666,
+    "hi": 0.3380662333294163
+  },
+  "copywatch_minus_top10": {
+    "mean": 0.18710780564703275,
+    "lo": 0.023706353455194666,
+    "hi": 0.3380662333294163
+  },
+  "verdict_counts_v1": {
+    "Probably luck": 38,
+    "Can't tell yet": 1
+  },
+  "bottom_line_counts": {
+    "Don't copy": 39
+  },
+  "calibration": {
+    "edges": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "rates": [
+      0.011734233945108873,
+      0.07474954995063324,
+      0.11179485318063202,
+      0.20323770498697422,
+      0.3291344132817725,
+      0.41615005399461785,
+      0.5444844225038916,
+      0.6716012993217481,
+      0.8099663347614471,
+      0.8999952561064446,
+      0.9372784235716645,
+      0.9870157696731673
+    ],
+    "counts": [
+      182,
+      80,
+      180,
+      253,
+      394,
+      832,
+      1096,
+      383,
+      263,
+      226,
+      117,
+      387
+    ],
+    "n": 4393
+  },
+  "prior_follow": {
+    "m": -0.2093391188270702,
+    "tau": 0.2737646146635505,
+    "n": 38,
+    "source": "fitted on 38 real wallets as of 2026-10-24"
+  },
+  "prior_edge": {
+    "m": -0.1315808965298394,
+    "tau": 0.22181806157462763,
+    "n": 39,
+    "source": "fitted"
+  },
+  "runtime_s": 2164.5,
+  "bias_notes": [
+    "Universe = today's monthly leaderboard, so membership uses information after the cut-off (affects both portfolios).",
+    "Followers hold to resolution; leaders' early exits are not mirrored.",
+    "Fill history is paged (most recent first); very active wallets may have few positions before the cut-off."
+  ]
+}
