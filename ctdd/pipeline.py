@@ -46,6 +46,7 @@ def run_wallet(
     on_step=None,
     calibration: dict | None = None,
     prior: dict | None = None,
+    cluster_with_llm: bool = True,
 ) -> dict:
     step = on_step or (lambda msg: None)
     th = th or load_thresholds()
@@ -65,9 +66,10 @@ def run_wallet(
         mk_closed.loc[bad, "title"] = "[withheld: market text contained instructions aimed at an AI]"
         mk_closed.loc[bad, "rules"] = ""
         audit.log("injection_withheld", wallet=wallet, markets=bad)
+    cl_llm = llm if cluster_with_llm else None
     step(f"Grouping {len(mk_closed)} markets into related-bet clusters"
-         + (" with Gemini" if llm is not None and llm.available else "") + "…")
-    clusters, directions, method = cluster_markets(mk_closed, llm)
+         + (" with Gemini" if cl_llm is not None and cl_llm.available else "") + "…")
+    clusters, directions, method = cluster_markets(mk_closed, cl_llm)
     categories = {cid: categorise(t) for cid, t in zip(mk.index, mk["title"])}
     step("Running the stats engine (edge, luck score, copy delay)…")
     report = analyze_wallet(wallet, positions, markets, clusters, price_at, N_eff, th, categories=categories,

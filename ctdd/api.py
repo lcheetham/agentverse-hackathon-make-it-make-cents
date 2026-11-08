@@ -268,8 +268,12 @@ def main():
         raise SystemExit(f"Port {port} is already in use, probably by an older copy of this app in another terminal.\n"
                          f"Stop it there with Ctrl+C (or close that window), then run this again.\n"
                          f"Or use another port: PowerShell  $env:PORT=8001; python -m ctdd.api")
-    print(f"{BANNER}\nCopy-Trader Due Diligence on http://127.0.0.1:{port}  (first page load runs the engine, ~10 s)")
-    create_app().run(host="127.0.0.1", port=port, debug=False, threaded=True)
+    print(f"{BANNER}\nCopy-Trader Due Diligence on http://127.0.0.1:{port}  (preparing the demo traders in the background, ~30 s)")
+    svc = Service()
+    # Warm the five demo traders' reports in the background so "Why rankings mislead" and the demo report cards
+    # open instantly during a pitch.
+    threading.Thread(target=svc.wallets, name="warm-demo", daemon=True).start()
+    create_app(svc).run(host="127.0.0.1", port=port, debug=False, threaded=True)
 
 
 if __name__ == "__main__":

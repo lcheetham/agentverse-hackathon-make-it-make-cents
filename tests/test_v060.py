@@ -48,3 +48,26 @@ def test_settle_next_settles_one_copy_at_a_time_and_records_history(svc):
     events = [h["event"] for h in st["history"]]
     assert events[0] == "start" and events.count("copied") == 3 and "settled" in events
     assert all(a["ts"] <= b["ts"] for a, b in zip(st["history"], st["history"][1:]))
+
+
+def test_demo_traders_never_wait_for_gemini_grouping(tmp_path):
+    """With a real Gemini key, grouping can take up to 75 s per trader; demo traders must not wait for it."""
+    import time
+
+    class SlowLLM:
+        available, model = True, "slow-stub"
+
+        def __init__(self, audit):
+            self.audit, self.calls = audit, []
+
+        def complete(self, job, prompt, want_json=True, timeout=60):
+            self.calls.append(job)
+            if job == "cluster":
+                time.sleep(30)
+            return None
+
+    audit = AuditLog(tmp_path / "audit.jsonl")
+    svc = Service(audit=audit, llm=SlowLLM(audit))
+    t0 = time.time()
+    rows = svc.wallets()
+    assert len(rows) == 5 and time.time() - t0 < 60 and "cluster" not in svc.llm.calls

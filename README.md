@@ -2,7 +2,7 @@
 
 **A backtest tells you what a trader made. We tell you whether it was skill, and whether *you* can still get it.**
 
-Agentverse 2026 · Finance track · **Version 0.7.2** (see `VERSION`; the team keeps a separate changelog). Someone with £200 sees a "copy this wallet, up 400%" post. The app reads a Polymarket wallet's public history and gives one verdict: **Skilled and copyable · Skilled but not copyable · Can't tell yet · Probably luck**, or **Hold – human review** if the input data looks manipulated. Every number traces back to the trades behind it.
+Agentverse 2026 · Finance track · **Version 0.7.3** (see `VERSION`; the team keeps a separate changelog). Someone with £200 sees a "copy this wallet, up 400%" post. The app reads a Polymarket wallet's public history and gives one verdict: **Skilled and copyable · Skilled but not copyable · Can't tell yet · Probably luck**, or **Hold – human review** if the input data looks manipulated. Every number traces back to the trades behind it.
 
 > **Paper trading only. Information, not financial advice.** There are no wallet keys or order endpoints in this codebase.
 
@@ -16,7 +16,7 @@ python -m venv .venv
 pip install -r requirements.txt
 python -m pytest -q                    # 75 tests
 python -m ctdd.api                     # http://127.0.0.1:8000  (PORT=... to change)
-python demo.py                         # backup: the 4-minute demo in the terminal, offline (--yes runs straight through)
+python demo.py                         # offline walkthrough in the terminal: verdicts, agent, controls, results (--yes runs straight through)
 python -m eval.run_large_planted --out eval/results/v2_engine   # ~3 min: re-scores the 1,003-wallet batch with the frozen engine
 ```
 
@@ -50,15 +50,13 @@ Without a key, everything except the agent works: report text comes from a templ
 | **Relevance** | Home: the live leaderboard and a pasted real wallet |
 | **Ambition** | The agent on Home: Gemini picks tools (analyse, compare two wallets with their market overlap, preview a stake against the controls, stop all copying); code rejects any answer that quotes a number no tool returned or gives advice |
 
-## Demo script (≈4 min)
+## Results at a glance
 
-1. **Hook.** On Home, point at the live leaderboard and its **?**, then paste `0xDEMO-perfect-25-0`: a 25–0 record. The verdict is *Probably luck*. Every bet was at 95c or above, and the bootstrap CI looks great (+4.1% to +5.3%), but the luck score is >99.9%.
-2. **Contrast.** Open `0xDEMO-messy-skilled`: only 55% wins, but *Skilled and copyable*. Then `0xDEMO-fast-mover`: real edge, but 5 minutes late the follower's edge is gone, so *Skilled but not copyable*.
-3. **Agent.** Ask "I want to put £30 on 0xDEMO-perfect-25-0. Can I?". It analyses the wallet, runs the risk checks, and explains both blocks. If it tries to answer without the risk check, code rejects the answer.
-4. **Live control.** In Paper trading, pick the 25–0 trader, click **Next bet**, set the stake to £50 and approve. It's blocked by the per-trade cap, the verdict gate and the event-exposure cap. Then click **Stop all copying** and watch every proposal fail.
-5. **Results.** Under the hood → Why rankings mislead (reveal), then How we tested it: on a fresh batch never used before, 1/26 false alarms against 10/26 and 16/26 for the naive judges (the one miss is shown and explained on the page). On 1,003 wallets from a different generator, it recommended **0 of 882 no-skill wallets**, and 11 of its 13 copy calls (85%) were truly skilled and copyable, against 1 in 10 for "top 10 by profit". On real wallets, copying the top 10 an hour late lost 18.7% per copy (the leaders themselves lost 10.6% on the same bets), while the agent approved none and held cash.
+- **Fresh planted batch** (never used before the engine was frozen): 1 of 26 no-skill traders wrongly called skilled, against 10 of 26 for "copy the top 10 by ROI" and 16 of 26 for "win rate over 70%". The one miss is shown and explained in the app.
+- **1,003 wallets from a different team member's generator:** 0 of 882 no-skill wallets recommended; 11 of its 13 copy calls (85%) were truly skilled and copyable, against 1 in 10 for "top 10 by profit".
+- **Real Polymarket wallets, walk-forward from 24 Oct 2026:** copying the top 10 an hour late lost 18.7% per copy (95% CI −34.1% to −2.6%; the leaders themselves lost 10.6% on the same bets). The agent approved none and held cash.
 
-**If the web app or Wi-Fi fails:** `python demo.py` runs the same five steps in the terminal, offline, through the same engine, controls, kill switch and audit log.
+All three are in the app under **Under the hood → How we tested it**, with every error listed.
 
 ## How it works
 
@@ -124,7 +122,7 @@ What to say about it:
 | `demo.py` | Terminal backup demo (merge) |
 | `frontend/` | Adrian's UI, restructured in v0.5.0 into Home / Paper trading / Under the hood |
 
-## Known limits (say these in the deck)
+## Known limits
 
 - **Planted traders are simpler than real ones.** All 16 evaluation errors are skilled traders the agent didn't clear, so it leans cautious. A 5c edge needs about 2,000+ bets to stand out against 1,000 wallets.
 - **The real walk-forward approved no wallets.** It shows that the leaderboard wasn't worth copying, not that the agent picks winners. Its universe is today's leaderboard, followers hold to resolution, and history is paged.

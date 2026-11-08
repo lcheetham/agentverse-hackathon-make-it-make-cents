@@ -68,8 +68,11 @@ class Service:
             F = self.F[self.F["wallet"] == wallet]
             if history_frac is not None:
                 F = F[F["ts"] < F["ts"].quantile(history_frac)]
+            # Planted demo traders are grouped by the engine's rules, as in the evaluation: deterministic, and
+            # seconds instead of minutes (Gemini grouping can take up to 75 s per trader). Gemini still writes
+            # the report text.
             rep = run_wallet(wallet, F, self.M, self.world.price_at, self.demo_N(wallet), th=self.th, llm=self.llm,
-                             audit=self.audit, synthetic=True)
+                             audit=self.audit, synthetic=True, cluster_with_llm=False)
             rep["_price_at"] = self.world.price_at
         else:
             rep = self.real_report(wallet)
