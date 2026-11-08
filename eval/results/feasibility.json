@@ -1,0 +1,58 @@
+{
+  "steps": {
+    "1_fills_incl_sells": true,
+    "2_pnl_rebuild_corr": 0.7914253839823987,
+    "3_price_history_points": 38,
+    "4_wallets_with_20_each_side": "1/3"
+  },
+  "wallets": [
+    {
+      "wallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+      "fills": 1000,
+      "sells": 0,
+      "fills_span_days": 2.8,
+      "positions": 634,
+      "held": 93,
+      "exited": 0,
+      "open": 541,
+      "resolved_before_cutoff": 0,
+      "resolved_after_cutoff": 93,
+      "pnl_check_n_matched": 7,
+      "pnl_check_corr": 0.670082528845607,
+      "pnl_check_median_abs_diff": 1083.820686000015,
+      "pnl_check_within_1usd_or_2pct": 0.0
+    },
+    {
+      "wallet": "0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+      "fills": 324,
+      "sells": 199,
+      "fills_span_days": 18.9,
+      "positions": 23,
+      "held": 12,
+      "exited": 11,
+      "open": 0,
+      "resolved_before_cutoff": 23,
+      "resolved_after_cutoff": 0,
+      "pnl_check_n_matched": 19,
+      "pnl_check_corr": 0.9896937417609799,
+      "pnl_check_median_abs_diff": 5564.558721162146,
+      "pnl_check_within_1usd_or_2pct": 0.10526315789473684
+    },
+    {
+      "wallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+      "fills": 591,
+      "sells": 37,
+      "fills_span_days": 288.0,
+      "positions": 359,
+      "held": 349,
+      "exited": 2,
+      "open": 8,
+      "resolved_before_cutoff": 258,
+      "resolved_after_cutoff": 93,
+      "pnl_check_n_matched": 152,
+      "pnl_check_corr": 0.7144998813406092,
+      "pnl_check_median_abs_diff": 18222.174549999996,
+      "pnl_check_within_1usd_or_2pct": 0.21052631578947367
+    }
+  ]
+}

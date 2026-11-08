@@ -1,0 +1,27 @@
+{
+  "_note": "Frozen before the planted test batch. eval/run_planted.py --batch test refuses to run if the hash of this file + ctdd/engine/*.py + prompts changes after freezing.",
+  "verdict": {
+    "luck_probably": 0.50,
+    "luck_skilled_max": 0.05,
+    "min_clusters": 10,
+    "copy_delay_s": 3600
+  },
+  "costs": {
+    "half_spread": 0.005,
+    "fee_rate": 0.0
+  },
+  "engine": {
+    "hold_sold_frac": 0.05,
+    "luck_sims": 50000,
+    "bootstrap_B": 2000,
+    "delays_s": [0, 300, 3600, 86400],
+    "luck_N": [100, 1000, 10000]
+  },
+  "controls": {
+    "bankroll": 200.0,
+    "per_trade_cap": 0.05,
+    "cluster_cap": 0.15,
+    "drawdown_stop": 0.20,
+    "stale_price_move": 0.03
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "cutoff_utc": "2026-10-24 17:38:17",
+  "cutoff_days_ago": 14,
+  "universe": 60,
+  "judged": 41,
+  "verdict_counts": {
+    "Probably luck": 40,
+    "Can't tell yet": 1
+  },
+  "excluded": {
+    "< 20 resolved positions before cut-off": 16,
+    "no fills before cut-off": 3
+  },
+  "delay_s": 3600,
+  "half_spread": 0.005,
+  "fee_rate": 0.0,
+  "N": 1000,
+  "top10": {
+    "wallets": [
+      "0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
+      "0x3eb31daa061a19855cbf0a4884c202fb86976a2a",
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7",
+      "0xa2cced8bfae7d645f7f437fb76becf2fcbb70cbc",
+      "0x5fdd66ffd0325d4e8d1d86fbec50caa31770a747",
+      "0xe18ecc345e00ee7c4f2d1f676f3dd2acb112f826",
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+      "0xc4d1a863e9cc45d02ba22d3a1ae9ba7822018ce8"
+    ],
+    "n_wallets": 10,
+    "copies": 174,
+    "status_counts": {
+      "ok": 174,
+      "missed (resolved before copy)": 4,
+      "unresolved": 4
+    },
+    "mean_ret": -0.04127619973651853,
+    "lo": -0.19405522965795785,
+    "hi": 0.11260479341499469,
+    "n_clusters": 125,
+    "gbp10_pnl": -71.82058754154225,
+    "leader_mean_ret_same_positions": 0.015319267488759232
+  },
+  "agent_approved": {
+    "wallets": [],
+    "n_wallets": 0,
+    "copies": 0,
+    "status_counts": {},
+    "mean_ret": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_clusters": 0,
+    "gbp10_pnl": 0.0,
+    "leader_mean_ret_same_positions": null
+  },
+  "any_skilled": {
+    "wallets": [],
+    "n_wallets": 0,
+    "copies": 0,
+    "status_counts": {},
+    "mean_ret": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n_clusters": 0,
+    "gbp10_pnl": 0.0,
+    "leader_mean_ret_same_positions": null
+  },
+  "approved_minus_top10": {
+    "mean": 0.04132716441750865,
+    "lo": -0.11458196272538654,
+    "hi": 0.19513803196996235
+  },
+  "runtime_s": 1025.5,
+  "bias_notes": [
+    "Universe = today's monthly leaderboard, so membership uses information after the cut-off (affects both portfolios).",
+    "Followers hold to resolution; leaders' early exits are not mirrored.",
+    "Fill history is paged (most recent first); very active wallets may have few positions before the cut-off."
+  ]
+}

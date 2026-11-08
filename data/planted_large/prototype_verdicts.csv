@@ -1,0 +1,1004 @@
+wallet,true_type,true_edge,demo_role,verdict,profit,win_rate,n_positions,agent_skilled,agent_copyable,naive_top10,naive_winrate,correct
+0x2fb44557ed894d54023a5c969e741aa834c8a094,skilled,0.075,,Probably luck,8134.873178000002,0.6851851851851852,108,False,False,False,False,False
+0x762eb4f137af5314b2a3f84f3769d17de61fc409,skilled,0.093,,Probably luck,3309.713726,0.6145833333333334,192,False,False,False,False,False
+0x09b552ae15075a4fd72adc1caf44546c2f06ca22,skilled,0.08,,Probably luck,7959.990333000001,0.5536912751677853,298,False,False,False,False,False
+0xeeafbbe588db1598e7ba94cb270d3dae1b91449a,skilled,0.055,,Probably luck,80.222298,0.8513513513513513,74,False,False,False,True,False
+0xe485426c57828fdd1d774c8eec0d4357f511ac87,skilled,0.033,,Probably luck,433.0472930000001,0.7792207792207793,231,False,False,False,True,False
+0x022de3535dc5174f26078f2c382ec2fd6005d667,skilled,0.084,,Skilled and copyable,428.36058,0.6776315789473685,152,True,True,False,False,True
+0x6c225ba6761504d5d9a4b761d8c34ed1ab1ab61c,skilled,0.117,,Probably luck,242.51943099999997,0.9111111111111111,90,False,False,False,True,False
+0x073f7fa083969cf63213dc2e8683e196ebac1b5a,skilled,0.175,,Skilled and copyable,567.044738,0.9411764705882353,272,True,True,False,True,True
+0x392d483af9317d397b800c34a8af5b94e0452dc1,skilled,0.177,,Skilled and copyable,304.03376699999995,0.9655172413793104,58,True,True,False,True,True
+0x04e4668ff7a8a0f3a10c0533503c15acf93a06b4,skilled,0.123,,Skilled and copyable,5658.027128000001,0.6583629893238434,281,True,True,False,False,True
+0xf3b1573cb6b9bd1b945e56eb8d13db829a62acaf,skilled,0.163,,Skilled and copyable,342.678934,0.6866666666666666,150,True,True,False,False,True
+0x36a117592905ecde94085c883e18f355792a0489,skilled,0.084,,Probably luck,871.980186,0.5704697986577181,149,False,False,False,False,False
+0x651c72bfc39d415a512144404be4ccc84dc2677f,skilled,0.176,,Skilled and copyable,1276.2023640000002,0.9493670886075949,79,True,True,False,True,True
+0x97cb935c590615f8479b9dad0f7df93684ca6868,skilled,0.034,,Probably luck,1045.093865,0.5294117647058824,238,False,False,False,False,False
+0x4b4b47cb55450d5e5ffc789c0c09b5844a4eabd1,skilled,0.143,,Probably luck,1719.713563,0.6666666666666666,48,False,False,False,False,False
+0xad2ca841f3f490443b337f13baf1ef30ab73339e,skilled,0.139,,Probably luck,1792.2867229999997,0.6701570680628273,191,False,False,False,False,False
+0x02292e9e902cd6c2f67ffdb52fd1e587a6e3cd01,skilled,0.048,,Probably luck,5600.226508,0.8355704697986577,298,False,False,False,True,False
+0xcd893bc4dce193f33109f9fce77fb28f8a6ea655,skilled,0.078,,Probably luck,7453.640453999999,0.556,250,False,False,False,False,False
+0xe0eb98f4cbc743003f6420c9843dc28999fd04d7,skilled,0.121,,Skilled and copyable,16270.142108,0.6,195,True,True,False,False,True
+0x51616cf85d88d10c61770571b654b7395d280dcc,skilled,0.13,,Skilled and copyable,3090.7210190000005,0.91005291005291,189,True,True,False,True,True
+0xb9a44724339f03764e57dae0ba32d513bb0c58c1,skilled,0.158,,Skilled and copyable,4744.349814,0.9154929577464789,142,True,True,False,True,True
+0xc83eadd4c75e0b710d0e17f8cf5618e5a651ba93,skilled,0.193,,Skilled and copyable,1232.642242,0.9315068493150684,146,True,True,False,True,True
+0x0faf80ed41f32f2fd37bdc88b8d3162b05893b63,skilled,0.162,,Skilled and copyable,7045.667945,0.6622222222222223,225,True,True,False,False,True
+0xc232e93dca316b624854a073404fe8f63b2eb543,skilled,0.058,,Probably luck,1588.1846710000002,0.84375,64,False,False,False,True,False
+0xc2b1df7bfcd4e6bb408dbf17254f1c8e1871a251,skilled,0.135,,Probably luck,53086.198987,0.6808510638297872,47,False,False,True,False,False
+0x3ae5cc31c7f16df9d115c9766bcb1d37744d5f13,skilled,0.153,,Probably luck,4433.675061999999,0.6766467065868264,167,False,False,False,False,False
+0xb59106624375021a9530aa11f2dcaa4e78cd6e1c,skilled,0.072,,Probably luck,910.4394430000002,0.5571428571428572,140,False,False,False,False,False
+0xf98cb86cb0b37aef656b2633b5ed870cc0e7e2de,skilled,0.195,,Skilled and copyable,1385.673059,0.9181818181818182,220,True,True,False,True,True
+0xb97460f72f95e55297aebdd5b4afbca6751d52a5,skilled,0.078,,Probably luck,2332.0760649999997,0.6666666666666666,42,False,False,False,False,False
+0xa7c97b912e680cf57773149ae9a038f2d36ba016,skilled,0.175,,Skilled and copyable,6767.113885000001,0.6679389312977099,262,True,True,False,False,True
+0xabc446d4a5d3cbf7373ad02dee337d6ae632bfe8,skilled,0.134,,Probably luck,1658.2118950000004,0.6268656716417911,268,False,False,False,False,False
+0x7e4223d826bd92dfe8997b3fdef3e71f41859e4e,skilled,0.02,,Probably luck,72.13428500000123,0.49444444444444446,180,False,False,False,False,False
+0xea5bdf079441f916d91b2cb66d22c9da8682c5d5,skilled,0.161,,Skilled and copyable,14954.844264000001,0.8967391304347826,184,True,True,False,True,True
+0xfd6a99fcab2d0e60b2135d5377700b522c20fa45,skilled,0.16,,Probably luck,1369.409091,0.5957446808510638,94,False,False,False,False,False
+0xf92e2392b72709a2272e7049d43ce5d265f11d5f,skilled,0.189,,Skilled and copyable,2390.112388,0.9090909090909091,121,True,True,False,True,True
+0xcb46594eec90491a37c78376ab33c4cb665e8214,skilled,0.048,,Probably luck,3077.536871,0.7977099236641222,262,False,False,False,True,False
+0x641fdb7962efb688d9edb27628bbcd5d966d43b0,skilled,0.07,,Probably luck,2705.8090169999996,0.5950413223140496,121,False,False,False,False,False
+0x6969ba80ecd2ef3a1bbb22eeae1d65c6c6201c46,skilled,0.097,,Probably luck,11374.268739000003,0.6089108910891089,202,False,False,False,False,False
+0x761ae92a014c8ff183ed72d332f1c5bdbbf7d9ee,skilled,0.184,,Probably luck,391.01867000000004,0.635036496350365,137,False,False,False,False,False
+0x52a1bf9bc58b6ac2f6d69922503ad701dcda339d,skilled,0.044,,Probably luck,547.7792819999996,0.5919540229885057,174,False,False,False,False,False
+0x4b354fe135ceb5fbde92c19eeca3cb018166373c,skilled,0.185,,Probably luck,1597.491165,0.6097560975609756,82,False,False,False,False,False
+0xb3c4615d2b535f0cc558285037fab3f832530875,skilled,0.158,,Skilled and copyable,466.49759299999994,0.6986301369863014,146,True,True,False,False,True
+0xc7ca74c6a31eabcf6f74da2396086be32ebe435b,skilled,0.139,,Probably luck,651.3319430000001,0.8850574712643678,87,False,False,False,True,False
+0xef125ef50c8c5ff5a3677933a274eb86348f6a16,skilled,0.032,,Probably luck,67.26182899999998,0.5138888888888888,72,False,False,False,False,False
+0x50cdb8e7eaa031ab84ed8084340076920eb06cfa,skilled,0.038,,Probably luck,348.730883,0.7924528301886793,265,False,False,False,True,False
+0x66c82bc651703ee5e7cdaed658b04138ba73601c,skilled,0.047,,Probably luck,6.088684000000022,0.7837837837837838,148,False,False,False,True,False
+0x9ae691c169f89f3477cedc4ebd22558c8c982f29,skilled,0.132,,Probably luck,3629.9007580000007,0.6284153005464481,183,False,False,False,False,False
+0x988bcf419b476c73ae29218407eea9d5d3fe9bc2,skilled,0.044,,Probably luck,103.65447200000006,0.8095238095238095,84,False,False,False,True,False
+0xec672ad73425086baa2ee13e382ba1e138c54324,skilled,0.056,,Probably luck,2167.0309829999997,0.5517241379310345,145,False,False,False,False,False
+0xbddfa3b532a2670d00150c2ceb016c616dc323aa,skilled,0.071,,Probably luck,-140.96436600000004,0.8057553956834532,139,False,False,False,True,False
+0x651ac8a2dd40fafc8509e1fac64ebab0185f510e,skilled,0.081,,Skilled and copyable,1561.733018,0.9230769230769231,104,True,True,False,True,True
+0xa62703cc6b77cf57555b25d11d5eb9b867e7479e,skilled,0.059,,Probably luck,1861.8226429999997,0.5982905982905983,117,False,False,False,False,False
+0x19b613e29d326ff43216ad8dc8c13a8fd5c0200c,skilled,0.193,,Probably luck,1950.468236,0.69,100,False,False,False,False,False
+0xdb53b3ba8af733c43ae9a9a399da5f9e79db9822,skilled,0.195,,Skilled and copyable,23902.805367,0.668,250,True,True,False,False,True
+0x5fbf7c23f38b408d0f051c81dd0bd2d4675f8f06,skilled,0.135,,Probably luck,5140.813905999999,0.6150943396226415,265,False,False,False,False,False
+0xc097616ffde2b0aea73a1abaa939079cbf0e0f65,skilled,0.124,,Probably luck,181.413462,0.8888888888888888,63,False,False,False,True,False
+0xc75e793887ef179cb3e5af6cbc4a091985389c5f,skilled,0.035,,Probably luck,101.59452999999998,0.8813559322033898,59,False,False,False,True,False
+0xb6da360a543d243c8f3006123de5e8332f928e45,skilled,0.137,,Probably luck,1226.878603,0.8431372549019608,51,False,False,False,True,False
+0x59d5767b703588d91611aeed3fbf6ec47e98991e,skilled,0.158,,Probably luck,3122.7098340000002,0.6267281105990783,217,False,False,False,False,False
+0x61e786098c132e39f1c6e2fb241ba5623f30b70c,skilled,0.066,,Probably luck,824.7020049999998,0.6116504854368932,103,False,False,False,False,False
+0xcab05d7d2ddf99f611df5898253011ce8bafacc5,skilled,0.116,,Probably luck,9027.292227,0.6157407407407407,216,False,False,False,False,False
+0x4d925de63254ffa23b34ffefdb9da4e6f293389d,skilled,0.148,,Skilled and copyable,462.6139750000001,0.717391304347826,92,True,True,False,True,True
+0x844a7b5ec805055606b86a87241ae26a2b735635,skilled,0.021,,Probably luck,-310.48067899999995,0.4700854700854701,117,False,False,False,False,False
+0xbf48f601bb8ca2208421bd2e737d3e7048606c3e,skilled,0.128,,Skilled and copyable,2789.1651789999996,0.6591760299625468,267,True,True,False,False,True
+0xf1bf2bd6519420dd95e7c4c89329cc6df7616d8c,skilled,0.08,,Probably luck,1523.6236449999997,0.6013986013986014,143,False,False,False,False,False
+0x1df6f4a303f5c73e9e226f600f73559d92947763,skilled,0.175,,Skilled and copyable,8152.272376999999,0.917098445595855,193,True,True,False,True,True
+0xb942a092c4611b73f7a87f4a57fac7fb3f0fba1d,skilled,0.08,,Probably luck,530.466804,0.8173913043478261,115,False,False,False,True,False
+0xa34a304bc616135448de8189b146885692d12866,skilled,0.097,,Probably luck,1846.2821239999998,0.6408450704225352,142,False,False,False,False,False
+0xfdf011e19df25ed6f7d58e56f6f8225e7cf2b26e,skilled,0.049,,Probably luck,2957.3940979999998,0.5742574257425742,101,False,False,False,False,False
+0x786bb3731281d0b22f1d3abb6a6fae0197dadf8c,skilled,0.038,,Probably luck,1475.005782,0.5444444444444444,270,False,False,False,False,False
+0x3754b469c284f06bcd007486fc64aab44c93c935,skilled,0.188,,Skilled and copyable,12810.174898000001,0.6942446043165468,278,True,True,False,False,True
+0x1b04fab79088c02415721140cd1adb522955fa6e,skilled,0.179,,Skilled and copyable,6623.519079,0.9216589861751152,217,True,True,False,True,True
+0x51bbf7eb9bc5ec1494f76bd37dbe42a8e3ae84b4,skilled,0.132,,Skilled and copyable,4605.496943,0.8808664259927798,277,True,True,False,True,True
+0x76e48965b6e46e92062468d492fc69760e779ad2,skilled,0.143,,Skilled and copyable,1469.0202290000004,0.9873417721518988,79,True,True,False,True,True
+0x931623f652e6b649b1a7357ae3b13316aaa75493,skilled,0.066,,Probably luck,253.6267360000001,0.8103448275862069,58,False,False,False,True,False
+0x5f47d0f0855328776e161c56ee10363fd05d4fe3,skilled,0.19,,Skilled and copyable,7563.367734,0.7289377289377289,273,True,True,False,True,True
+0xa7c53a86e80537e51bed3a568e44bd7a16888526,skilled,0.021,,Probably luck,-471.58830500000016,0.49295774647887325,71,False,False,False,False,False
+0xdbf464d3686299fcc546354b825c5baf026616c8,skilled,0.197,,Probably luck,1906.536937,0.6942148760330579,121,False,False,False,False,False
+0xc787d4730b9d8bd04510c1fb09263295f902763d,skilled,0.187,,Skilled and copyable,5405.754563,0.9392857142857143,280,True,True,False,True,True
+0x3c8535fe5422b71dae9ee556df429de16b3b647c,skilled,0.1,,Probably luck,2024.5141090000002,0.6153846153846154,156,False,False,False,False,False
+0xe4e7f44478a5af75f19f8aa077a932e2d46124f2,luck,0.0,abandoned,Can't tell yet,-32.359969000000035,0.16666666666666666,6,False,False,False,False,True
+0x36f80d24314368404ed89566b135c3d0a8574e27,luck,0.0,abandoned,Can't tell yet,-210.033202,0.16666666666666666,6,False,False,False,False,True
+0x6d9e97cbf124a1bd6fd0297d6833bd4c27324135,luck,0.0,abandoned,Probably luck,474.36471799999975,0.14285714285714285,14,False,False,False,False,True
+0x9171960533611f053767ee7cf5c86a0afb7a66a2,luck,0.0,abandoned,Can't tell yet,-222.76426300000003,0.2,5,False,False,False,False,True
+0x2dd0a97c3a3eb5f196b86ccff047673b0b4e21d2,luck,0.0,abandoned,Can't tell yet,170.678605,0.25,8,False,False,False,False,True
+0x39d3e5c7c73c5733147478091a23961c4e4b4e17,luck,0.0,abandoned,Can't tell yet,223.09165100000018,0.375,8,False,False,False,False,True
+0x74d22cd4912424b9a2efd3bb35ffa95d5257c08b,luck,0.0,abandoned,Can't tell yet,-326.72035500000004,0.09090909090909091,11,False,False,False,False,True
+0xa8514535a2e9868196437a61d427fc1092d3e03d,luck,0.0,abandoned,Can't tell yet,252.39730999999998,0.2857142857142857,7,False,False,False,False,True
+0x2c82dab990ddba2506cd16b0b2b2e5d42a7f1807,luck,0.0,abandoned,Can't tell yet,-308.628778,0.0,10,False,False,False,False,True
+0x51f24de10ab0503d4a82eddfb5f72fc76afd30f4,luck,0.0,abandoned,Can't tell yet,-402.6159030000001,0.14285714285714285,7,False,False,False,False,True
+0x4468cd5649341f38deceaa039f6c4d5471b2d48e,luck,0.0,abandoned,Can't tell yet,-280.01281500000005,0.0,8,False,False,False,False,True
+0xe0347986be8362e603ff0070706193a8aaea1e25,luck,0.0,abandoned,Can't tell yet,-102.963204,0.14285714285714285,7,False,False,False,False,True
+0x40d3942ba48b0edf2d1ae3c927e0306daf718bb7,luck,0.0,abandoned,Can't tell yet,-222.3241950000001,0.09090909090909091,11,False,False,False,False,True
+0x47fac9ce28d2b7f055775f18ad807decf7613487,luck,0.0,abandoned,Probably luck,-6746.516458,0.0,13,False,False,False,False,True
+0xba9f1b9492d3197f49f91ebc722c1cbb1f863818,luck,0.0,abandoned,Probably luck,-587.130995,0.07142857142857142,14,False,False,False,False,True
+0x75090766dd39a59c7d17c2fe2eccdfe06fe62d8a,luck,0.0,abandoned,Can't tell yet,-274.433247,0.09090909090909091,11,False,False,False,False,True
+0x618db5d9c94b32983c652b4d0ee3366faacfa213,luck,0.0,abandoned,Can't tell yet,290.401913,0.4,10,False,False,False,False,True
+0xd0862ed1450d9a5ff90f772aef1e4f960c059305,luck,0.0,abandoned,Can't tell yet,-47.829107,0.0,6,False,False,False,False,True
+0x3f96f4525562a60ed116c4533af9fdef61b852ff,luck,0.0,abandoned,Probably luck,-178.37459100000007,0.21428571428571427,14,False,False,False,False,True
+0xf46e6221cfc8a69701a3b9d8ecdf40df04c6746b,luck,0.0,abandoned,Can't tell yet,-158.51597,0.1111111111111111,9,False,False,False,False,True
+0x08fdb527530817eaa05b63999933d9b2604d32b8,luck,0.0,abandoned,Can't tell yet,582.043869,0.3,10,False,False,False,False,True
+0x432d60276c71589e588a4002da32e9ec02443f6b,luck,0.0,abandoned,Can't tell yet,-229.10399100000006,0.14285714285714285,7,False,False,False,False,True
+0xd829f836dd68fc87b0a7446c272d0fe76adca5bf,luck,0.0,abandoned,Probably luck,684.3687179999995,0.3333333333333333,12,False,False,False,False,True
+0xf4e1c1d07200fefbde62197c724d6f6e261b7bce,luck,0.0,abandoned,Can't tell yet,4.017566999999978,0.2857142857142857,7,False,False,False,False,True
+0x321edc4f942322114092233ba8062824149c5e35,luck,0.0,abandoned,Can't tell yet,160.97053900000003,0.375,8,False,False,False,False,True
+0x223d83d56fe34b1da565093e71c89fd0c529d217,luck,0.0,abandoned,Can't tell yet,-70.034771,0.2222222222222222,9,False,False,False,False,True
+0x284c453d0ce1d74999a77c6d92cf2a30e56c0396,luck,0.0,abandoned,Probably luck,97.395173,0.21428571428571427,14,False,False,False,False,True
+0x377391dab532d5e507e4976a9c0cf6f43869f008,luck,0.0,abandoned,Can't tell yet,-1311.813498,0.0,12,False,False,False,False,True
+0x2d98e00d7165722e6243f9873cc7a951e5795a9c,luck,0.0,abandoned,Probably luck,-124.794358,0.08333333333333333,12,False,False,False,False,True
+0xecf418d21137d480e22cdc54d1bca179094c5ee6,luck,0.0,abandoned,Probably luck,49.60463699999999,0.2857142857142857,14,False,False,False,False,True
+0xac85ddbd700b76ca6309303a4f5bcc3b135c13e9,luck,0.0,abandoned,Can't tell yet,-100.86865900000001,0.125,8,False,False,False,False,True
+0x01d445b6823900f8464eda7580f1232dc35bfc78,luck,0.0,abandoned,Can't tell yet,1.1802339999999845,0.25,8,False,False,False,False,True
+0x54a53f882cbb930bc2f9faff4e570a87e9f9306c,luck,0.0,abandoned,Can't tell yet,-798.9200319999998,0.0,10,False,False,False,False,True
+0xf631251e8faf73f5f276413f9f7dfcb3db3a282b,luck,0.0,abandoned,Can't tell yet,1146.559785,0.2727272727272727,11,False,False,False,False,True
+0x5544bde97e1f3daa6b6f2ba74b2f041da5b04517,luck,0.0,abandoned,Can't tell yet,-1620.9588709999998,0.0,8,False,False,False,False,True
+0x8ef407f20721fe2ac181a2c3e9b4b2a44dcc056e,luck,0.0,abandoned,Probably luck,33.85636900000003,0.3076923076923077,13,False,False,False,False,True
+0x84dcba17e6f36e46c1db1dd5dc5876ebb1e2ed2d,luck,0.0,abandoned,Can't tell yet,525.215815,0.5714285714285714,7,False,False,False,False,True
+0xb8ad98462490c62f1f460bfa9d10a425f9c75564,luck,0.0,abandoned,Can't tell yet,-138.08586300000002,0.2,10,False,False,False,False,True
+0x7b91339fccc9759538bc27e9c85c6f27e27350d1,luck,0.0,abandoned,Can't tell yet,193.92789100000005,0.2,10,False,False,False,False,True
+0xd9c97b86e5def9a8bb5dc6e5745d9890f94c4d20,luck,0.0,abandoned,Can't tell yet,-235.680021,0.0,5,False,False,False,False,True
+0xdf764d804656975599df61e28341cfd6549947f5,luck,0.0,abandoned,Probably luck,2618.625287,0.42857142857142855,14,False,False,False,False,True
+0xaa0032a38453b561fdfbf1da4f3fab531b14ca64,luck,0.0,abandoned,Can't tell yet,-1608.842642,0.18181818181818182,11,False,False,False,False,True
+0x31c4bf40967e367fab4ce91a623b88a55a5b99d4,luck,0.0,abandoned,Probably luck,-306.768687,0.23076923076923078,13,False,False,False,False,True
+0xba89363d9b269d5a41d7a92812c9c877a3b472fa,luck,0.0,abandoned,Probably luck,1660.5249649999996,0.2857142857142857,14,False,False,False,False,True
+0x93f8e5b68bb8b316efa456e428ae2ac77d5d5711,luck,0.0,abandoned,Can't tell yet,-247.592756,0.0,5,False,False,False,False,True
+0xc5d7eb494c1948a72c099c52333de6fc6ca0ecff,luck,0.0,abandoned,Probably luck,1871.221958,0.25,12,False,False,False,False,True
+0xaae8b4525d44c535f1b79d2a7fcd3e29cab81232,luck,0.0,abandoned,Can't tell yet,-181.99484900000004,0.2,10,False,False,False,False,True
+0xa2c6894c00774800e8aa7eb9344124e84e1cc222,luck,0.0,abandoned,Can't tell yet,4398.751118,0.4,10,False,False,False,False,True
+0x1a8ec5df718d3af0e92b668184215df9a45d12b7,luck,0.0,abandoned,Probably luck,1677.9904800000002,0.15384615384615385,13,False,False,False,False,True
+0x8404addf650443e0cf5ca223c9ed24983451e417,luck,0.0,abandoned,Can't tell yet,176.35687599999997,0.3333333333333333,9,False,False,False,False,True
+0x9deac2bd2b3ee4d74c1cbd0aeaa0da844ed5577a,luck,0.0,abandoned,Probably luck,-2007.0986420000004,0.14285714285714285,14,False,False,False,False,True
+0x44023fe9f5bb757ee547234cc6affa84a21a846e,luck,0.0,abandoned,Can't tell yet,20.380055999999968,0.3,10,False,False,False,False,True
+0xb976fa9d81f34f7aca813b5f6553339d199cefdc,luck,0.0,abandoned,Probably luck,-1778.8451169999998,0.08333333333333333,12,False,False,False,False,True
+0xfad12781736384c17ad37a4f2d3f65515a7cf71a,luck,0.0,abandoned,Can't tell yet,961.3323049999995,0.3333333333333333,9,False,False,False,False,True
+0x3af4789228194f9a5e27590a1ef26d280b272563,luck,0.0,abandoned,Can't tell yet,1563.478422,0.5,6,False,False,False,False,True
+0x4de2a4bd02d06eb5947d0826fc4598d1957d9845,luck,0.0,abandoned,Can't tell yet,87.67264500000002,0.09090909090909091,11,False,False,False,False,True
+0x0dc1ae1b4bff2251a6695c0426c862e640725c03,luck,0.0,abandoned,Can't tell yet,-436.0770070000002,0.14285714285714285,7,False,False,False,False,True
+0x009cd04bb767b60c12e1946dd24e34be951568de,luck,0.0,abandoned,Can't tell yet,366.192726,0.4444444444444444,9,False,False,False,False,True
+0x2818790a02602142ca2dbe88c36e8a5a2bbd0068,luck,0.0,abandoned,Can't tell yet,-79.45685499999999,0.16666666666666666,6,False,False,False,False,True
+0x2105ccd2b1b56de79493391ab1b9e8f45f600015,luck,0.0,abandoned,Can't tell yet,667.596861,0.4444444444444444,9,False,False,False,False,True
+0xd979583f6940fe669e22ef627e5b08ff9b226e46,luck,0.0,abandoned,Can't tell yet,116.57115700000008,0.3333333333333333,6,False,False,False,False,True
+0x901f39433e2fe1e67df60fc6faa65300e8a4cab2,luck,0.0,abandoned,Can't tell yet,-84.34913900000015,0.3333333333333333,9,False,False,False,False,True
+0xdf2b44c2fbbcafff374c8d6c8e72c0b0b6702c3c,luck,0.0,abandoned,Can't tell yet,-320.99133699999993,0.2727272727272727,11,False,False,False,False,True
+0x2505b784d9ef0b9fd96d38e34e780a9c87c9424d,luck,0.0,abandoned,Can't tell yet,-45.133107,0.0,5,False,False,False,False,True
+0xfb6fdd12448fb30ec475ae4c2f1c1a6c73326aeb,luck,0.0,abandoned,Can't tell yet,574.350482,0.45454545454545453,11,False,False,False,False,True
+0xf6d23fcf0f09113092a0253f4aad71dd51420ce7,luck,0.0,abandoned,Probably luck,415.3940290000001,0.15384615384615385,13,False,False,False,False,True
+0x5b4bb3cdb721c7b2b00d80211d51271cab42d12e,luck,0.0,abandoned,Can't tell yet,-313.214588,0.14285714285714285,7,False,False,False,False,True
+0x41be8947688a2da64056d3cf3c00424a3fccf30d,luck,0.0,abandoned,Can't tell yet,-66.87022600000002,0.2857142857142857,7,False,False,False,False,True
+0x69071fc88925cfc23778729a7c83b51af7474122,luck,0.0,abandoned,Can't tell yet,1278.6448189999999,0.3,10,False,False,False,False,True
+0xed0313d68b8bde9f8c4d5c368fe3a2ea093cedd0,luck,0.0,abandoned,Can't tell yet,22.98223999999999,0.2,5,False,False,False,False,True
+0x8846282d83313f1e8678ed0c8a4f0628688dd8a1,luck,0.0,abandoned,Can't tell yet,366.9090079999999,0.3,10,False,False,False,False,True
+0xc42fe41e6cec4a2d623d605d2563bf9d2f060f8f,luck,0.0,abandoned,Can't tell yet,218.590582,0.3333333333333333,12,False,False,False,False,True
+0xb35da6b1e79832dae85401afed3ceb13d4ae52c0,luck,0.0,abandoned,Can't tell yet,-32.11305400000001,0.16666666666666666,6,False,False,False,False,True
+0x702ae4f41b9fce20cb2fbdc4f5d47c7ca9553c9c,luck,0.0,abandoned,Probably luck,-58.055417999999996,0.14285714285714285,14,False,False,False,False,True
+0x66bf506a4fe6a67a57a5ad29c5df744dd8c1aa11,luck,0.0,abandoned,Can't tell yet,-54.836627000000014,0.16666666666666666,6,False,False,False,False,True
+0xd6af4d7ebc329a0d8f2d21502cadb95c69b9b1f4,luck,0.0,abandoned,Can't tell yet,-406.21122399999996,0.25,8,False,False,False,False,True
+0xdc11ca20ae3e34c1a98f36546d3e14c7081896c0,luck,0.0,abandoned,Can't tell yet,-694.586583,0.0,9,False,False,False,False,True
+0x7aff444487f17c0fb13ce71ea778b5e0f8f2d814,luck,0.0,abandoned,Can't tell yet,-45.860235,0.16666666666666666,6,False,False,False,False,True
+0x391c39d5b9b81cccdd040fdbdf75ce6cab1b60ea,luck,0.0,abandoned,Can't tell yet,0.4896920000000158,0.4,5,False,False,False,False,True
+0x49cb8753c90692176beca852f12727f7c08e7fa1,luck,0.0,abandoned,Can't tell yet,-15.734583999999998,0.4,5,False,False,False,False,True
+0xfca500924f8119548402b8fe6350e8dff89f54f9,luck,0.0,abandoned,Can't tell yet,55.08492299999996,0.09090909090909091,11,False,False,False,False,True
+0x1685914bb0397613c9a81cf981eeb7fde0fd0f28,luck,0.0,abandoned,Can't tell yet,-1073.259681,0.0,8,False,False,False,False,True
+0x6cff9fc64149af689b6c171c091ddbf9ec5df24b,luck,0.0,abandoned,Can't tell yet,-850.418731,0.2,5,False,False,False,False,True
+0x84d345028a801243fd6186d4f59e88ad1174d0b2,luck,0.0,abandoned,Can't tell yet,-4100.528864999999,0.0,9,False,False,False,False,True
+0xad0c440105d1c39ea79e6ac0f64b6ca3e19b27a4,luck,0.0,abandoned,Can't tell yet,6485.832266,0.2,10,False,False,False,False,True
+0x65c32a8679db1986f1da8bbd756e56836afa9bd2,luck,0.0,abandoned,Can't tell yet,4.529953000000004,0.2,5,False,False,False,False,True
+0x4732fe2d6d1d2d493660602a76acc9293b88e0fb,luck,0.0,abandoned,Probably luck,194.01197399999995,0.3333333333333333,12,False,False,False,False,True
+0xf2ff32849ba016754012ed9859f81c0f9b660760,luck,0.0,abandoned,Can't tell yet,-222.93847900000006,0.25,8,False,False,False,False,True
+0x3120ed2be8c23de41d9a30791d1c2446723a07a1,luck,0.0,abandoned,Can't tell yet,-41.238731,0.2,5,False,False,False,False,True
+0x26c9fa16afa0c7a69aa74a8e19219e6347bd192e,luck,0.0,abandoned,Can't tell yet,-343.531124,0.14285714285714285,7,False,False,False,False,True
+0xf9a50eb67dc68fd8736ec4a23fd388d1fdeed843,luck,0.0,abandoned,Can't tell yet,-1104.411881,0.0,7,False,False,False,False,True
+0xba1e68651672c18b7083e184c6b687e389b6bea2,luck,0.0,abandoned,Can't tell yet,-26.355477000000064,0.18181818181818182,11,False,False,False,False,True
+0x5014ab04b77c2f6462927e5714a3e1f41b572da7,luck,0.0,abandoned,Can't tell yet,-2350.121475,0.14285714285714285,7,False,False,False,False,True
+0x091bac450dca042c06d494afe197ffa188b4d75b,luck,0.0,abandoned,Probably luck,131.04906400000004,0.21428571428571427,14,False,False,False,False,True
+0xb136fc9fddee2c9fd239c443144aa93246db7c16,luck,0.0,abandoned,Can't tell yet,-46.471739000000014,0.1111111111111111,9,False,False,False,False,True
+0x9b4657dde1b07bbccb1b5dbc0cbfe9f6d2672875,luck,0.0,abandoned,Can't tell yet,-338.2591729999999,0.09090909090909091,11,False,False,False,False,True
+0x74fab1f7b1aa569f0d9581dac0c676ecd60789aa,luck,0.0,abandoned,Can't tell yet,-247.39598700000002,0.0,10,False,False,False,False,True
+0x8ea28e41a1c1706364ace3e751dfd4d6cba98098,luck,0.0,abandoned,Probably luck,-321.75825399999997,0.08333333333333333,12,False,False,False,False,True
+0xf56a6429dafddc7819695eb4885d37a720866110,luck,0.0,abandoned,Probably luck,-80.504226,0.07692307692307693,13,False,False,False,False,True
+0x35f23dca77629c729b984c9605fb89ca2393e1e2,luck,0.0,abandoned,Can't tell yet,-765.174986,0.0,6,False,False,False,False,True
+0xaffeee4e2a1c59a09bdc47f8b13d95d910267bf5,luck,0.0,abandoned,Can't tell yet,-20.236289,0.14285714285714285,7,False,False,False,False,True
+0x3238c91f0b4617fc4183a29bb5b2a97080ad61cb,luck,0.0,abandoned,Can't tell yet,-872.5816090000001,0.1111111111111111,9,False,False,False,False,True
+0xd8625a478e6b6d47ced7722ecb8eaf8364ec1802,luck,0.0,abandoned,Can't tell yet,-553.743258,0.2727272727272727,11,False,False,False,False,True
+0xb1d43798970c371ad218a0aee42d55838823f7aa,luck,0.0,abandoned,Can't tell yet,-5474.415463999999,0.25,8,False,False,False,False,True
+0xac168da2847001c06919463cc0233e5961ea0e32,luck,0.0,abandoned,Probably luck,2594.606752,0.3076923076923077,13,False,False,False,False,True
+0x17ccfbb9842508645d61a0237e960ea5d23acd47,luck,0.0,abandoned,Can't tell yet,-315.33041399999996,0.0,6,False,False,False,False,True
+0x29da6ba26bae153f8dd9a7b03c53a3300c97de57,luck,0.0,abandoned,Can't tell yet,-592.4866639999998,0.1111111111111111,9,False,False,False,False,True
+0xc5b7ca9f8b1ec587ea200bd5a6f724db4ad7adb3,luck,0.0,abandoned,Can't tell yet,66.57646699999995,0.2222222222222222,9,False,False,False,False,True
+0xf904bfb0684245c0b9b50a374b1f2fe245c723df,luck,0.0,abandoned,Can't tell yet,225.709522,0.4,10,False,False,False,False,True
+0x447f7e99a22ea9b6ebc96b9908a96094cde286d2,luck,0.0,abandoned,Probably luck,20.47368699999996,0.3076923076923077,13,False,False,False,False,True
+0x3a9661a499e309397d2943ca3db885af36913486,luck,0.0,abandoned,Can't tell yet,192.246445,0.4,5,False,False,False,False,True
+0xf801dfec7b5221d7e74c37f96253769ccbea74a1,luck,0.0,abandoned,Probably luck,864.3201330000002,0.42857142857142855,14,False,False,False,False,True
+0xc20bfcc835210c3e9edf28c790036216c6f2336b,luck,0.0,abandoned,Can't tell yet,-790.4901500000002,0.1,10,False,False,False,False,True
+0x4b991d63bf2badc6fce3f3ed78146241eb67b625,luck,0.0,abandoned,Can't tell yet,343.831768,0.16666666666666666,6,False,False,False,False,True
+0x360b217d7b4949589b92062803f8946ca0ff0825,luck,0.0,abandoned,Probably luck,-15.767013,0.23076923076923078,13,False,False,False,False,True
+0xa728ba6ba6af0db4b76ae649b99fbb43f8c68547,luck,0.0,abandoned,Can't tell yet,-366.657695,0.0,8,False,False,False,False,True
+0x88ba746a4013702771b0643771d072c78d358d15,luck,0.0,abandoned,Can't tell yet,-623.349692,0.14285714285714285,7,False,False,False,False,True
+0xa20e5ccc88789f3bd30993df8e279fa24da5c4d3,luck,0.0,abandoned,Can't tell yet,39.187641999999954,0.08333333333333333,12,False,False,False,False,True
+0x6922b7b94fed28a6ece442c6a2608fdf8c4cd0dd,luck,0.0,abandoned,Can't tell yet,-631.9939179999998,0.1111111111111111,9,False,False,False,False,True
+0x37ec744590a2b294598f8828a776be6ae9daeb3b,luck,0.0,abandoned,Probably luck,-9326.298399999998,0.15384615384615385,13,False,False,False,False,True
+0x485a8b8b49ec38f2abf8c80e21f3b4d4eca1b9ae,luck,0.0,abandoned,Probably luck,572.4168840000001,0.46153846153846156,13,False,False,False,False,True
+0x907c424bc68ac1186ef8d20e4800d93aa4d30580,luck,0.0,abandoned,Probably luck,-111.40828799999997,0.15384615384615385,13,False,False,False,False,True
+0x74d6d58bfb05e718899524ba52e1219cfd1fa4e9,luck,0.0,abandoned,Probably luck,19.236928999999993,0.14285714285714285,14,False,False,False,False,True
+0xc141bccdd2f8bf523956c6b3eed53faf4d21bc98,luck,0.0,abandoned,Probably luck,523.34278,0.3333333333333333,12,False,False,False,False,True
+0xae003112413a53cffe73bde7b78b96b990ca6a35,luck,0.0,abandoned,Probably luck,123.65192000000002,0.3076923076923077,13,False,False,False,False,True
+0xc2415321e931853f4b7bdb6ef1b42d7a74a1947e,luck,0.0,abandoned,Can't tell yet,-1496.4935939999998,0.1111111111111111,9,False,False,False,False,True
+0xd44100b42f30526d5d23838d40d53993c0b53f3a,luck,0.0,abandoned,Probably luck,-262.268965,0.07142857142857142,14,False,False,False,False,True
+0x338c6b3188e918b7b09705c06a50e3ebf90002f2,luck,0.0,abandoned,Can't tell yet,-189.973134,0.125,8,False,False,False,False,True
+0x64de5cdfc74af9ef39f2ccaf0523d924b265209f,luck,0.0,abandoned,Probably luck,372.45929799999993,0.16666666666666666,12,False,False,False,False,True
+0x0378f14739d251072e243c9f7c6cbf04e431bf60,luck,0.0,abandoned,Can't tell yet,-572.721988,0.09090909090909091,11,False,False,False,False,True
+0x4e73c4bc11428068610e5afd76ff9625f6a35211,luck,0.0,abandoned,Probably luck,-743.8261530000002,0.08333333333333333,12,False,False,False,False,True
+0x70a470c6265fd8cf5e9371d93c5af847fc22ecaf,luck,0.0,abandoned,Can't tell yet,2.729335999999993,0.1111111111111111,9,False,False,False,False,True
+0x6fca98b7711ae789e36ea16dda8b6aebb56bbbfd,luck,0.0,abandoned,Can't tell yet,134.13821099999998,0.6,5,False,False,False,False,True
+0xb301e50ae59380e00b81fb0480a3fce0764880e7,luck,0.0,abandoned,Probably luck,521.050162,0.25,12,False,False,False,False,True
+0x563efe8b6f92222d6d743388ad2ed75b3367306d,luck,0.0,abandoned,Can't tell yet,1919.097935,0.4,5,False,False,False,False,True
+0xb0c04a2f23216e31aa69d88482c7ee1ce4193ca1,luck,0.0,abandoned,Can't tell yet,-601.348665,0.0,7,False,False,False,False,True
+0x7b2fb421d519ddcd4a6c980c3e2fcea2aa8e5777,luck,0.0,abandoned,Can't tell yet,-133.05870000000004,0.125,8,False,False,False,False,True
+0x117a3e7bb9d557b17b8e9b520e0b84d594e05d88,luck,0.0,abandoned,Probably luck,2788.8243620000003,0.15384615384615385,13,False,False,False,False,True
+0xe52ea0dcf752308b6052fad6acbff331de95a6d9,luck,0.0,abandoned,Can't tell yet,-1068.429587,0.1111111111111111,9,False,False,False,False,True
+0xa8c17dd779eb9e06af9406e7134d289e83bdf071,luck,0.0,abandoned,Can't tell yet,6.136839000000002,0.2,5,False,False,False,False,True
+0x36663bc4998f8a46f99b782034919eb77ce16274,luck,0.0,,Probably luck,-666.5501939999999,0.47560975609756095,164,False,False,False,False,True
+0x5a58f4928af7a0f5d5d920f526912f665286b14c,luck,0.0,,Probably luck,400.4439390000002,0.7671957671957672,189,False,False,False,True,True
+0x9241c0f76ddb3de060f1aa91758510153037c6ea,luck,0.0,,Probably luck,184.212204,0.5344827586206896,58,False,False,False,False,True
+0x2f5286e3f5bac6c13d1e44a54bfdfd6bfe88c761,luck,0.0,,Probably luck,3.2637960000000152,0.7431192660550459,109,False,False,False,True,True
+0x04d19e624ef760c03613b327a62a8c015f8f9594,luck,0.0,,Probably luck,-1877.1066759999999,0.12121212121212122,33,False,False,False,False,True
+0xf06912d27c39259cbc03fd923d94f3f3ca92444a,luck,0.0,,Probably luck,-745.0706730000004,0.47692307692307695,65,False,False,False,False,True
+0x61e875b9cb7aa2351cfa109c68bf7a01dde685a8,luck,0.0,,Probably luck,9766.536329000002,0.22905027932960895,179,False,False,False,False,True
+0xc051d9705f2087d23fdf900b0b03e47af4faa0b6,luck,0.0,,Probably luck,1638.6313870000006,0.5655737704918032,122,False,False,False,False,True
+0x3134e15c846749c33c91890ba813c4987c10902f,luck,0.0,,Probably luck,-391.88421300000005,0.7333333333333333,180,False,False,False,True,True
+0x4d605c49dd9627da5cd1c58a949ed1ef019207ab,luck,0.0,,Probably luck,-1410.7240509999997,0.4420289855072464,138,False,False,False,False,True
+0x511dbe69649c23b06cc6a78ae67b27a6185fc6ca,luck,0.0,,Probably luck,313.9180230000004,0.780952380952381,105,False,False,False,True,True
+0x5f443b4a55dac4c0785da5ffd162e9140fd46eba,luck,0.0,,Probably luck,-2066.4236790000004,0.4868421052631579,152,False,False,False,False,True
+0x121331b4aad12caa3054daf717edfab4bc69c3d2,luck,0.0,,Probably luck,-4161.380883,0.16549295774647887,284,False,False,False,False,True
+0x975d92d0f568bd18292d0a715823d55db0e9c957,luck,0.0,,Probably luck,1581.1242140000002,0.5333333333333333,135,False,False,False,False,True
+0xe0f9f9aca41b2cbfadbc9ac75d832f5a1e0d68e0,luck,0.0,,Probably luck,210.05085100000014,0.5513513513513514,185,False,False,False,False,True
+0x01fb989f110510341f5405da2868b18170a14494,luck,0.0,,Probably luck,-271.84097799999967,0.6956521739130435,69,False,False,False,False,True
+0x167cd5a86a1e5ffbd225536cdd0cfda3bd4762d8,luck,0.0,,Probably luck,49.94269000000003,0.2619047619047619,84,False,False,False,False,True
+0x65bf36f4c9bf73784b1b73010f719aebdcd0d20c,luck,0.0,,Probably luck,-1636.6746589999998,0.17254901960784313,255,False,False,False,False,True
+0x2640ad8d4a413ef65411d888ef78069e46142e44,luck,0.0,,Probably luck,-2098.8826419999996,0.22033898305084745,236,False,False,False,False,True
+0xb6f10fc64fca4d0bb4e886f57831c98ddf3e4b4f,luck,0.0,,Probably luck,237.831222,0.211864406779661,236,False,False,False,False,True
+0x66e514f80add3acc03f2cba13bdef2c376a0fbaa,luck,0.0,,Probably luck,-1455.9072590000005,0.7361702127659574,235,False,False,False,True,True
+0x45484c8860617899b8a894c28d7d3abfeeca6293,luck,0.0,,Probably luck,-13675.359372,0.1644295302013423,298,False,False,False,False,True
+0x95ace0bfefda6dbd6ca1dd449881e72235371f75,luck,0.0,,Probably luck,-1615.9142969999998,0.2066420664206642,271,False,False,False,False,True
+0x9e4beb65b07822a21400dabec1123c614f0e17fc,luck,0.0,,Probably luck,481.34874199999996,0.541095890410959,146,False,False,False,False,True
+0x5571f274ed78f929efa8e40b7191c16263f7a30e,luck,0.0,,Probably luck,2643.560421000001,0.7831325301204819,249,False,False,False,True,True
+0x5d8b8a60fd51c407be969bdd2d104dd37fbdf759,luck,0.0,,Probably luck,-289.68032900000003,0.7362204724409449,254,False,False,False,True,True
+0x429c293ff7097421f1d024e7a440759a446dcb70,luck,0.0,,Probably luck,174.95457000000005,0.5952380952380952,42,False,False,False,False,True
+0x5b1424312ccbf8d61672d04e72a3c434c8d8f98b,luck,0.0,,Probably luck,-774.8166469999992,0.49282296650717705,209,False,False,False,False,True
+0x355e3d7ecd25e618298675a9708e0e56e1fa24f7,luck,0.0,,Probably luck,-259.4279859999999,0.75,112,False,False,False,True,True
+0x200dc58dd9ad6ccce025e364bdf18cafe7c4a8c9,luck,0.0,,Probably luck,-256.1882930000001,0.17587939698492464,199,False,False,False,False,True
+0x7d1de747f6752dedf59bbc9fe4ddea23a51966ec,luck,0.0,,Probably luck,9209.888052000002,0.5384615384615384,117,False,False,False,False,True
+0xbf1be3efbc241f0236da1804e4834200bebf9be5,luck,0.0,,Probably luck,853.1393590000004,0.7777777777777778,225,False,False,False,True,True
+0x20a7707a60c8b1c333fdeea0d515bf33f8a09ea1,luck,0.0,,Probably luck,-93.15259200000025,0.2027491408934708,291,False,False,False,False,True
+0x427960db621e981f1aa03a3dea7496b2c6e891e5,luck,0.0,,Probably luck,10.93467899999996,0.2079646017699115,226,False,False,False,False,True
+0xea63270614e35bbb12307177a71b2e2aafbbd7a0,luck,0.0,,Probably luck,4891.377065999999,0.4785714285714286,280,False,False,False,False,True
+0x5be2e096d087f78f22a05884513b6d5e3596bd9e,luck,0.0,,Probably luck,110.95277,0.7831325301204819,166,False,False,False,True,True
+0x501bf8dec27277ed4d1dd5e0c05ac99746230198,luck,0.0,,Probably luck,512.2016380000001,0.5182926829268293,164,False,False,False,False,True
+0x1bba07290614f5d23252b1d2e8534bf26e7c7e44,luck,0.0,,Probably luck,186.74508600000013,0.5149253731343284,134,False,False,False,False,True
+0x6c4e036bea6c3dc25c59e9195b89088728d7aa09,luck,0.0,,Probably luck,1232.5729690000007,0.4896551724137931,145,False,False,False,False,True
+0xab170a570846178e3af6a79f325317d4035c2ba0,luck,0.0,,Probably luck,-775.1923439999999,0.1437908496732026,153,False,False,False,False,True
+0x5d7782e4ef9b546c415d9cf027cbd9a298f38cd0,luck,0.0,,Probably luck,-3642.949810000001,0.4322033898305085,118,False,False,False,False,True
+0xa891c8fc0ffe1bfc67a0211ff91da06e3e861682,luck,0.0,,Probably luck,-661.1251990000001,0.4375,32,False,False,False,False,True
+0x2f08a011dabaceaaf02928b542cf46dc7da3e9b5,luck,0.0,,Probably luck,156.11089199999998,0.5433070866141733,127,False,False,False,False,True
+0x94bc8c376d06b19ad509e78418d03f7f736de8c2,luck,0.0,,Probably luck,2402.24634,0.5467980295566502,203,False,False,False,False,True
+0x5bac10f164f8e140c19d0bbd3ab6bdb8cee5baab,luck,0.0,,Probably luck,-419.65870699999994,0.7341772151898734,79,False,False,False,True,True
+0x0561131a88cc414f2fd5ccb580a33df7bf7f9bfd,luck,0.0,,Probably luck,5522.7991550000015,0.2558139534883721,258,False,False,False,False,True
+0x68616ff80c4173e7621f0632f01d042505eccb31,luck,0.0,,Probably luck,-373.257649,0.4841628959276018,221,False,False,False,False,True
+0x4a96eee718f7756d44049acde4ffaf94d909f20b,luck,0.0,,Probably luck,-937.719353,0.42142857142857143,140,False,False,False,False,True
+0xc166e4b85344d12915a34863fd38804683916a35,luck,0.0,,Probably luck,1502.253592,0.5064377682403434,233,False,False,False,False,True
+0x8f91fe1a83e58201244a0245992b4add3f92e847,luck,0.0,,Probably luck,31.71750900000007,0.76,75,False,False,False,True,True
+0x4c1e2ac002b1c853b9217a51ac8fb164485b1f12,luck,0.0,,Probably luck,810.2256649999999,0.5949367088607594,79,False,False,False,False,True
+0xb367946e2e485de9ecbc293cb0b01851a1081fec,luck,0.0,,Probably luck,368.68928100000005,0.21428571428571427,210,False,False,False,False,True
+0x7b768ba71919e5fc85d9c63bbf65d39523644a2d,luck,0.0,,Probably luck,108.75151400000141,0.5102040816326531,196,False,False,False,False,True
+0x02e555f38db8165eacb0a4e479430d9080ca89ea,luck,0.0,,Probably luck,265.89466799999997,0.7920792079207921,202,False,False,False,True,True
+0x3f5f1ad04d9f41b7caa1e9a19bd06d4b149f60c4,luck,0.0,,Probably luck,-444.664277,0.3815789473684211,76,False,False,False,False,True
+0x3885fed143207f30d085e61139a017fb5ed5f452,luck,0.0,,Probably luck,-5947.335716999998,0.17333333333333334,150,False,False,False,False,True
+0x1c1b268141d3734984eacfa7d6debb515add48ab,luck,0.0,,Probably luck,-363.775542,0.4723618090452261,199,False,False,False,False,True
+0x66c910a6d1301d8a10ebaff39d7e8c80354464a7,luck,0.0,,Probably luck,197.11817399999995,0.5555555555555556,108,False,False,False,False,True
+0xd2884f12a784828facb4ad51da73304f97d08ac7,luck,0.0,,Probably luck,699.1164940000001,0.5384615384615384,195,False,False,False,False,True
+0xc3f25ac41f9b6cec820be428b54c03a1f46b85ee,luck,0.0,,Probably luck,4962.543583000002,0.24742268041237114,97,False,False,False,False,True
+0x82ac68ce274bbde0b4bf876f0da99c57e8411a8f,luck,0.0,,Probably luck,-169.55089099999998,0.46017699115044247,113,False,False,False,False,True
+0xb4cdc00f89b113ababc94a24580e448b38ec3abb,luck,0.0,,Probably luck,405.984205,0.8451612903225807,155,False,False,False,True,True
+0xaead7e9398b548acb0312f010c33b7cadf2b3505,luck,0.0,,Probably luck,-890.5347430000002,0.5304347826086957,115,False,False,False,False,True
+0xf44b189374d9853a8dacf11074d85d85e33d7289,luck,0.0,,Probably luck,150.66440600000004,0.51,200,False,False,False,False,True
+0x7f4814c417bc131553b7be98920c70378df5952f,luck,0.0,,Probably luck,85.63672899999995,0.17120622568093385,257,False,False,False,False,True
+0xa8ac7f3e2c72292da65de0f068b8dbf84b9a75ca,luck,0.0,,Probably luck,-983.520323,0.6461538461538462,65,False,False,False,False,True
+0x59f1caf1933212e0862dacc7df3e2b5fb0337afc,luck,0.0,,Probably luck,-1094.1368100000009,0.2265625,128,False,False,False,False,True
+0xd9d5c8226d80bcff9326a6d7841637dfff26c869,luck,0.0,,Probably luck,28.35484599999993,0.7736842105263158,190,False,False,False,True,True
+0x6c31998289b2aa2f5ad9037a67bbeb93440a1a59,luck,0.0,,Probably luck,-75.929712,0.7303370786516854,89,False,False,False,True,True
+0xe41a494ba403e0d0917dd1cbfd896baae666a671,luck,0.0,,Probably luck,16911.919327999996,0.16339869281045752,153,False,False,False,False,True
+0x1eb1acf9995d90c67da16060fd14069b47fab454,luck,0.0,,Probably luck,-176.38472299999998,0.7904761904761904,105,False,False,False,True,True
+0x45abbc5bbc9a0596ffc96d94641a9e5e6327faba,luck,0.0,,Probably luck,-29.081922999999993,0.5,58,False,False,False,False,True
+0xd92cb7bb2b704124d49aa6f5fddceaa6a7dfaefc,luck,0.0,,Probably luck,-755.7904809999998,0.4791666666666667,96,False,False,False,False,True
+0x298e79f1d1df2f3c8cfa7e511bf8b75083433c18,luck,0.0,,Probably luck,-642.5652899999997,0.7484276729559748,159,False,False,False,True,True
+0xca04912f06924e4d000b3522eda60c6c13226b8b,luck,0.0,,Probably luck,-2255.019609,0.1895734597156398,211,False,False,False,False,True
+0x28abc0737075a8c157d325c64654f8ab76aa3eae,luck,0.0,,Probably luck,1200.8745400000005,0.4972067039106145,179,False,False,False,False,True
+0xa65023896659f164269f1ed3c5e22c02f61e82c3,luck,0.0,,Probably luck,-23.778145000000002,0.7488789237668162,223,False,False,False,True,True
+0x604148dd84c5f2a6939eaddb8d196844aa6db17c,luck,0.0,,Probably luck,2088.887437000001,0.4830508474576271,118,False,False,False,False,True
+0xa0a11c5411fd63beedcab53e15f96018cc2baa06,luck,0.0,,Probably luck,-257.827953,0.7244897959183674,98,False,False,False,True,True
+0x0dd9fd37b576fee085d16cea743ffb2ebac8e048,luck,0.0,,Probably luck,3029.5634740000005,0.5463917525773195,97,False,False,False,False,True
+0x7a62cbb5a0e62ba239429dab759814d33c918604,luck,0.0,,Probably luck,2799.0127789999997,0.23015873015873015,252,False,False,False,False,True
+0x6a24155c7ecf449184fd3a7fd46865a588214b05,luck,0.0,,Probably luck,-869.801735,0.168141592920354,113,False,False,False,False,True
+0x3424f1036eb13f2839b6407dd4a94715e52e2cc7,luck,0.0,,Probably luck,72.2242350000001,0.5267489711934157,243,False,False,False,False,True
+0x261bcd49f10c9615a08761a12cd4e3dfda6e9702,luck,0.0,,Probably luck,1996.0005630000005,0.5158371040723982,221,False,False,False,False,True
+0xeb32cefe8842cacff929113bbf46d16b6a4f53e2,luck,0.0,,Probably luck,382.32084800000007,0.5138888888888888,288,False,False,False,False,True
+0x7f207fbc1858afbd26fe1307356a8b5fa9297be7,luck,0.0,,Probably luck,41.47936200000015,0.757396449704142,169,False,False,False,True,True
+0x6190814f2ef38f4580f16157e9fc8ad0aec8ad6e,luck,0.0,,Probably luck,-558.1096299999999,0.7313432835820896,201,False,False,False,True,True
+0xf0c88ccf0936397256b4a7451726e356e2f11aba,luck,0.0,,Probably luck,-1379.1103470000003,0.1519434628975265,283,False,False,False,False,True
+0xbe9d66f463cc68f3a803d459762694e28b2c0c41,luck,0.0,,Probably luck,966.5272580000001,0.5068493150684932,219,False,False,False,False,True
+0xe4fd38eb15a466494e39f6a847bbea64448cc8b6,luck,0.0,,Probably luck,16045.074551000002,0.2260536398467433,261,False,False,False,False,True
+0x4bfe35c3992d14834bb712f71753fea58b4cb36d,luck,0.0,,Probably luck,285.81097299999965,0.17560975609756097,205,False,False,False,False,True
+0xfd4c666366217377088bb8c05c601b26b6ec600c,luck,0.0,,Probably luck,151.15710499999994,0.7763157894736842,228,False,False,False,True,True
+0xd7bb53c67b412666cf6da173b6c1bbd1dfa18439,luck,0.0,,Probably luck,-47.94799,0.7734375,128,False,False,False,True,True
+0x0839c74a53d2a8c1f7e43f2118685e6d144b3670,luck,0.0,,Probably luck,-5122.776928,0.5020576131687243,243,False,False,False,False,True
+0xbfc788c6f01f9f315e2e4bbebc1fe7aed0752368,luck,0.0,,Probably luck,516.326086,0.5355648535564853,239,False,False,False,False,True
+0x378c23a732317e01a815738bc1e9bf9401822752,luck,0.0,,Probably luck,-1268.7144980000003,0.7520325203252033,246,False,False,False,True,True
+0x773f4037b2f16242628ba9e1b678a5a165bf67d7,luck,0.0,,Probably luck,741.8809779999997,0.5555555555555556,54,False,False,False,False,True
+0xb500c3da3142fd6e1d688c9ded7c24fbeba0afa4,luck,0.0,,Probably luck,-111.474869,0.4647058823529412,170,False,False,False,False,True
+0x743f75b6fd149cba62279b29cd474784e530635c,luck,0.0,,Probably luck,-1103.5522519999997,0.4732824427480916,131,False,False,False,False,True
+0xfee0c80a4e9b4b3cecb4ba9048bee3d837f21ed8,luck,0.0,,Probably luck,312.19738499999994,0.2318840579710145,276,False,False,False,False,True
+0xd10045dd5b57a0645b59cb0df530a1a128d9f303,luck,0.0,,Probably luck,-42.57755399999994,0.5219298245614035,228,False,False,False,False,True
+0xdb40533a2f0301ef8da91e98be31b9be13e736d9,luck,0.0,,Probably luck,-120.81872699999997,0.4578313253012048,166,False,False,False,False,True
+0x36c4a260a92b2f537a01eb0b8fab771a5dca87cf,luck,0.0,,Probably luck,6030.155471,0.524,250,False,False,False,False,True
+0x4a915eaddf280ed6d2a847f9564862457068604d,luck,0.0,,Probably luck,-6985.599563000003,0.16972477064220184,218,False,False,False,False,True
+0xec07d417d45ae0e26f2c01a423ffa5339a5a7f10,luck,0.0,,Probably luck,353.81230800000003,0.5140562248995983,249,False,False,False,False,True
+0x0b5379a6ce466970837e81963d7342ac50aa24b4,luck,0.0,,Probably luck,272.05338299999994,0.5274725274725275,91,False,False,False,False,True
+0x474d821b853301a6f40f368e678f9339fdee19e1,luck,0.0,,Probably luck,428.82626500000015,0.48917748917748916,231,False,False,False,False,True
+0xfafac91ac738ffbfb69005792f3b7718b651c1cd,luck,0.0,,Probably luck,2069.8826329999997,0.541501976284585,253,False,False,False,False,True
+0x4aaab811787a31510a31b7356a8693524435e389,luck,0.0,,Probably luck,-11.105208999999832,0.4782608695652174,138,False,False,False,False,True
+0x72332f02b0b7cf7508ff05b9a18e1a7721fadff0,luck,0.0,,Probably luck,-2717.709651,0.10204081632653061,49,False,False,False,False,True
+0xff53f60d1c98b2b4b35fd2f0f2347e4a1fa3b1e7,luck,0.0,,Probably luck,3343.568708000001,0.19658119658119658,117,False,False,False,False,True
+0xcc916d5f345d65314925ab469e46d90701e79ae3,luck,0.0,,Probably luck,-42.97002599999999,0.5380434782608695,184,False,False,False,False,True
+0x7982e73eb9666af787d6447c9c28476dce68a391,luck,0.0,,Probably luck,-981.5475710000001,0.49230769230769234,195,False,False,False,False,True
+0x8198c574b7a7f6b87b3db42d40486973ff6298df,luck,0.0,,Probably luck,210.51615899999987,0.52,175,False,False,False,False,True
+0xa68c252b5fb8480e4e0b67e5c9ceffd7f4f174fe,luck,0.0,,Probably luck,-138.05020299999993,0.44554455445544555,101,False,False,False,False,True
+0x80285e2e86e1f473eb9a6b2e713fc52a5c248970,luck,0.0,,Probably luck,-2878.6717929999995,0.444,250,False,False,False,False,True
+0x986eafbd1037b3b6e4c86da9257eb9c2e19ea221,luck,0.0,,Probably luck,-1988.2082580000001,0.2014388489208633,278,False,False,False,False,True
+0x6e931778f571737d0259d59e8dd239f88543ccac,luck,0.0,,Probably luck,-165.20071400000006,0.5135135135135135,74,False,False,False,False,True
+0xc4ae650a740123ac468b8e6127d1321becade651,luck,0.0,,Probably luck,-1781.9045349999992,0.5733333333333334,75,False,False,False,False,True
+0x80d6f342b44d1cd0511063bb905771412969eeab,luck,0.0,,Probably luck,487.2084050000001,0.18421052631578946,76,False,False,False,False,True
+0xbec0d4c9d9b31dc14655c4dbc9b3261b7a13e608,luck,0.0,,Probably luck,5692.399217000002,0.5506607929515418,227,False,False,False,False,True
+0x67bf221a3f9874cffd4e27e9dbf5ae4f73e8ec09,luck,0.0,,Probably luck,-315.836188,0.7575757575757576,297,False,False,False,True,True
+0xa3a739302bd8b0312b811b8116a8ac57d07f2ab4,luck,0.0,,Probably luck,331.37391799999995,0.5254237288135594,59,False,False,False,False,True
+0x43f7d448ed2c6654d4bfbfb6eab52e83c4d0708d,luck,0.0,,Probably luck,-91.60752800000002,0.461038961038961,154,False,False,False,False,True
+0xba71e8a4c6f3fe283a2121809201d3441b63e59a,luck,0.0,,Probably luck,-41.2358050000002,0.504424778761062,113,False,False,False,False,True
+0x61641a51b553a7a92aab82a5b76ed29e9a939c98,luck,0.0,,Probably luck,381.37053100000014,0.7842105263157895,190,False,False,False,True,True
+0x7c4c815a8872886329d2d735ffe07e74a2fdb4f6,luck,0.0,,Probably luck,-2229.5272159999995,0.4533333333333333,225,False,False,False,False,True
+0xab0337e667cc8f7649bb4f902e6c0f73e05f9147,luck,0.0,,Probably luck,1161.503623,0.5394736842105263,152,False,False,False,False,True
+0x6d457e30d67e15a321a9f82cfa9de029ed69f8b7,luck,0.0,,Probably luck,2350.5249660000004,0.55,160,False,False,False,False,True
+0x210ca8057b4f20fa6dbb4555b8db5baa63a553b1,luck,0.0,,Probably luck,16887.886006999997,0.21232876712328766,146,False,False,False,False,True
+0x8b4a3556a83c1257d7f6c3a4956643892796b523,luck,0.0,,Probably luck,302.3877940000001,0.736318407960199,201,False,False,False,True,True
+0x4b8c0b6ae8c10ad5f5a88cb43b2eca6df3b06c42,luck,0.0,,Probably luck,186.00064,0.49777777777777776,225,False,False,False,False,True
+0xde3a027eb506db21c0cef14e26fc9ccfd365196d,luck,0.0,,Probably luck,326.65583999999996,0.2052980132450331,151,False,False,False,False,True
+0xfab71388357849ea49dd5163faa6db68a6649ebd,luck,0.0,,Probably luck,-392.16516099999996,0.4557823129251701,147,False,False,False,False,True
+0xcee1666e1461e8865cb554d9fc2f18903e1b979d,luck,0.0,,Probably luck,121.43174599999992,0.47413793103448276,232,False,False,False,False,True
+0xfd8991fdae7efe06cdd9bc70a5c0c0acfa7f427f,luck,0.0,,Probably luck,65.24257500000004,0.21052631578947367,114,False,False,False,False,True
+0x2a64933b6c1c6b109837dc043b68313ea18e8cfa,luck,0.0,,Probably luck,706.7589010000002,0.4605263157894737,76,False,False,False,False,True
+0x294c2ec69662ab1d026fcde30a4360c64784c52c,luck,0.0,,Probably luck,2852.3255,0.5256410256410257,234,False,False,False,False,True
+0x481a418cf3f6a7b5521a3986f4a43b79a223d46f,luck,0.0,,Probably luck,-101.68463599999991,0.7567567567567568,111,False,False,False,True,True
+0x03bfbc6ea509f1d8198e46be1ce31c74841301b5,luck,0.0,,Probably luck,609.1653460000002,0.7569060773480663,181,False,False,False,True,True
+0x11c8e4458de2853cd96291c813f5e6edd6421264,luck,0.0,,Probably luck,1661.4412519999994,0.55,60,False,False,False,False,True
+0x97e62d15cce3902fa065c590646a9a19271f8f40,luck,0.0,,Probably luck,-634.2966520000004,0.4798206278026906,223,False,False,False,False,True
+0x1d7b5631c4be0832324e2cd2b8081ac7b292388f,luck,0.0,,Probably luck,215.31509100000005,0.21897810218978103,274,False,False,False,False,True
+0x2d83271452d7a9c0890051b6e084c94d3531758d,luck,0.0,,Probably luck,-21657.343352999986,0.1945392491467577,293,False,False,False,False,True
+0xdfce0b9f10eb2dc41f7b8a12f66f0a158ee8a614,luck,0.0,,Probably luck,-3417.818248,0.34782608695652173,23,False,False,False,False,True
+0x5d9fb777c52710cffc89d8912246a4da15657b07,luck,0.0,,Probably luck,-314.1103499999999,0.7632508833922261,283,False,False,False,True,True
+0x1a7badc505b719a781220013cf1ff4487f40b8fe,luck,0.0,,Probably luck,-17.18271400000002,0.782608695652174,138,False,False,False,True,True
+0x5a4b326fa93af48ad974026d3c4183b190b9f193,luck,0.0,,Probably luck,-199.33760199999995,0.7123893805309734,226,False,False,False,True,True
+0x361644296841fc41747d1b6d298998757e7b1eff,luck,0.0,,Probably luck,1354.778045,0.5147058823529411,136,False,False,False,False,True
+0xab87c9c63cf763abd04febfd947e755f66d2c0c5,luck,0.0,,Probably luck,-1290.2970260000002,0.11363636363636363,44,False,False,False,False,True
+0x10737c3f40427a8ce57965e5ecf637ca40f16b93,luck,0.0,,Probably luck,2109.5751200000004,0.5469613259668509,181,False,False,False,False,True
+0x920375fc7214d4f927e4efda33d58b7d1da74232,luck,0.0,,Probably luck,869.6286020000003,0.65,20,False,False,False,False,True
+0x8d9286db47656df057929c4da2d8ea3915819002,luck,0.0,,Probably luck,-23.420037000000015,0.6818181818181818,22,False,False,False,False,True
+0xead951a7ff0bf75ec3bdfc2a4abf3e86a6645a32,luck,0.0,,Probably luck,-2758.2807360000015,0.4880546075085324,293,False,False,False,False,True
+0x7ae9d8f2dd5b8ac0986337ba36dd54b5db6bb852,luck,0.0,,Probably luck,76.184431,0.8177083333333334,192,False,False,False,True,True
+0x8c7611e60b95bdd8eed1c44184263e4506f05930,luck,0.0,,Probably luck,-1374.109058,0.43986254295532645,291,False,False,False,False,True
+0x703a5f46fc3d19ed48dca9c348beefb4ac22b5b0,luck,0.0,,Probably luck,-55.66878200000002,0.7439024390243902,82,False,False,False,True,True
+0x4f3d8ed5d05ad88071793a3773a15bc7065cf911,luck,0.0,,Probably luck,-1493.4591099999998,0.1813953488372093,215,False,False,False,False,True
+0x8b49c38baec02d9ee2c5f90c806722a9cf08b070,luck,0.0,,Probably luck,16.96976800000001,0.4827586206896552,87,False,False,False,False,True
+0x5941f839ba3c4863a65662e990b0622c732ed74b,luck,0.0,,Probably luck,-1188.6249010000001,0.7402135231316725,281,False,False,False,True,True
+0xe28c39c44d31e6736d0d6ae4bafda0cb2991f0fb,luck,0.0,,Probably luck,-235.337018,0.7313432835820896,268,False,False,False,True,True
+0x750fdd8c5b8bf8ec108adb0d6e33fe1188650349,luck,0.0,,Probably luck,966.6581959999999,0.2222222222222222,198,False,False,False,False,True
+0x686dd6a1205efdfc4ad2521a2258a4c22f73e1a1,luck,0.0,,Probably luck,13546.780276999998,0.2413793103448276,232,False,False,False,False,True
+0x1087c6d8eba60ee066fc257f4950daef1c1150b2,luck,0.0,,Probably luck,5385.6464209999995,0.26666666666666666,120,False,False,False,False,True
+0x57bf12d7998f96beae99ca67e618768d124394f8,luck,0.0,,Probably luck,-1294.502569,0.48134328358208955,268,False,False,False,False,True
+0x61cd78d500534c31c39662c053a2a3a69019e04a,luck,0.0,,Probably luck,210.51656700000007,0.2571428571428571,105,False,False,False,False,True
+0x62fbf7006819b6851b950ada5cb8ee3e2cd461ce,luck,0.0,,Probably luck,159.553196,0.5769230769230769,208,False,False,False,False,True
+0xc0c2a54db948ae348f418a5d599dd77ccce1f922,luck,0.0,,Probably luck,189.96053299999974,0.5030674846625767,163,False,False,False,False,True
+0xa4a2d1eb685639320e67fc055aa206f3fb34b7de,luck,0.0,,Probably luck,276.28112200000055,0.4900662251655629,151,False,False,False,False,True
+0xcb98a213baab60d4ccf50e75e66aec637bb69b89,luck,0.0,,Probably luck,-79.72754199999963,0.19063545150501673,299,False,False,False,False,True
+0x708e188b77929a52b2fda57abbc1208fc3ae615f,luck,0.0,,Probably luck,458.3696030000002,0.5393258426966292,178,False,False,False,False,True
+0xcd4f3cc139f841e0fc00e0dfbab404bc98eaa4f9,luck,0.0,,Probably luck,68.4759869999999,0.5306122448979592,245,False,False,False,False,True
+0x8e7809a54122edaddb5b5322abe78883f869f009,luck,0.0,,Probably luck,-719.2361959999998,0.4583333333333333,216,False,False,False,False,True
+0xb21cebb81f89196266d9cb745a4654721e7e7e01,luck,0.0,,Probably luck,-101.74141800000002,0.7898089171974523,157,False,False,False,True,True
+0x4a66cbefecb5bc4bf0be6fd723015b59aeb93899,luck,0.0,,Probably luck,333.2449539999999,0.8253968253968254,63,False,False,False,True,True
+0xeee44e2e32dd48e5119833aae569a1ec62e8940a,luck,0.0,,Probably luck,645.020387,0.5774647887323944,71,False,False,False,False,True
+0x08aa2a703958a52fe0608ebf48e14c209b4efba4,luck,0.0,,Probably luck,-1285.5785779999999,0.4744525547445255,274,False,False,False,False,True
+0x897ffc7886da7a979ce3274f1faf98650fe614f5,luck,0.0,,Probably luck,579.4590580000003,0.4838709677419355,31,False,False,False,False,True
+0x8fc382c26688ee7562a3d1cc581121b2c050cb3b,luck,0.0,,Probably luck,-2010.036304,0.4,80,False,False,False,False,True
+0x8f7d0b84d8dcc8b977de923ce72f727f9bd521eb,luck,0.0,,Probably luck,51.57177900000001,0.782051282051282,156,False,False,False,True,True
+0xecddd8960ca023c49c8aea3edeaea613943a96b1,luck,0.0,,Probably luck,-131.540736,0.7348484848484849,132,False,False,False,True,True
+0x561e814beb8e63c728b65dec9305375b595550b5,luck,0.0,,Probably luck,-1599.2623670000003,0.19597989949748743,199,False,False,False,False,True
+0x43c08f2992d3331dca8fb55b9407c5dec9781053,luck,0.0,,Probably luck,-3377.2557009999996,0.47950819672131145,244,False,False,False,False,True
+0xc8c44b45ed5da6d676062ad89935755bc975e075,luck,0.0,,Probably luck,-492.773574,0.504950495049505,101,False,False,False,False,True
+0xe95bdb57d1775d3070943a593b7bd688a0c31ec0,luck,0.0,,Probably luck,220.62108799999942,0.5333333333333333,60,False,False,False,False,True
+0xa5ca9d9a30bdf4e81a5705f35cfb1bf88691043b,luck,0.0,,Probably luck,194.3900630000005,0.48292682926829267,205,False,False,False,False,True
+0x5b3f25b2807ddfa8383ae3516221abb72078b648,luck,0.0,,Probably luck,-26704.031317,0.1683673469387755,196,False,False,False,False,True
+0x46c285841e97270088e546cc8ec5bfe3781287cc,luck,0.0,,Probably luck,41.48555700000003,0.7633136094674556,169,False,False,False,True,True
+0xbafce5c956edc9410f7c214a01d68ac99c1a6c6b,luck,0.0,,Probably luck,1469.417636,0.527972027972028,286,False,False,False,False,True
+0x86627745003939db9cb206fce892d9063cd2a661,luck,0.0,,Probably luck,-184.46845999999996,0.7355371900826446,121,False,False,False,True,True
+0x02d534e157341b1624715ddce9165f1ea3d747a5,luck,0.0,,Probably luck,-33.28750900000005,0.5522388059701493,67,False,False,False,False,True
+0x811b95074ed4bca8e8cc5b7091c8ca0d991a483c,luck,0.0,,Probably luck,-144.27961600000003,0.1643835616438356,292,False,False,False,False,True
+0x4a746d75e33a6d78283c81242cb64c9871bceec9,luck,0.0,,Probably luck,1074.2474470000002,0.5091575091575091,273,False,False,False,False,True
+0xcc668e15bb67d36600df1d50b79a5894b3a97c65,luck,0.0,,Probably luck,-18.12741800000007,0.48026315789473684,152,False,False,False,False,True
+0xd6b6ede69890fc7e6a426e6609c8487fe0e182c1,luck,0.0,,Probably luck,827.0801569999996,0.49572649572649574,117,False,False,False,False,True
+0x821172a3a16854e926c524265f5642270a9737ea,luck,0.0,,Probably luck,127.3412699999999,0.5075187969924813,266,False,False,False,False,True
+0xbfdb9c15a4af3ff653b10c6eec36392e2c941edd,luck,0.0,,Probably luck,1034.1823870000007,0.5256410256410257,156,False,False,False,False,True
+0x74b4417d8ef1b1f9089b0f023be3b2389238f9c6,luck,0.0,,Probably luck,438.87232,0.7647058823529411,153,False,False,False,True,True
+0xbdbb63499a62ca4c35b4fdc3ae3a4bd55eb367c1,luck,0.0,,Probably luck,-240.6906900000002,0.7368421052631579,95,False,False,False,True,True
+0x27fd439c350e5f4fce1e90e8d376373f71f27c99,luck,0.0,,Probably luck,311.1142490000002,0.5104895104895105,143,False,False,False,False,True
+0xaed2199381af0e89deb9d7708b69515c97831640,luck,0.0,,Probably luck,1.7985660000000063,0.8068965517241379,145,False,False,False,True,True
+0x83654de064a323adca8a9c5da54e58aefa14635a,luck,0.0,,Probably luck,8.865720000000003,0.7340425531914894,94,False,False,False,True,True
+0xc1307988df987751e6e8463b5c7623a5aa5c7e80,luck,0.0,,Probably luck,-1658.014331,0.16831683168316833,101,False,False,False,False,True
+0xa823dde2deb31645fa3e99bfd7afbb8395e8af91,luck,0.0,,Probably luck,-472.8526119999999,0.16184971098265896,173,False,False,False,False,True
+0xbdbe3d3ca52b2d3dc80063430310b04a3968a7c1,luck,0.0,,Probably luck,-778.0043740000001,0.7448559670781894,243,False,False,False,True,True
+0xe8db187cf65c5bf51b11b1fc07db332fa341491d,luck,0.0,,Probably luck,-925.4388419999999,0.4682274247491639,299,False,False,False,False,True
+0x059f7953012c4b6fbb4093698f006fa772304c46,luck,0.0,,Probably luck,4480.091682,0.5291479820627802,223,False,False,False,False,True
+0xacf87ecfa606f53bd3c5130ef126eef320885a48,luck,0.0,,Probably luck,-5801.1376869999995,0.4098360655737705,61,False,False,False,False,True
+0xb1e64d662784477c27cbbcb235047ffde0194a83,luck,0.0,,Probably luck,61.20308800000001,0.2323943661971831,284,False,False,False,False,True
+0xfced3d8ead41cc7ae5501aa096547f5ff2337aab,luck,0.0,,Probably luck,442.933131,0.7956989247311828,186,False,False,False,True,True
+0xd7381036396494ae9cd20e7d292597e48c11f984,luck,0.0,,Probably luck,919.7712930000001,0.49261083743842365,203,False,False,False,False,True
+0x641156c953e8859066dda7db7463dd0fb6b4e9a5,luck,0.0,,Probably luck,81.91910199999992,0.5018050541516246,277,False,False,False,False,True
+0xb06e73ce614b698efb315ad65e118bb7ec60d4a3,luck,0.0,,Probably luck,-767.397828,0.125,72,False,False,False,False,True
+0xcd2f4e78975bc2fcaf7074960193d317a9d2e718,luck,0.0,,Probably luck,-283.4558329999998,0.4913294797687861,173,False,False,False,False,True
+0x03bca725fb0ecca99a5c955ccd3fb7b0eba7a307,luck,0.0,,Probably luck,1110.2367230000004,0.20192307692307693,104,False,False,False,False,True
+0xb7a91050d0fc10c6db5c0eaf2ad5dee2921411ca,luck,0.0,,Probably luck,2185.3229680000004,0.5474137931034483,232,False,False,False,False,True
+0xc8dae9844abf91615f30b7088bcba29eb21853b6,luck,0.0,,Probably luck,1947.9005069999998,0.5098039215686274,255,False,False,False,False,True
+0x9b717b4fa983d401afef34ac12cc92e40073df19,luck,0.0,,Probably luck,-6822.124837,0.4507042253521127,213,False,False,False,False,True
+0xe86bd00d1ae4fe491be4c23e60786db771c30abf,luck,0.0,,Probably luck,41.10636399999994,0.4473684210526316,114,False,False,False,False,True
+0xad7d264a69de8bdea92c27fc255a1de069525670,luck,0.0,,Probably luck,-2825.5308050000003,0.375,144,False,False,False,False,True
+0x64e4b941123523d14a82e395b6dc98cdc097e1bf,luck,0.0,,Probably luck,3939.735557000001,0.4789915966386555,238,False,False,False,False,True
+0x1570b34815f8202b5178509ae8c9aa9f99889bb7,luck,0.0,,Probably luck,-1184.6174279999998,0.5121951219512195,82,False,False,False,False,True
+0x29751b468fab87317e35e92d38e912a975a73a5d,luck,0.0,,Probably luck,21.578469999999992,0.4857142857142857,35,False,False,False,False,True
+0xb9287b3c0f362d0a55d079683f5f57337e175e2d,luck,0.0,,Probably luck,1044.303786,0.8424657534246576,146,False,False,False,True,True
+0x485152798f41865374ee2a391b9b10207e971dc6,luck,0.0,,Probably luck,-326.0636800000001,0.5368421052631579,95,False,False,False,False,True
+0x0835e80ca3baaa12750e5dc8a820298e7d88b375,luck,0.0,,Probably luck,28.54465099999993,0.19047619047619047,231,False,False,False,False,True
+0x5a4acce48a8b84d325f6f064a2b1d414691e8e44,luck,0.0,,Probably luck,1196.1543180000003,0.527027027027027,74,False,False,False,False,True
+0xa2c221570b8c79f9ef2e78a2911377a790daf45b,luck,0.0,,Probably luck,7598.307852999999,0.2179930795847751,289,False,False,False,False,True
+0xe01e0ea4ab1616e745089713a842163d4d570eed,luck,0.0,,Probably luck,192.09876700000004,0.54,150,False,False,False,False,True
+0x4d9e800a389b4e3da26f8fc77a723194addcd3e1,luck,0.0,,Probably luck,-106.41554599999904,0.17073170731707318,41,False,False,False,False,True
+0x56d4446cdfbd6d95913ce06a7e804b85f5a9cb46,luck,0.0,,Probably luck,-81.707751,0.5093167701863354,161,False,False,False,False,True
+0xfab20ca46f288e235195ff0307db72726ed71a8e,luck,0.0,,Probably luck,1206.704511,0.532520325203252,246,False,False,False,False,True
+0xb879c679cad3e818f5980a5ec501567056353094,luck,0.0,,Probably luck,7.055361000000001,0.7377049180327869,61,False,False,False,True,True
+0x04d65f0f9e7ee72716381c322cab7f4b55774e30,luck,0.0,,Probably luck,-1035.0330560000002,0.5095785440613027,261,False,False,False,False,True
+0x95401dbee11edab656598940655e39bf0b78bf68,luck,0.0,,Probably luck,1927.5142080000003,0.5584415584415584,154,False,False,False,False,True
+0xc42fed8d35020f67d06a9b2563603e83fcb74a71,luck,0.0,,Probably luck,391.59868200000005,0.7811320754716982,265,False,False,False,True,True
+0x3ad6c053a7945c5e8f384c6275d713ac8192b6c9,luck,0.0,,Probably luck,-107.15977899999999,0.7482517482517482,143,False,False,False,True,True
+0xfc559eb7dcc0f7508e433f58744a7b2b22daa3ab,luck,0.0,,Probably luck,191.13439499999998,0.20657276995305165,213,False,False,False,False,True
+0xcce533f970c74ec53055d8497130460efac653a0,luck,0.0,,Probably luck,33672.708567,0.2905405405405405,148,False,False,False,False,True
+0x1b8dd34d470a5a80b5afe3ea6e39e3e1b7f323b2,luck,0.0,,Probably luck,-130.653163,0.22393822393822393,259,False,False,False,False,True
+0xe6b8d1aaa16d98dfaa2ce974f39e5b7c024e09fb,luck,0.0,,Probably luck,-68.43052599999992,0.7605633802816901,71,False,False,False,True,True
+0x6bb94e28b1f580177a70a10010ad699ad129f541,luck,0.0,,Probably luck,266.1202110000003,0.17346938775510204,196,False,False,False,False,True
+0x29040c95d05be724557d2b4a9f810fd68321d5b3,luck,0.0,,Probably luck,2082.891318999999,0.5288888888888889,225,False,False,False,False,True
+0xdc3593bcef1fd06a2d1e93f157813cb7852ab9f0,luck,0.0,,Probably luck,-888.6893890000001,0.43209876543209874,81,False,False,False,False,True
+0x67e8550ffbb47e18a011702ce6f818b0d9bc6165,luck,0.0,,Probably luck,3525.049229000001,0.5111111111111111,180,False,False,False,False,True
+0x076dceb7b65a79ca35f7f5997ba28d97983f5ebe,luck,0.0,,Probably luck,-48.13016300000001,0.7711267605633803,284,False,False,False,True,True
+0x132c9b30362551b9c37b6fdb426539585d4734b8,luck,0.0,,Probably luck,52.756806,0.5838926174496645,149,False,False,False,False,True
+0x4d70e9596f64d86554df5aca6e1431a2ccb0debf,luck,0.0,,Probably luck,199.35163300000002,0.525,280,False,False,False,False,True
+0x098d1739ca61c01acd21f8c41c8890b04e969115,luck,0.0,,Probably luck,2864.130407,0.7,20,False,False,False,False,True
+0x189d73d2f0e6c12cc2538243a5795e7fe3863601,luck,0.0,,Probably luck,-499.9548360000001,0.46551724137931033,116,False,False,False,False,True
+0xa437977d57ecd00c6adaf02b61f561494c5be70c,luck,0.0,,Probably luck,40.34528700000004,0.5,264,False,False,False,False,True
+0xbb8b44e613171bb1bed328bc4e69841128455bc3,luck,0.0,,Probably luck,-264.58191600000004,0.6976744186046512,43,False,False,False,False,True
+0x807b1d571686b0662433287fd6a99d8aa8960e5a,luck,0.0,,Probably luck,316.46984799999996,0.7759197324414716,299,False,False,False,True,True
+0xa07f34ddcf7053cbda6a252260f55d45590bb68c,luck,0.0,,Probably luck,1082.480876,0.24752475247524752,202,False,False,False,False,True
+0xbcdd9aa6cd16014a3b9422173ad98a2a318f4cd8,luck,0.0,,Probably luck,43.52659800000015,0.4107142857142857,56,False,False,False,False,True
+0xbccbc633af86724501254ff9823e9ad0e47f5f41,luck,0.0,,Probably luck,9600.276731,0.1794871794871795,78,False,False,False,False,True
+0xaf95dc71d30861b05d7a7bda1c57cb6826d2104a,luck,0.0,,Probably luck,600.1408349999997,0.5,20,False,False,False,False,True
+0x2ff05a2cb2f4e9dc447ff795df002c3ef55cfcad,luck,0.0,,Probably luck,229.39160199999992,0.5365853658536586,41,False,False,False,False,True
+0x2a007599cc240a5caf7055f672ec7340e641a858,luck,0.0,,Probably luck,-200.36836900000014,0.45864661654135336,133,False,False,False,False,True
+0x87f42cb9ada3538eb522581a90f1dcb8c59b623a,luck,0.0,,Probably luck,-459.38835600000004,0.4380952380952381,105,False,False,False,False,True
+0xda6bda94b495b04d8cc14f6fa398238f863ff117,luck,0.0,,Probably luck,-9996.371883,0.4790697674418605,215,False,False,False,False,True
+0xd14b98d53112e5fc343ce926ead245ce8fd56569,luck,0.0,,Probably luck,-247.02164499999995,0.7542372881355932,236,False,False,False,True,True
+0x8df288318898d8745eb8bc406d41e940e79afd81,luck,0.0,,Probably luck,1219.6021310000003,0.19298245614035087,57,False,False,False,False,True
+0x4afa43d49b3945d0993fdfa333074acfff34b58e,luck,0.0,,Probably luck,-201.94194499999998,0.7207792207792207,154,False,False,False,True,True
+0xa6d959c74235579db052333d174913be48041408,luck,0.0,,Probably luck,841.5299499999999,0.5042735042735043,234,False,False,False,False,True
+0xbe727f75f6b3ac9a9aaf6aad54805b5fd2781b67,luck,0.0,,Probably luck,-2202.0483659999995,0.21551724137931033,232,False,False,False,False,True
+0xfcac6a6e6eadc69b2bbce0596c1dfa7162908c28,luck,0.0,,Probably luck,-87.07337600000004,0.7407407407407407,27,False,False,False,True,True
+0x732333ad1e5874d990aae6e2014ffe86fccb53ad,luck,0.0,,Probably luck,-2657.635665,0.7630522088353414,249,False,False,False,True,True
+0x04713056e4638136017eed859582429ea5f97bcc,luck,0.0,,Probably luck,765.2310410000005,0.7946428571428571,112,False,False,False,True,True
+0x4d8d21704b5e97e50f089b8368c9f2618b2ec710,luck,0.0,,Probably luck,-924.519173,0.4351145038167939,262,False,False,False,False,True
+0x57041b2e8584091aa3ba478c5dcc2497fb1dd7b5,luck,0.0,,Probably luck,-229.07120600000005,0.46745562130177515,169,False,False,False,False,True
+0x88db7c8f2044d45b97bd687c7d64a3a364d89f00,luck,0.0,,Probably luck,96.26367800000003,0.8040540540540541,148,False,False,False,True,True
+0xba9a8f422a0be6faa3d5443210d61ef3aaa42844,luck,0.0,,Probably luck,-135.0192139999998,0.4930555555555556,144,False,False,False,False,True
+0x7d87604dac753c2f0796c3b48ffae1e02a0967b4,luck,0.0,,Probably luck,164.47661999999988,0.4523809523809524,42,False,False,False,False,True
+0x27eb8b391bea0221ac70029d4746e5cc327a2411,luck,0.0,,Probably luck,-1117.174622,0.7152317880794702,151,False,False,False,True,True
+0x64d4e4c3db919ad2f2c98e031af30a35873c9853,luck,0.0,,Probably luck,3138.948185000001,0.5145985401459854,274,False,False,False,False,True
+0xe1c4f21bfa17ffef3f76c7af44ea8ae42d30faa7,luck,0.0,,Probably luck,12630.198061000001,0.5329949238578681,197,False,False,False,False,True
+0x73b78d8f240760ada28a9c0c61f6d4d1a9dcb046,luck,0.0,,Probably luck,-140.4438739999999,0.51440329218107,243,False,False,False,False,True
+0xa7b0de1bba47b24cabe4c66096b674446bff2766,luck,0.0,,Probably luck,-14164.403268,0.696969696969697,165,False,False,False,False,True
+0x523ab2b59c31bc49c7f4fc34ca379f1c33ef0193,luck,0.0,,Probably luck,79.249947,0.5267175572519084,131,False,False,False,False,True
+0x6057518af2d158034e2e25ae213035a73f7800f8,luck,0.0,,Probably luck,-610.4953980000001,0.7291666666666666,144,False,False,False,True,True
+0x452c24f627e833144b2318dd32d74746f00b92bc,luck,0.0,,Probably luck,2306.955344000001,0.5,136,False,False,False,False,True
+0xf26ef43a51ba9ae958881ef3e7c1b3f48c250894,luck,0.0,,Probably luck,-2425.8576409999996,0.1774193548387097,124,False,False,False,False,True
+0xb5eaba7975b13c723fd9188596726cc1e5c932ee,luck,0.0,,Probably luck,-269.77341300000006,0.2261904761904762,84,False,False,False,False,True
+0x34fcf06dcc0ab78ed5f98998afaedc6080786831,luck,0.0,,Probably luck,103.53874599999995,0.7352941176470589,68,False,False,False,True,True
+0x931a6f80260a84e94735436480b3899fb460294a,luck,0.0,,Probably luck,-30.710335999999984,0.75,172,False,False,False,True,True
+0xf980da054ed620deead056c47bf90e7eb9d58cb4,luck,0.0,,Probably luck,192.36499399999934,0.215,200,False,False,False,False,True
+0xcfc8288f07b917f809a1e29848a8663807c579b6,luck,0.0,,Probably luck,-2240.9593220000006,0.458955223880597,268,False,False,False,False,True
+0x586bb245ace064daeccdf939e0bdf47cadc8b153,luck,0.0,,Probably luck,156.692149,0.6206896551724138,29,False,False,False,False,True
+0xaebc922034caaa6056768be731c86c7e7b956113,luck,0.0,,Probably luck,-1288.0914140000007,0.168,125,False,False,False,False,True
+0x0768cc461b62eb6c8d3f601839439317866550c6,luck,0.0,,Probably luck,64.31807499999996,0.5136612021857924,183,False,False,False,False,True
+0x3b5102d120799c73e96dfd68cc676aeade47e7c2,luck,0.0,,Probably luck,-631.1621600000001,0.1323529411764706,68,False,False,False,False,True
+0x5510f334a35d82e37f50ee739162cbd5cfa6d045,luck,0.0,,Probably luck,-2852.3837599999997,0.6796875,128,False,False,False,False,True
+0x81f5c8c0e8e3543a64e86006da9366a4bed291fe,luck,0.0,,Probably luck,-4406.3392730000005,0.4488888888888889,225,False,False,False,False,True
+0xb196abb48ea101ed667fa52417cd70a664e49563,luck,0.0,,Probably luck,495.4360920000002,0.5108695652173914,184,False,False,False,False,True
+0xa76776b4d674f12e307e3c955656a212338959e9,luck,0.0,,Probably luck,-2080.1052080000004,0.4666666666666667,210,False,False,False,False,True
+0x6d06cfaa7f51d624f9bb860155621020ac30ee59,luck,0.0,,Probably luck,-2074.8372010000003,0.17699115044247787,113,False,False,False,False,True
+0xcafbcdfac575f63b68f33a322d1d9ff9feb2f0d0,luck,0.0,,Probably luck,-532.8106050000004,0.1626984126984127,252,False,False,False,False,True
+0x0bb03451fa7f262d0f17f61b0b60ae6cac2ab8b1,luck,0.0,,Probably luck,-1574.3101729999998,0.1839080459770115,87,False,False,False,False,True
+0x4911f1dc5afd8caca064e749bd77b3a9bfa52afb,luck,0.0,,Probably luck,243.59453100000002,0.775,80,False,False,False,True,True
+0xc9623a02e3b744d0aa72eb4ca8824f00cbd9133a,luck,0.0,,Probably luck,-3765.4878169999984,0.48878923766816146,223,False,False,False,False,True
+0xe0dcbc00d1030efc1ff93e9037da6903ca199caf,luck,0.0,,Probably luck,-240.38974299999995,0.7725321888412017,233,False,False,False,True,True
+0x8415f98f469179d864b5ed869a32cc362ce309f5,luck,0.0,,Probably luck,765.531714,0.5161290322580645,217,False,False,False,False,True
+0x7760326dbef83458ba6d1f98a68a1a9da9eb7b36,luck,0.0,,Probably luck,660.8635269999997,0.8026315789473685,76,False,False,False,True,True
+0x32f6d521a18b9d3318725876931b3da756f5b15f,luck,0.0,,Probably luck,-40.86315599999999,0.7261904761904762,84,False,False,False,True,True
+0xbcdfc86fd1ff65ee251d95246e34f4d6979785ac,luck,0.0,,Probably luck,419.9213000000001,0.4528301886792453,212,False,False,False,False,True
+0xe550b0b46356d4e5d27d31481c0d11961631f8a9,luck,0.0,,Probably luck,-1047.6736400000002,0.7525252525252525,198,False,False,False,True,True
+0xaba4b8c5866129314511ea9de63199ce855a96fd,luck,0.0,,Probably luck,-502.08175499999993,0.08823529411764706,34,False,False,False,False,True
+0xf2387ba7e8992c496290a9e5dabfc97ba828862c,luck,0.0,,Probably luck,3077.5544010000012,0.5,218,False,False,False,False,True
+0x17744adf17babc11e762494642018fb6ae7d2ecc,luck,0.0,,Probably luck,282.9486870000002,0.21195652173913043,184,False,False,False,False,True
+0xc530f15202e11ff187659b31d39f6db37d330d2d,luck,0.0,,Probably luck,-6024.708113,0.45901639344262296,122,False,False,False,False,True
+0xe7e5ca455d8cb42228d454421364a7922cd71d08,luck,0.0,,Probably luck,1399.2915969999995,0.564748201438849,278,False,False,False,False,True
+0x7e6e080f46c81433fc189e1e4609e58e80b1b199,luck,0.0,,Probably luck,396.264986,0.627906976744186,43,False,False,False,False,True
+0xb895660db0976e45a43b068ef7f8acd5779a607d,luck,0.0,,Probably luck,-460.9682830000002,0.5,188,False,False,False,False,True
+0x33249d938a1c7a67256c6855989995edc7506e63,luck,0.0,,Probably luck,550.8936940000001,0.518918918918919,185,False,False,False,False,True
+0xde764f30a0a8979adbb4f394983cf858d79e050c,luck,0.0,,Probably luck,-8577.231500999995,0.7488372093023256,215,False,False,False,True,True
+0xdbe53c98a6fd1200da39d58659a39fcda53c3605,luck,0.0,,Probably luck,-163.228616,0.48214285714285715,56,False,False,False,False,True
+0x225b290aa806c7dbd951d63548cead78d217899a,luck,0.0,,Probably luck,-2641.6224450000004,0.4432624113475177,282,False,False,False,False,True
+0x889274df64be4005969dd8a078186a121d421481,luck,0.0,,Probably luck,519.0891899999999,0.7598425196850394,254,False,False,False,True,True
+0x5122776a5e7a47cc47c5eefccdefdac44b27c9ca,luck,0.0,,Probably luck,-475.10513799999984,0.19047619047619047,273,False,False,False,False,True
+0x004504e8dd0616aa70f950ce53ffb0e3b105598c,luck,0.0,,Probably luck,-819.7686449999999,0.7188612099644128,281,False,False,False,True,True
+0xa79970ecf9780001ab5bcfc4084f1f2b8e79b8f4,luck,0.0,,Probably luck,245.2376940000001,0.7962962962962963,108,False,False,False,True,True
+0xbc260b1ba6a27daf8c956f5a7744f91e439e4fd3,luck,0.0,,Probably luck,-1400.0302329999995,0.45098039215686275,204,False,False,False,False,True
+0xb3e9b3328668398b26bdb45b9e84bb12ef535a41,luck,0.0,,Probably luck,23.392587999999996,0.5055350553505535,271,False,False,False,False,True
+0x1749283e829045208e3fda8748c5dd3af3b13cc1,luck,0.0,,Probably luck,-298.8982899999995,0.782608695652174,230,False,False,False,True,True
+0xb4cd11df2fc560175f7689ed012447ee28e4722b,luck,0.0,,Probably luck,111.67140199999996,0.7966101694915254,118,False,False,False,True,True
+0xed426e0c5bfbecc383ca5920d67011e1960f35de,luck,0.0,,Probably luck,706.9976429999992,0.2116788321167883,137,False,False,False,False,True
+0x55ae09f0738b67e2b87d8767d510b53be58d8a6a,luck,0.0,,Probably luck,502.5092760000004,0.46226415094339623,106,False,False,False,False,True
+0x81f06bf980b8f81ab0d0501749ff42da0e501f20,luck,0.0,,Probably luck,-6963.28426,0.16783216783216784,143,False,False,False,False,True
+0x9e253eb8eb2888b2cfeaa82ccae85318c8b02e97,luck,0.0,,Probably luck,-2924.553095,0.7328519855595668,277,False,False,False,True,True
+0xae8918dde4fcb0909e72ce2be522ad4ddba5f977,luck,0.0,,Probably luck,-11081.555196,0.7695035460992907,282,False,False,False,True,True
+0x2da4c3104895ea2aba67730b5dc78f4832295492,luck,0.0,,Probably luck,-507.935812,0.203125,192,False,False,False,False,True
+0x4712db37dc96b666b26521eb3349f9d12ed36861,luck,0.0,,Probably luck,4495.3017310000005,0.5632183908045977,174,False,False,False,False,True
+0x1a11b08ba1cbe706f0b60d23ac9be09e46929e2d,luck,0.0,,Probably luck,27.78288500000005,0.5037037037037037,135,False,False,False,False,True
+0x210ad8f256275779b8056efa278656cddee5a3c9,luck,0.0,,Probably luck,-2232.646643,0.3870967741935484,93,False,False,False,False,True
+0x642d9dac486348554941356d916b4cffbf1f2edb,luck,0.0,,Probably luck,-1228.046434000001,0.4745762711864407,295,False,False,False,False,True
+0x4e0c8ff88e9020e376474503f464aaa57f057e50,luck,0.0,,Probably luck,-715.7657490000001,0.44285714285714284,70,False,False,False,False,True
+0x42372c1e4d2fa5e713dd9bd075654a8c77176586,luck,0.0,,Probably luck,-132.13720099999978,0.48091603053435117,262,False,False,False,False,True
+0x0572935c0a30f6163756b05a48b8bfc84adbc1a0,luck,0.0,,Probably luck,217.88960099999997,0.8,40,False,False,False,True,True
+0x0e0543ddee70c335d8832ee7977c6073859a2136,luck,0.0,,Probably luck,-3.9072739999999975,0.494949494949495,297,False,False,False,False,True
+0xb28b5301d859d0fbe70e66b183fb1e56b364a7ca,luck,0.0,,Probably luck,-68.10076100000009,0.7272727272727273,198,False,False,False,True,True
+0x701ec1e02364c1ea9d8b310d29ca7c1bbf574110,luck,0.0,,Probably luck,-147.71873700000006,0.46835443037974683,79,False,False,False,False,True
+0xc105f3719be4dcf1630bcc3c5f01f2059df89354,luck,0.0,,Probably luck,2037.3031739999997,0.21212121212121213,33,False,False,False,False,True
+0xfa44e8ea061916974b4b0358ed8cffb49aa4c2eb,luck,0.0,,Probably luck,-313.2524289999999,0.45989304812834225,187,False,False,False,False,True
+0x8be725597a1c9e40a222f30ce3f9ca9c31fa4329,luck,0.0,,Probably luck,-163.74356399999976,0.18181818181818182,187,False,False,False,False,True
+0xb21283865d85e706c7ea574e2a211aaab0e427bd,luck,0.0,,Probably luck,826.4798650000002,0.49074074074074076,108,False,False,False,False,True
+0x9f03917596e4d89e4ff0d61f1973f655d3845447,luck,0.0,,Probably luck,4722.798878,0.5585106382978723,188,False,False,False,False,True
+0x3595d2b90042d76b4cbcf7c16df893a89dd2d0bd,luck,0.0,,Probably luck,-39.67993399999983,0.7584745762711864,236,False,False,False,True,True
+0xc72e69715b73712578440c510a0374b2c872ddd0,luck,0.0,,Probably luck,1225.1816149999997,0.21551724137931033,116,False,False,False,False,True
+0x6ba6c2cd11d6c80a189e6c7a87a16bb33f1e754a,luck,0.0,,Probably luck,662.2762970000001,0.540268456375839,298,False,False,False,False,True
+0x05c99aee1af6e0ee3f106282f3e6bdb15a2d848d,luck,0.0,,Probably luck,589.8219780000001,0.21551724137931033,116,False,False,False,False,True
+0x5169323a8c41b07db52f97b48568c5177e3a6f34,luck,0.0,,Probably luck,-785.589156,0.7277227722772277,202,False,False,False,True,True
+0xab50a577af946a8446fe4105e55b20e0d7d12e9f,luck,0.0,,Probably luck,-1162.166838,0.7341269841269841,252,False,False,False,True,True
+0xb030befbfc6b3ae0cdfe2d7cd89b018a9650da7e,luck,0.0,,Probably luck,660.5810339999999,0.536036036036036,222,False,False,False,False,True
+0x72eacdb788c3c864df602443cdbfd794ef9a8b21,luck,0.0,,Probably luck,387.4520309999999,0.5421686746987951,249,False,False,False,False,True
+0x2b30ce382861c29fe9f35de240d8a089618866c6,luck,0.0,,Probably luck,112.55356099999995,0.22872340425531915,188,False,False,False,False,True
+0x096a1135734a3e0995948ac348ee61299eaca7ab,luck,0.0,,Probably luck,-771.3060370000002,0.17647058823529413,119,False,False,False,False,True
+0x74e04922c39f461d1273ca1e885cad7ef35d6e1a,luck,0.0,,Probably luck,-2656.506007,0.4563106796116505,206,False,False,False,False,True
+0x2a35eb2bfd4a0c7118d8b823efc740962b9aa25d,luck,0.0,,Probably luck,986.358841,0.7718446601941747,206,False,False,False,True,True
+0xc251ec333f12b08003656fd25a8023a3ada95b93,luck,0.0,,Probably luck,-1340.0415340000002,0.1935483870967742,62,False,False,False,False,True
+0x0cf375bee6b0bd9b313f0c824e8af4efdeabbe1c,luck,0.0,,Probably luck,-143.5983319999998,0.5054151624548736,277,False,False,False,False,True
+0xd9227e3bbaba2a8812037057d8f40c4f22c44b56,luck,0.0,,Probably luck,341.82379800000007,0.5340909090909091,88,False,False,False,False,True
+0x52950e944da4b32112e900fbafc97845c5c223bb,luck,0.0,,Probably luck,501.6067989999998,0.22340425531914893,94,False,False,False,False,True
+0x8a3de33eeebf487b345a19b1df62e456abe6fd7f,luck,0.0,,Probably luck,526.707439,0.7904761904761904,105,False,False,False,True,True
+0x0b551f4b0a055c1dd3308ff6fc193d891d8fcc3e,luck,0.0,,Probably luck,-1206.02575,0.4425287356321839,174,False,False,False,False,True
+0x77e599e5e5725de5cafc8a90a25e9494bf1aa71c,luck,0.0,,Probably luck,296.29865200000006,0.47706422018348627,218,False,False,False,False,True
+0xf6caa771caad01ea0f9bc530c94f9fb8d2727091,luck,0.0,,Probably luck,411.091864,0.5344827586206896,116,False,False,False,False,True
+0xca25be571c79ff82848ecea8ddf4fd5048fb1adf,luck,0.0,,Probably luck,-2892.285823,0.42955326460481097,291,False,False,False,False,True
+0x4590afd20d0536f269e1ed5d2caf2a2a179b14e9,luck,0.0,,Probably luck,594.3725969999998,0.7850467289719626,214,False,False,False,True,True
+0xbea42b135650ca4a7d5fb4234ece5bb8a2aba2f9,luck,0.0,,Probably luck,117.75704300000004,0.75,36,False,False,False,True,True
+0xdc23769321fbfbca80164efaa27b9d597bd20757,luck,0.0,,Probably luck,297.80533,0.7743055555555556,288,False,False,False,True,True
+0xc4a0c744809576c1d092aa007ca7f2f7be97d121,luck,0.0,,Probably luck,113.0108939999999,0.45714285714285713,35,False,False,False,False,True
+0x9e8e169fba63cab55377f08018a82d4db42d5543,luck,0.0,,Probably luck,301.7953619999997,0.7490636704119851,267,False,False,False,True,True
+0x3db5b0c90361054072bd73a0a9ebbebec6fbe11d,luck,0.0,,Probably luck,-196.98861699999802,0.2,90,False,False,False,False,True
+0x6ee508be544e2327d190f9d7b89f37e900b8e33b,luck,0.0,,Probably luck,66.44281799999997,0.8309859154929577,71,False,False,False,True,True
+0xfe77f97a2b289fec889a8d84ba7be6b1022cac9a,luck,0.0,,Probably luck,-442.96402099999943,0.5,190,False,False,False,False,True
+0x2297cb8763fb41e7261dcd316ae33f1c3e82f869,luck,0.0,,Probably luck,172.32412799999997,0.5,206,False,False,False,False,True
+0xd57a79c5eaae56902972b0a39520f72eea3638af,luck,0.0,,Probably luck,317.53500900000006,0.5432692307692307,208,False,False,False,False,True
+0x1454c1ffc761a197aabb2f39aca68797b5d23942,luck,0.0,,Probably luck,-433.82579399999986,0.20869565217391303,115,False,False,False,False,True
+0xfe22f19186dfd3619167ba48da24b1ff354193ee,luck,0.0,,Probably luck,-48.84996599999988,0.5125628140703518,199,False,False,False,False,True
+0x23680d4c73e081d3478691a830b09f4fd46fd343,luck,0.0,,Probably luck,2227.9488759999995,0.4945054945054945,91,False,False,False,False,True
+0x967a421a4b0d250d68264df63afcc0347b76b3a0,luck,0.0,,Probably luck,828.5605200000002,0.7789473684210526,285,False,False,False,True,True
+0xd3baaebcc8faf4b8ef2b19d9789876b9b8bcc224,luck,0.0,,Probably luck,760.2686809999992,0.22699386503067484,163,False,False,False,False,True
+0x0ab79166284cdfe0c3f0c71d8e6aa99ca8b11c79,luck,0.0,,Probably luck,601.727501,0.7881040892193308,269,False,False,False,True,True
+0x93c1b3e6fa220d748649c501f71f17749c7bb281,luck,0.0,,Probably luck,1694.622327,0.18,50,False,False,False,False,True
+0xacbeb3df4ca2305ea49100a876f3bbade434fa38,luck,0.0,,Probably luck,-8496.145758999999,0.16216216216216217,296,False,False,False,False,True
+0xf51c886b94b16edcf97e92eb145d12eefe40efdc,luck,0.0,,Probably luck,-1984.3225650000004,0.43944636678200694,289,False,False,False,False,True
+0x78e94caae5fc361e765042f8029656a895fdf59b,luck,0.0,,Probably luck,63.89123199999995,0.7662835249042146,261,False,False,False,True,True
+0x092c7aee108bf89c7d24f597d299c40121929a3c,luck,0.0,,Probably luck,644.6196400000001,0.23809523809523808,294,False,False,False,False,True
+0x8b2d95e0fabf7a8b68fa1467874c501628250f6a,luck,0.0,,Probably luck,-1010.9155089999997,0.4322033898305085,118,False,False,False,False,True
+0xf738b0544ebfe30f8326bcec59f82a6c76d8a014,luck,0.0,,Probably luck,-2053.175893000001,0.5159010600706714,283,False,False,False,False,True
+0xed6ed1d34501def5bc575d85955ba71f61832ab4,luck,0.0,,Probably luck,-892.9451900000004,0.7448559670781894,243,False,False,False,True,True
+0x622cba17dd969aa5066c735f303bc9d67b08ed65,luck,0.0,,Probably luck,1165.5883239999994,0.5,274,False,False,False,False,True
+0x8c3dda450d757b7dd54b932c70d3aec47e300f24,luck,0.0,,Probably luck,1832.4666060000002,0.8383838383838383,198,False,False,False,True,True
+0xc4684dc743694cac6be39dab9804473fd68cb8a9,luck,0.0,,Probably luck,-2031.1478890000003,0.45161290322580644,279,False,False,False,False,True
+0x07834aa25ebb02668644f40f7e212056f9058710,luck,0.0,,Probably luck,-208.1090440000001,0.20261437908496732,153,False,False,False,False,True
+0x316c17eecf01f71b634db8fea5fb609472756439,luck,0.0,,Probably luck,30.65474400000005,0.7659574468085106,94,False,False,False,True,True
+0xc72cd9c49bd2a02f6ddaf2651a9f59030c32d59c,luck,0.0,,Probably luck,1355.4684700000003,0.5248618784530387,181,False,False,False,False,True
+0xbc5b88c3ce9cc627235f8b1b746e4e0960777a8a,luck,0.0,,Probably luck,-822.9758829999998,0.4717948717948718,195,False,False,False,False,True
+0x777462ddebba0bdada78f680afb43cbb30f857e0,luck,0.0,,Probably luck,400.32914600000004,0.5178571428571429,56,False,False,False,False,True
+0xd3f738a84af5865ad5e1734da55b7c9de2f71473,luck,0.0,,Probably luck,299.37218,0.23076923076923078,117,False,False,False,False,True
+0x53471c7038878f59c0e3d7fe7fa5bc0bf550f925,luck,0.0,,Probably luck,-190.87311599999998,0.46153846153846156,169,False,False,False,False,True
+0xb269a9ea6012f94a565ebfd4c8970abffbe8f4cb,luck,0.0,,Probably luck,2748.4578670000005,0.1825726141078838,241,False,False,False,False,True
+0xddfd2c9e906465f5cc21a447c45adc7616f4c520,luck,0.0,,Probably luck,280.788429,0.7777777777777778,45,False,False,False,True,True
+0xfd1e2ff18f32276715a686431d84fe8657e704c6,luck,0.0,,Probably luck,182.1493290000001,0.2537313432835821,67,False,False,False,False,True
+0xc69900f264ba1380951f2dee7a16a7c2b5d2472d,luck,0.0,,Probably luck,-143.073626,0.7549668874172185,151,False,False,False,True,True
+0x15466b967077eb591c19d18a2ab588b1989d0903,luck,0.0,,Probably luck,1206.8043700000003,0.7831325301204819,83,False,False,False,True,True
+0xeb35f2bbfbf4c5f745b067edabe7f2acdf8d820d,luck,0.0,,Probably luck,-348.17341800000077,0.5,220,False,False,False,False,True
+0xffd9857471bda1a7825ed3100dc7392fffa215e4,luck,0.0,,Probably luck,1516.1341069999999,0.21810699588477367,243,False,False,False,False,True
+0x0caa7e36273c285657c4c9bd544595f332877cdd,luck,0.0,,Probably luck,133.01617599999997,0.2073170731707317,82,False,False,False,False,True
+0xe8ccceabe323e75cc8215caabcd87592f27d5a50,luck,0.0,,Probably luck,-13.260784999999963,0.7339449541284404,109,False,False,False,True,True
+0xc661c1042b55e6e2f45513999cb5023bc014322e,luck,0.0,,Probably luck,214.2100979999999,0.5384615384615384,78,False,False,False,False,True
+0x716d73bc050e649529a21ec8753bfbb5b00ea95d,luck,0.0,,Probably luck,-87.56192499999993,0.21428571428571427,112,False,False,False,False,True
+0x28b3dfe705665dd768921f97733ad38236dfb0d5,luck,0.0,,Probably luck,180.79497700000013,0.7747252747252747,182,False,False,False,True,True
+0x2d1b480a24218230a817d614e70a627a4c0f65dd,luck,0.0,,Probably luck,-3436.336212999999,0.1645021645021645,231,False,False,False,False,True
+0xc2b857ac0a24209f32cdef25f98fd7897276fd83,luck,0.0,,Probably luck,3023.805074,0.5023474178403756,213,False,False,False,False,True
+0xbdee7a8e0a5b8c6814c14ec12a493852ea6770af,luck,0.0,,Probably luck,-4191.017793,0.18181818181818182,66,False,False,False,False,True
+0x26ba7b994243e3b2e0aa66cb476d0c6ac42c4c1a,luck,0.0,,Probably luck,-138.55608199999986,0.5116279069767442,215,False,False,False,False,True
+0x74db92d4747edd9a9243d926b878691aa71c4cc1,luck,0.0,,Probably luck,1861.948648,0.54,50,False,False,False,False,True
+0xaa6984feb9ccfe48178143e1823f4ffb50b5cb33,luck,0.0,,Probably luck,379.73299299999996,0.6521739130434783,23,False,False,False,False,True
+0x51703463f112a62f8febb512afa3d55f26eb823a,luck,0.0,,Probably luck,1272.976662,0.5490196078431373,255,False,False,False,False,True
+0x1c5605602a84d16331d621837d4aa66574461715,luck,0.0,,Probably luck,-823.8541559999999,0.4476744186046512,172,False,False,False,False,True
+0x85e0ea03cc39c33e62b8e7988269e317913b00fa,luck,0.0,,Probably luck,541.0114849999999,0.5365853658536586,123,False,False,False,False,True
+0x81f6154ca54254408fd606ab72fa92ce33b723c1,luck,0.0,,Probably luck,-1832.3373109999995,0.44642857142857145,224,False,False,False,False,True
+0xf8e2353f0f8e20d5602e9f917429cd6cd1d6b3ae,luck,0.0,,Probably luck,310.3501450000002,0.20833333333333334,168,False,False,False,False,True
+0xc1f5d42710b1b2e79e068694848291819305b57f,luck,0.0,,Probably luck,208.48282,0.5847457627118644,118,False,False,False,False,True
+0x3fd8ed44f414e6254c7a5086786ec2b035a75896,luck,0.0,,Probably luck,746.6572229999996,0.1891891891891892,37,False,False,False,False,True
+0xe6cd039ab7240ac10def5dce16cd295ef533429d,luck,0.0,,Probably luck,-398.4096139999999,0.7134146341463414,164,False,False,False,True,True
+0xb02111842e899816667c3496aaa5976690f9347c,luck,0.0,,Probably luck,-142.99679400000002,0.4676258992805755,139,False,False,False,False,True
+0x992877cf766b8635cd0c3bbac1f67820a8d6ca13,luck,0.0,,Probably luck,230.2270650000002,0.5363128491620112,179,False,False,False,False,True
+0x9ccdeda6467414bb24fd8005c4ef3397b9991f8c,luck,0.0,,Probably luck,280.65081599999996,0.45871559633027525,109,False,False,False,False,True
+0x010e2168e266ad0d54e51f4c39f7557d1945f45c,luck,0.0,,Probably luck,329.41221800000005,0.8057142857142857,175,False,False,False,True,True
+0xd15458c8a51830daae11772b215fe13e779b7497,luck,0.0,,Probably luck,-242.62325299999992,0.45,220,False,False,False,False,True
+0xc962e4f26809d67891a0cc6822bfef89bfb97b18,luck,0.0,,Probably luck,-1438.7333550000003,0.1693548387096774,124,False,False,False,False,True
+0xfbda0ca2982184b89ac21aac47285d22964e5b22,luck,0.0,,Probably luck,-2110.637815999999,0.16355140186915887,214,False,False,False,False,True
+0x1eea0a9a18cdb26a08521b8106b4498b3ce2bcf1,luck,0.0,,Probably luck,1402.9750229999993,0.48698884758364314,269,False,False,False,False,True
+0xbddbff6c11b5b356b29d2bfc51b78f53b5c95b41,luck,0.0,,Probably luck,2209.8012340000005,0.21397379912663755,229,False,False,False,False,True
+0x2829d99e9e81f1471b25267687671676456b1c88,luck,0.0,,Probably luck,442.02781199999976,0.48872180451127817,266,False,False,False,False,True
+0x61720b9f23e531ec08bd56f3dd84e8bb28a3b6c3,luck,0.0,,Probably luck,-44.84049699999969,0.19272727272727272,275,False,False,False,False,True
+0x1852a34931c0cecee43ea717e5dee1d066bbb721,luck,0.0,,Probably luck,86.33574099999997,0.6,40,False,False,False,False,True
+0x75adbd4dc4434a9d7d0bfcb3cbe3cafaff54b9c2,luck,0.0,,Probably luck,1023.736443,0.7878787878787878,297,False,False,False,True,True
+0x89347e12c5ea7edf1cac1f8d25166db17a481dcf,luck,0.0,,Probably luck,70.15175700000006,0.8243243243243243,74,False,False,False,True,True
+0x53d82e40b6ea38e32c531842103bf314d03f656d,luck,0.0,,Probably luck,1536.0218829999997,0.48928571428571427,280,False,False,False,False,True
+0x1d357bb3ad9cd617ecabc2641aad06b2e97a9400,luck,0.0,,Probably luck,330.10352700000004,0.5483870967741935,124,False,False,False,False,True
+0x17e0a84ec89a7208c95c1b65031e6965b8665296,luck,0.0,,Probably luck,534.9253270000002,0.19745222929936307,157,False,False,False,False,True
+0xea0041698574f22acac2cb3d100df87933e89f36,luck,0.0,,Probably luck,1240.9498690000005,0.5033112582781457,151,False,False,False,False,True
+0x87d2cd368b6eb8a4c2283011a9efe5075282c40c,luck,0.0,,Probably luck,-1409.813969,0.14,50,False,False,False,False,True
+0xe0a6f4e3e9454b555c6016bb6427ad691f3771ef,luck,0.0,,Probably luck,-13835.844067000002,0.17889908256880735,218,False,False,False,False,True
+0xd0d355901a8f6276c316e26cd58233dab6661642,luck,0.0,,Probably luck,-187.990157,0.7317073170731707,41,False,False,False,True,True
+0x7fb6279a95ec3446b8deeecddafa4a7ac3d7fd3e,luck,0.0,,Probably luck,13558.955332999998,0.5267175572519084,131,False,False,False,False,True
+0xbe515d2ed6c1f0824043d10151bcfa9c3de3c980,luck,0.0,,Probably luck,833.7570310000001,0.2230769230769231,130,False,False,False,False,True
+0xdf31edd7fc740114da03b70c55eda5541e7dd143,luck,0.0,,Probably luck,-147.1285729999999,0.7571428571428571,70,False,False,False,True,True
+0x39bddbf7a1f8b85bbf50987142f76b64ceb5fc9b,luck,0.0,,Probably luck,203.01852300000002,0.7955390334572491,269,False,False,False,True,True
+0x7cc6b68f94caa3f6ec5b83a7d6e26cbc758a3d59,luck,0.0,,Probably luck,278.5803619999999,0.7770700636942676,157,False,False,False,True,True
+0x5dab6626fd850db5bc45e45f829609e67619110a,luck,0.0,,Probably luck,-1533.660154,0.7224489795918367,245,False,False,False,True,True
+0x9ff6f2b3eb57d275652107bf40ba9f5ecb3962f8,luck,0.0,,Probably luck,445.5023970000001,0.4881889763779528,127,False,False,False,False,True
+0x77095fb25abfdb8676716001115fb1e92b572e68,luck,0.0,,Probably luck,-254.2018539999998,0.484375,192,False,False,False,False,True
+0x706b2ca1fd8da2ed853747171777be47614bf7d1,luck,0.0,,Probably luck,3597.7478460000016,0.22180451127819548,266,False,False,False,False,True
+0xd605c1208aa222ad057c9d2a436bcbb467d52dcc,luck,0.0,,Probably luck,-1307.649323,0.15151515151515152,66,False,False,False,False,True
+0xf7ce0a4ddd6572a2ded4f3df9ae7d9f967916248,luck,0.0,,Probably luck,318.42895100000004,0.48258706467661694,201,False,False,False,False,True
+0x5ecfcd1356e4592a88ff008432be318cf6e1fb8d,luck,0.0,,Probably luck,-163.96745299999702,0.50390625,256,False,False,False,False,True
+0x8bb791e720ac1cd84a4ba559f5221497efd62b6e,luck,0.0,,Probably luck,-181.88574000000006,0.1683673469387755,196,False,False,False,False,True
+0x80129203de8850adba09afc37975f403ae9044cc,luck,0.0,,Probably luck,264.930324,0.5480225988700564,177,False,False,False,False,True
+0x108a7edcceb28c251502642729f0b4e68397f3e6,luck,0.0,,Probably luck,1461.3727710000005,0.5307692307692308,130,False,False,False,False,True
+0x3f20d031ff425408c5ab77b507ffe7d4c89c8bf6,luck,0.0,,Probably luck,246.6561660000001,0.7510373443983402,241,False,False,False,True,True
+0x7090440cadee97a5a61cf43a10822f78ce5d3156,luck,0.0,,Probably luck,44.29560699999999,0.5,190,False,False,False,False,True
+0x95da69560286ee35ab0286baf732b0a972f147b2,luck,0.0,,Probably luck,-318.55234900000016,0.7630331753554502,211,False,False,False,True,True
+0x146dfda9b6db0b707fd91ae66cae88b26dc4ad98,luck,0.0,,Probably luck,517.5188910000002,0.5178571428571429,280,False,False,False,False,True
+0xfd6192f0a77486a5c919d427fc61b8ee2ab5bb9a,luck,0.0,,Probably luck,189.86550600000007,0.7676767676767676,198,False,False,False,True,True
+0x35d383c11431bfcd98f0ebedb8067f3b7e42d7fc,luck,0.0,,Probably luck,-1996.6644489999999,0.5,44,False,False,False,False,True
+0x6d2892222fe93675e770f475e3600087328c7b42,luck,0.0,,Probably luck,755.6027330000001,0.2159090909090909,264,False,False,False,False,True
+0xad4b1701587bb0bae187f9577be877b15e757c3c,luck,0.0,,Probably luck,-712.0357899999999,0.5073170731707317,205,False,False,False,False,True
+0xd65de0b11cfc9c3f4b3513a9b05fd494e73f96c1,luck,0.0,,Probably luck,-511.34853899999973,0.5,22,False,False,False,False,True
+0x36144571ed2d07f3d659dfc0723df0ceb97e0bff,luck,0.0,,Probably luck,-1092.4885299999996,0.1711229946524064,187,False,False,False,False,True
+0xa3bd6a119e51beeb18490ab3cf340707db16b060,luck,0.0,,Probably luck,45.839372999999995,0.5207100591715976,169,False,False,False,False,True
+0xcb9658b6b042217bf29d31db2e7051898f19a22a,luck,0.0,,Probably luck,78.06717800000001,0.53125,96,False,False,False,False,True
+0xf3af50f9ee9b6822d3c78b45acbebef3dd768a60,luck,0.0,,Probably luck,383.4545380000001,0.528169014084507,142,False,False,False,False,True
+0x6e86c97dcf2e0e6947937433d22e15d2cc65ff32,luck,0.0,,Probably luck,-1468.0042279999998,0.1991869918699187,246,False,False,False,False,True
+0x2cb08230f87ab21538af73ba5ebd004bfbbcaae0,luck,0.0,,Probably luck,-262.4692630000002,0.7624521072796935,261,False,False,False,True,True
+0x630b5731c56685efaa8efe176c625b2617308d4a,luck,0.0,,Probably luck,-210.49199400000003,0.696969696969697,66,False,False,False,False,True
+0xc4183f3efb721ee881e5ea7fcc92b572a566fdd0,luck,0.0,,Probably luck,93.867425,0.5714285714285714,21,False,False,False,False,True
+0x99c908b14ed8e97f568661b4485453f95fdc1012,luck,0.0,,Probably luck,-57.35468800000012,0.5294117647058824,85,False,False,False,False,True
+0x19eaae2017024f4dc378cd0766ed59652b1ab7f9,luck,0.0,,Probably luck,412.16559899999993,0.375,24,False,False,False,False,True
+0x053d16b7f3f89e871f87e6a8b458034ed62da0d1,luck,0.0,,Probably luck,180.81516499999958,0.5454545454545454,121,False,False,False,False,True
+0x035724389d4af90da1d0f756c10515b793c0dc21,luck,0.0,,Probably luck,-3307.89805,0.38,100,False,False,False,False,True
+0x10d96d8d3b67b04f88e6c66a4da6817ec4ba07d8,luck,0.0,,Probably luck,-30.685633999999823,0.7853403141361257,191,False,False,False,True,True
+0x01014f133ce806dc621f36b1cd32b2e340fca80a,luck,0.0,,Probably luck,-2141.738338,0.5149253731343284,134,False,False,False,False,True
+0x164e3b7236bcfceec2ebfd3a1a4a06236dbe8d27,luck,0.0,,Probably luck,387.15135799999996,0.5083612040133779,299,False,False,False,False,True
+0x595afbfc293fb20891c27ce43e9f7db9b22c9455,luck,0.0,,Probably luck,160.83532199999996,0.7757352941176471,272,False,False,False,True,True
+0x08d7224c2b5d906bab98c0abd7d28a1a35c8c9bb,luck,0.0,,Probably luck,-585.255307,0.5219298245614035,228,False,False,False,False,True
+0xa6be0060c05c634914345a20be9fb530a9466412,luck,0.0,,Probably luck,-412.07620899999995,0.4830188679245283,265,False,False,False,False,True
+0xe06085c957411ec8ee1b5a536b8bff5e18903692,luck,0.0,,Probably luck,-2671.146047,0.18584070796460178,226,False,False,False,False,True
+0x0f434cd2ce6b6715e906e41f8903c02f62b8bcbc,luck,0.0,,Probably luck,435.03876099999997,0.7936507936507936,126,False,False,False,True,True
+0x82c4495d47617002c03eb4c9ae78c35eaa8d2f53,luck,0.0,,Probably luck,2.817706999999956,0.5254237288135594,59,False,False,False,False,True
+0x1ae55c5389be70b618ea5c88d6e17feeecf68b6a,luck,0.0,,Probably luck,-454.47363599999994,0.17901234567901234,162,False,False,False,False,True
+0x8b8e1c40f0c7fc5e8ff3476396670e5422cd33de,luck,0.0,,Probably luck,177.11110300000013,0.4772727272727273,44,False,False,False,False,True
+0x3541b6f277b677b5e540cf50135fdb6a923af8fc,luck,0.0,,Probably luck,-53.78830899999995,0.7555555555555555,270,False,False,False,True,True
+0x78d4e34e64030ed90bb1134e46f744434a226680,luck,0.0,,Probably luck,63.80099899999996,0.7954545454545454,44,False,False,False,True,True
+0xd6ee8fc876a3bd5e33ee7b9edc1f84b5e7842378,luck,0.0,,Probably luck,448.9907710000002,0.2028985507246377,207,False,False,False,False,True
+0xd3e2fd42a02e13c034c0e886ee00302192f0ce5c,luck,0.0,,Probably luck,-1532.4153050000007,0.4734848484848485,264,False,False,False,False,True
+0xe3d373d6916bff29e05a139011f71325bbdec7ed,luck,0.0,,Probably luck,-778.2875120000001,0.4542372881355932,295,False,False,False,False,True
+0xf66bbc3143f1108823a64b266813b6869fcf35ea,luck,0.0,,Probably luck,378.91650800000036,0.5597014925373134,134,False,False,False,False,True
+0x334679bbfd6c37b6d40f5f57386f1feba71ec7dd,luck,0.0,,Probably luck,885.7864509999998,0.536697247706422,218,False,False,False,False,True
+0x76288660352ee90cf9caca58c02bbde444ef2d75,luck,0.0,,Probably luck,-54.645174999999995,0.6971830985915493,142,False,False,False,False,True
+0xb0ca2577fdd6b0a8a6474f596fd262889b29b529,luck,0.0,,Probably luck,161.369462,0.4915254237288136,59,False,False,False,False,True
+0x0af7d3f06e82ac2c94cdf562f701f68fb526a323,luck,0.0,,Probably luck,5551.5916720000005,0.5663716814159292,226,False,False,False,False,True
+0x814fc327d99a7644188a0eb98b6a782d8ae66a18,luck,0.0,,Probably luck,-1180.674476,0.45,140,False,False,False,False,True
+0xe5b968ccf67cb00381e0bccc6202e1a437bd8638,luck,0.0,,Probably luck,-1397.251906,0.16597510373443983,241,False,False,False,False,True
+0x08395ec80f137f399ad67a28a745c9d4f1b21217,luck,0.0,,Probably luck,307.50857699999983,0.8421052631578947,76,False,False,False,True,True
+0xf6482afb14a9ace53a7584292d3ed89e4f943d13,luck,0.0,,Probably luck,74.11237800000004,0.6052631578947368,38,False,False,False,False,True
+0xb9cdc6885284aada34701264ab71697e16d0ed06,luck,0.0,,Probably luck,-846.814965,0.5185185185185185,54,False,False,False,False,True
+0xed66e3a27ef2293d226f9e312dd4b718f19ffa5d,luck,0.0,,Probably luck,1.0377609999999962,0.75,48,False,False,False,True,True
+0x4c37cc021259f82b34d1a53a78ea04eafda0ae99,luck,0.0,,Probably luck,-857.425923,0.1559633027522936,109,False,False,False,False,True
+0xcc5efc28f08cd0e2d2cb029bc20b0df9f20a6085,luck,0.0,,Probably luck,611.368813,0.5241935483870968,124,False,False,False,False,True
+0xe8f93614031e7623670a20e2171e477f9d7efabd,luck,0.0,,Probably luck,-267.8829210000001,0.4645669291338583,254,False,False,False,False,True
+0x7639f0d0e12b29dfa3a5ff3e3bcb5651695e832a,luck,0.0,,Probably luck,-1320.84972,0.48258706467661694,201,False,False,False,False,True
+0x261b08f4658ad5c45c1d17887f97f01f4add534a,luck,0.0,,Probably luck,91.62703300000003,0.43478260869565216,23,False,False,False,False,True
+0x787b6dcf5e418eaa7a69154ebb1b596ec2db79cb,luck,0.0,,Probably luck,8.363454000000068,0.4722222222222222,216,False,False,False,False,True
+0xfc21818559c400c03e1c83588862aeb93f5f4662,luck,0.0,,Probably luck,-1173.389728,0.4702702702702703,185,False,False,False,False,True
+0x52af452ffe10ac976036e082205aae508f8785f2,luck,0.0,,Probably luck,23.318558000000003,0.8181818181818182,22,False,False,False,True,True
+0x0bcf345d8d285e94e2e9d626217c3b07120e4c45,luck,0.0,,Probably luck,-47.37242699999996,0.45739910313901344,223,False,False,False,False,True
+0x71a4de98aa8093e4ef6ef7854b6739b98b9f09fd,luck,0.0,,Probably luck,-2032.5432339999993,0.49612403100775193,258,False,False,False,False,True
+0x76c1d19c89e7ed778c61a566b0ac59863088e3bb,luck,0.0,,Probably luck,-2092.494273,0.5133689839572193,187,False,False,False,False,True
+0x41011afafc0155156fbe03c997779e3723222a77,luck,0.0,,Probably luck,-1637.250259,0.65,20,False,False,False,False,True
+0x409c522edae7ab48f65c997b59c642787f38a7f9,luck,0.0,,Probably luck,-3311.196931,0.11627906976744186,43,False,False,False,False,True
+0x83c5f891a6d5031b7619b26260fed38a87c459aa,luck,0.0,,Probably luck,-1727.4851669999998,0.18666666666666668,150,False,False,False,False,True
+0x5ca951880b8f9abf817830aadf45233ff84cf4ff,luck,0.0,,Probably luck,-850.0732439999999,0.4623115577889447,199,False,False,False,False,True
+0xd3d4c8a3fb20ba572b31d6fa859fc500d9a3a2a0,luck,0.0,,Probably luck,637.8262090000001,0.5320754716981132,265,False,False,False,False,True
+0x562ec458963a378b59bb1a92e333ae6957d70958,luck,0.0,,Probably luck,-3207.5745090000005,0.45045045045045046,111,False,False,False,False,True
+0x80e3d480533cc538d79c8eb2f56161f50480f60a,luck,0.0,,Probably luck,-73.58914500000003,0.24242424242424243,33,False,False,False,False,True
+0x9bd2cdf5d4be732b3e565bd77dd9a6f844b9d0d5,luck,0.0,,Probably luck,-639.295289,0.16279069767441862,129,False,False,False,False,True
+0x3bdad5879b91f4a5301fff633157e30bbc94e86b,luck,0.0,,Probably luck,1517.6499229999997,0.5185185185185185,243,False,False,False,False,True
+0x0cc1a3373825a626fbb16fc57ca0157a88a8f52b,luck,0.0,,Probably luck,-465.124282,0.6807511737089202,213,False,False,False,False,True
+0xca5891db4c5c8dbed8537330149d8f84a74fd84c,luck,0.0,,Probably luck,-1186.9309830000002,0.1702127659574468,188,False,False,False,False,True
+0x83900f160c744efc7248c2270fc454026d85dbf5,luck,0.0,,Probably luck,-765.2548190000003,0.4918032786885246,61,False,False,False,False,True
+0x007ab1b2c229997edab812c9a07d456ab13015bb,luck,0.0,,Probably luck,-2128.8520240000003,0.47126436781609193,87,False,False,False,False,True
+0xea8f3d8b3872d49f55798dd52df6fdfdf401f9a4,luck,0.0,,Probably luck,236.69958700000004,0.49074074074074076,108,False,False,False,False,True
+0xdaa3b9357d9f7e94cc172b1502680752b158c097,luck,0.0,,Probably luck,2477.078124999999,0.2331288343558282,163,False,False,False,False,True
+0x3297edcded515bb4bceade1726f38996863df19d,luck,0.0,,Probably luck,-152.39421600000003,0.17346938775510204,98,False,False,False,False,True
+0xf6a49e7426c58a00114767d7bfb64c4e97559682,luck,0.0,,Probably luck,-28.921761999999994,0.6896551724137931,29,False,False,False,False,True
+0xc14db4f7f3432a9e8bd86424d62a037025ad7122,luck,0.0,,Probably luck,7987.635765000001,0.7,20,False,False,False,False,True
+0x58b68826cdd30ef5197505fca190ea803152f25d,luck,0.0,,Probably luck,-367.61495499999995,0.4222222222222222,45,False,False,False,False,True
+0xf28c89a8053fa8e78cdcd19616a6864b87265d84,luck,0.0,,Probably luck,-25.15675,0.23076923076923078,26,False,False,False,False,True
+0xe9d019eddc47f3d4f97595f4ac114ec2465ef3a3,luck,0.0,,Probably luck,-951.969293,0.15873015873015872,126,False,False,False,False,True
+0x79f0bb7a2dce8168163c2f2703bd4c416b2db481,luck,0.0,,Probably luck,895.6834270000002,0.5161290322580645,93,False,False,False,False,True
+0x9a7ce9f78a91bda08637182dad5096e63cd29450,luck,0.0,,Probably luck,-383.16586099999995,0.4444444444444444,45,False,False,False,False,True
+0x87c6638ab216d3be8a401847761996b2a0f78536,luck,0.0,,Probably luck,110.07761800000003,0.7886178861788617,123,False,False,False,True,True
+0x7a30f0271345a941da532f8ba265b30dd6da1115,luck,0.0,,Probably luck,-294.33166000000006,0.4700460829493088,217,False,False,False,False,True
+0x2bf509395a52fa66d3c95e1eae2b9670f18e0090,luck,0.0,,Probably luck,14126.631644000001,0.20909090909090908,220,False,False,False,False,True
+0xa70330ea0969a89d615eac04392adb446b8be378,luck,0.0,,Probably luck,-64.52628700000004,0.7064220183486238,109,False,False,False,True,True
+0xde4eea638fcf1e28997e19d33a05a43083807efb,luck,0.0,,Probably luck,-1851.7495820000004,0.4528301886792453,106,False,False,False,False,True
+0xb4bd092af9bb56a5d6c913821c4eed08172df383,luck,0.0,,Probably luck,5308.358903,0.5454545454545454,264,False,False,False,False,True
+0x4f707ce42424e20f464d9c217598ec68714c7501,luck,0.0,,Probably luck,88.71733000000003,0.4639175257731959,97,False,False,False,False,True
+0x3568589192371e43ea72ecab10163c7ae1d26312,luck,0.0,,Probably luck,-4590.572648999998,0.16964285714285715,112,False,False,False,False,True
+0x31f3f37ab2e15f2bc0d9f1d6889c6107c488ffc6,luck,0.0,,Probably luck,-74.96802999999997,0.7079646017699115,113,False,False,False,True,True
+0x36cca0f21461d5d9d9f6385f50ed3e0918e008e5,luck,0.0,,Probably luck,-100.75954199999997,0.15714285714285714,70,False,False,False,False,True
+0xeba7082428cdee89898dc68436b6fdbf0d1a7dab,luck,0.0,,Probably luck,600.8600139999999,0.5454545454545454,22,False,False,False,False,True
+0x05c45b181dbab32e650d0c21dd46f50e1cae655c,luck,0.0,,Probably luck,-32.393415000000005,0.7763975155279503,161,False,False,False,True,True
+0xf9ad08bafc68e5a8bb8a06cf2953582a2c8973c4,luck,0.0,,Probably luck,-192.37868300000008,0.5142857142857142,70,False,False,False,False,True
+0xb5070fcdd42717cb92749a59b130ab795aaed70d,luck,0.0,,Probably luck,-130.81421900000004,0.23529411764705882,34,False,False,False,False,True
+0x797d4b08ba509b3faac0c8108b0eef59ad51a539,farmer,0.0,,Probably luck,-4.605678999999981,0.9615384615384616,104,False,False,False,True,True
+0x5fa8b1377105e47a3b27e065749bd03f5bad6573,farmer,0.0,,Probably luck,-51.82876199999997,0.9558823529411765,68,False,False,False,True,True
+0x49fad480773499a15769275838d74b9733ed73a7,farmer,0.0,,Probably luck,3.6264999999999468,0.9416058394160584,137,False,False,False,True,True
+0x22e04592efe74066959097e30d80929038778d1a,farmer,0.0,,Probably luck,18.91570799999999,1.0,82,False,False,False,True,True
+0x91ab83957bb55770663bd3e5eeb7c2a3aef15fd7,farmer,0.0,,Probably luck,368.6650720000006,0.9629629629629629,81,False,False,False,True,True
+0xb5ac91ea88b77ce26f2ac61e2f5f6877912751a4,farmer,0.0,,Probably luck,23.05955099999999,0.9739130434782609,115,False,False,False,True,True
+0xcc1481617be2f14af5b49157ad76f815df3a68be,farmer,0.0,,Probably luck,47.652401999999995,1.0,33,False,False,False,True,True
+0xc5f5f9481e7d76c5894fb232418d56319c0682e6,farmer,0.0,,Probably luck,67.634851,0.9875,80,False,False,False,True,True
+0x5c44953c50aefce4aa7b2236a4bf3363bf401656,farmer,0.0,,Probably luck,44.806017999999995,0.9801980198019802,101,False,False,False,True,True
+0x0b3709d6fff7e9ae0ec58204ee5e4385e875c0b7,farmer,0.0,,Probably luck,-0.10556900000000802,0.9538461538461539,65,False,False,False,True,True
+0xd90340cbbf2ee84ef60f75c33bd9bfb056bbd4f8,farmer,0.0,,Probably luck,-6.500119999999956,0.9411764705882353,51,False,False,False,True,True
+0x013fa1ff5390797f4cc3f36d1d7a1ccafad46957,farmer,0.0,,Probably luck,-877.9980530000001,0.9259259259259259,27,False,False,False,True,True
+0x51b04942c5e50280ff57c07c8f9ebd2ef110fe97,farmer,0.0,,Probably luck,46.97882100000004,0.967741935483871,62,False,False,False,True,True
+0x9546712760010b9439e42ec76e4f441c12f27743,farmer,0.0,,Probably luck,-983.4164579999999,0.92,125,False,False,False,True,True
+0xe26740b80a508b70e0e205d25327c10a96e0284f,farmer,0.0,,Probably luck,-5.478872000000003,0.9285714285714286,28,False,False,False,True,True
+0xa383aea88c4e2333a82b2e0d7e56ccd9efdf764c,farmer,0.0,,Probably luck,443.45488800000004,0.9724137931034482,145,False,False,False,True,True
+0x53827ee465fde68db4e7d3a00583803f5e35c1ac,farmer,0.0,,Probably luck,-74.10728699999999,0.9557522123893806,113,False,False,False,True,True
+0xdf020de01076fdf75c99e455f1e295190f9e6c66,farmer,0.0,,Probably luck,156.75665500000008,0.9775280898876404,89,False,False,False,True,True
+0x0e5ddc0b1340a9b5d1a8743929b439d182abac4c,farmer,0.0,,Probably luck,95.66116300000002,1.0,33,False,False,False,True,True
+0x253e1669b3806e420b09e3aa56c2cd2b1f152da3,farmer,0.0,,Probably luck,170.03429500000013,0.9541284403669725,109,False,False,False,True,True
+0xa614a1abe0ccfb66e50d820dc614b99fdfc04783,farmer,0.0,,Probably luck,-15.07629299999996,0.95,100,False,False,False,True,True
+0x9d0b432bd17e7ff037711b7d1338e71e1ebc8f2d,farmer,0.0,,Probably luck,26.189683999999993,1.0,36,False,False,False,True,True
+0x035f90b93f37588f8de0fcadd19ae50ec03b87d2,farmer,0.0,,Probably luck,96.21548699999997,1.0,42,False,False,False,True,True
+0x670cf06e7d4f9a86419f1365ba89582d39a38be8,farmer,0.0,,Probably luck,172.00616299999987,0.9555555555555556,135,False,False,False,True,True
+0x3469fd046df37b6307031a9b9df6c45ad7d39524,farmer,0.0,,Probably luck,-4.038880999999876,0.9558823529411765,136,False,False,False,True,True
+0xf31b7a847603ab8440212ce758ee7094dafab2e2,farmer,0.0,,Probably luck,-93.32815699999995,0.9775280898876404,89,False,False,False,True,True
+0xdc57d5781259ed0cbde5f461a5a62a8deca16676,farmer,0.0,,Probably luck,57.44400599999999,0.9888888888888889,90,False,False,False,True,True
+0x234cb29999f7f23340a6f9ca94d2626862528677,farmer,0.0,,Probably luck,-257.1930779999999,0.9230769230769231,39,False,False,False,True,True
+0xa009ea4c28429cecf451ad65b86792e22bc59f99,farmer,0.0,,Probably luck,47.902576000000046,0.9690721649484536,97,False,False,False,True,True
+0xc1b7d49beb87bb68432d56818500c73b77ee8eed,farmer,0.0,,Probably luck,6.360970999999978,0.9732142857142857,112,False,False,False,True,True
+0xe57e2e1b10bec96fb1d2e7eab5980f2087afdf6a,farmer,0.0,,Probably luck,-28.551056000000013,0.96,75,False,False,False,True,True
+0x9f4d4c527b7fa00023285ed1f91c63b35e30b0f9,farmer,0.0,,Probably luck,-61.45476199999996,0.9206349206349206,63,False,False,False,True,True
+0xd987d3515bb6a76a65e03f7c25cbbecb42c6916f,farmer,0.0,,Probably luck,33.68936100000003,0.9635036496350365,137,False,False,False,True,True
+0x862ea5b7c94cd693e71c08d9dd2a260f8033b834,farmer,0.0,,Probably luck,-140.06567099999995,0.9274193548387096,124,False,False,False,True,True
+0x7ce2bf1d988a6de968530c9fc24645d1e6ebf476,farmer,0.0,,Probably luck,196.2076,0.975,80,False,False,False,True,True
+0x482958c732ebabf71beeb35ee3700a755a28d25f,farmer,0.0,,Probably luck,1435.159885,0.9741379310344828,116,False,False,False,True,True
+0xb1ccd8c61d5a95e46d84bacd5e8f149d3dcc98e5,farmer,0.0,,Probably luck,45.041335000000025,0.9555555555555556,90,False,False,False,True,True
+0xaf336590b1fcfc8c17ecee8602f0f47e7185dc30,farmer,0.0,,Probably luck,-10.423381000000022,0.9323308270676691,133,False,False,False,True,True
+0x2d7173fbd70482a5a19d75e13f737d197c5e7f29,farmer,0.0,,Probably luck,22.305969000000033,0.9661016949152542,59,False,False,False,True,True
+0x09937904d38db125c9e11553b27ad5d72ec78d2f,farmer,0.0,,Probably luck,-229.44122499999997,0.9540229885057471,87,False,False,False,True,True
+0x38a1bf628a1c77845b936a24f29f34fcf7f7a290,farmer,0.0,,Probably luck,56.12036200000001,0.96875,64,False,False,False,True,True
+0x420433831655ed42625da3c4472c976cf24f43db,farmer,0.0,,Probably luck,4.096706000000005,0.953125,64,False,False,False,True,True
+0xb26b1a68c3697aa271eceb49403e20fb35b3593a,farmer,0.0,,Probably luck,-15.279351999999978,0.8837209302325582,43,False,False,False,True,True
+0x5008b72a7f0c58c80b5d9fdaa3cfc34b9c066914,farmer,0.0,,Probably luck,-376.25417000000016,0.9491525423728814,118,False,False,False,True,True
+0x094a880837d54ffa498837ea841ff10f7b6e5c1b,farmer,0.0,,Probably luck,46.47944700000002,0.9789473684210527,95,False,False,False,True,True
+0x064a50ed4929ce4ec9f2c01513f7cbc5bfa9abc9,farmer,0.0,,Probably luck,-101.56698200000001,0.9545454545454546,44,False,False,False,True,True
+0xe9c45ccd7749414d2b2d789db32b7386661fd675,farmer,0.0,,Probably luck,-85.86458700000006,0.92,25,False,False,False,True,True
+0x01b92ba48492a1c65b910c2f57d79150c2b992a8,farmer,0.0,,Probably luck,18.796316000000047,0.9767441860465116,43,False,False,False,True,True
+0xfca45af55c5eaf4d8571525f5da60f8b97f144c2,farmer,0.0,,Probably luck,-237.80283999999983,0.9130434782608695,46,False,False,False,True,True
+0x525002b5de1ea09e7cee0e2955a63fd894f05e2f,farmer,0.0,,Probably luck,-1.1785109999999968,0.9565217391304348,46,False,False,False,True,True
+0x835433b9be7602872622321913b2689d4f57b1ae,farmer,0.0,,Probably luck,-78.08001,0.9466666666666667,75,False,False,False,True,True
+0xd08af5d77fb620cb885c0ddb3a963d74c07b7523,farmer,0.0,,Probably luck,77.85902800000004,0.9733333333333334,75,False,False,False,True,True
+0x1e7a72e7a1f5995fc98d1e0bc33b2a97f9731768,farmer,0.0,,Probably luck,-278.4286399999999,0.9105691056910569,123,False,False,False,True,True
+0x1e5b226cecebaf1d32127ec01f44ade9cb10d2c2,farmer,0.0,,Probably luck,-290.25257700000003,0.9024390243902439,41,False,False,False,True,True
+0x9d32e523e896336c3c85188763a99bed228b2fb3,farmer,0.0,,Probably luck,54.06381999999998,0.9605263157894737,76,False,False,False,True,True
+0xb07af04f2837b776e6471c3fc08a42ab206f5fc4,farmer,0.0,,Probably luck,46.91260200000017,0.9753086419753086,81,False,False,False,True,True
+0xa796ae6de5ef26b21c67c4100e9be8d9d2e6c3a1,farmer,0.0,,Probably luck,153.95831499999997,0.9868421052631579,76,False,False,False,True,True
+0x69d31ea6215457bc53c3b72f3b9e4b7d87e4d86e,farmer,0.0,,Probably luck,133.47936,1.0,63,False,False,False,True,True
+0xe7034c6ec99aaf5bcac5b5e2dd7fca91c3242ed8,farmer,0.0,,Probably luck,-4.614273999999977,0.9761904761904762,42,False,False,False,True,True
+0x0a20b708dc4648d8d2ca71af6013e7e33b864d16,farmer,0.0,,Probably luck,-444.87313200000017,0.9090909090909091,44,False,False,False,True,True
+0xa7139daa7e9435c87f227780fb9fb4023c686356,farmer,0.0,,Probably luck,7.739191000000002,1.0,31,False,False,False,True,True
+0xc0cdb496cf510202dad990f9d23d1a77a0b27012,farmer,0.0,,Probably luck,-36.79541500000013,0.9574468085106383,141,False,False,False,True,True
+0x0eb3720bf89ab585d5a2e42a885a0f2dd768abd3,farmer,0.0,,Probably luck,-39.682165999999995,0.925,40,False,False,False,True,True
+0x7b5f2a4e9b077fd4a42138f7a271c33f0535cbc3,farmer,0.0,,Probably luck,-44.735367,0.9333333333333333,90,False,False,False,True,True
+0x6b1b29a34d241c57f88f73366570702582622ba4,farmer,0.0,,Probably luck,-151.65594699999994,0.9529411764705882,85,False,False,False,True,True
+0x1367565656f7e68016720945306318b602927e67,farmer,0.0,,Probably luck,-12.38416599999998,0.9606299212598425,127,False,False,False,True,True
+0x4bb2203e0cf180b54bd8f2aebffe1b5ecd6cc7cb,farmer,0.0,,Probably luck,74.945693,0.987012987012987,77,False,False,False,True,True
+0xde20472916be8be281ab465e5473b4bd86d98892,farmer,0.0,,Probably luck,32.98099899999999,0.9492753623188406,138,False,False,False,True,True
+0x7caba67ee0d26860b51af0f2c9326153336d5cc8,farmer,0.0,,Probably luck,88.76218999999992,0.9705882352941176,68,False,False,False,True,True
+0xed31232ea2529f0e8ef3e0850e97537ac63ccbd6,farmer,0.0,,Probably luck,-719.2397619999995,0.9375,64,False,False,False,True,True
+0xa732c47b5c78c3917d9910eb69bd099226cc3012,farmer,0.0,,Probably luck,-213.05634000000006,0.94,100,False,False,False,True,True
+0x47e1af8c29114c159765b104381a075031e5806e,farmer,0.0,,Probably luck,100.43542700000005,0.9775280898876404,89,False,False,False,True,True
+0xe3c2b26f7aee44706745111ff549641c9fa9073d,farmer,0.0,,Probably luck,128.22431299999994,0.9482758620689655,58,False,False,False,True,True
+0xfa8c5198a703a87f875b3d8aecd41e86d293942f,farmer,0.0,,Probably luck,30.86846199999999,1.0,35,False,False,False,True,True
+0x4ad90fdcdeb5c55f0af755f9c33db96361795a14,farmer,0.0,,Probably luck,-52.28068500000003,0.9514563106796117,103,False,False,False,True,True
+0xc3df0bf4ca0cc893903c4d00d692cb6d48435c8e,farmer,0.0,,Probably luck,193.5489429999999,0.9657534246575342,146,False,False,False,True,True
+0xc25ba92a5658a5be8f1ec89cce05cd2cd84c1f5d,farmer,0.0,,Probably luck,852.0868780000002,0.9787234042553191,141,False,False,False,True,True
+0x491f3355f497a473ed20f862dea47a7db8e28296,farmer,0.0,,Probably luck,-144.67211199999994,0.9496402877697842,139,False,False,False,True,True
+0xbd3bcbbe59cc499acd96525b6f0acae006dc7137,farmer,0.0,,Probably luck,174.472607,0.967479674796748,123,False,False,False,True,True
+0x1bcf9a252c615f1171e7e9c4f1a1abfd7cc4923b,farmer,0.0,,Probably luck,278.22735900000015,0.9827586206896551,116,False,False,False,True,True
+0xf09f8951abe2bfc42b5619eb0aa3c29a20615064,farmer,0.0,,Probably luck,386.1987939999999,1.0,32,False,False,False,True,True
+0x2da280c38a5ac51d8f07c49e72da90021d0cc748,farmer,0.0,,Probably luck,976.4764569999998,0.9645390070921985,141,False,False,False,True,True
+0xc36892851678feaa962394a81de2581baaa6af3b,farmer,0.0,,Probably luck,878.21631,0.9826086956521739,115,False,False,False,True,True
+0x7d3a67170409a727c4c0c35572a58e42804b2416,farmer,0.0,,Probably luck,36.57880600000001,1.0,25,False,False,False,True,True
+0x861d67ae85864bbb67167c72f9e0d041a74288e1,farmer,0.0,,Probably luck,-107.02532200000002,0.96,50,False,False,False,True,True
+0xe466dd19b38bd866769da3a396774a24685d2ddb,farmer,0.0,,Probably luck,5.218303999999995,0.9690721649484536,97,False,False,False,True,True
+0x4fb7273d3f78f1d008b89f0e2684ebca1ec07386,farmer,0.0,,Probably luck,-6.7773409999999785,0.9590163934426229,122,False,False,False,True,True
+0x4592c8750826cfa34d95919681884b19cfda9ed3,farmer,0.0,,Probably luck,-103.73696900000007,0.9571428571428572,140,False,False,False,True,True
+0xf55e0263ca9caea61d17b58efc258e527dc3508b,farmer,0.0,,Probably luck,-197.19504200000017,0.9523809523809523,21,False,False,False,True,True
+0x79972a9baaf574f01c1c6f9a02ebb74409d5acc6,farmer,0.0,,Probably luck,-53.981669999999966,0.9347826086956522,46,False,False,False,True,True
+0x29829e485c4c6afa3bcc4adc63bc128cdd1852ed,farmer,0.0,,Probably luck,1598.1377010000003,0.9753086419753086,81,False,False,False,True,True
+0x6597fd96d670ffa348dbe73d2a654992158bfaf5,farmer,0.0,,Probably luck,90.8446390000001,0.9795918367346939,98,False,False,False,True,True
+0xf3da5f9ab7b5bc9fdad4844776e3c7e18629b43d,farmer,0.0,,Probably luck,-19.542985999999956,0.9571428571428572,70,False,False,False,True,True
+0x3cb3871e8e56de3d58b4aa0fb0df801636af12a7,farmer,0.0,,Probably luck,10.865498000000038,0.9701492537313433,67,False,False,False,True,True
+0xffbbc5693fd8cab24d95edfb5c86e69e33bace70,farmer,0.0,,Probably luck,380.2015940000001,0.9818181818181818,55,False,False,False,True,True
+0xb48dee59dc35dbea4c347b3072d013cfb43be99f,farmer,0.0,,Probably luck,409.11235199999993,0.9838709677419355,124,False,False,False,True,True
+0x1015d75efc52511cd4f34bb8de87284f1ccc3129,farmer,0.0,,Probably luck,1.4500790000000041,0.9850746268656716,67,False,False,False,True,True
+0x6c70b006c60f3a6e64fb1c8e83479b684d3e07ab,farmer,0.0,,Probably luck,-70.14673899999994,0.9555555555555556,45,False,False,False,True,True
+0x980ff73dc0cac9277af7c8d9d62073aea7d4053c,farmer,0.0,,Probably luck,279.89984400000037,0.9795918367346939,49,False,False,False,True,True
+0x62c28afb2f201bbebecc7aaa2d0110954859eb6a,farmer,0.0,,Probably luck,-75.08905399999996,0.9444444444444444,108,False,False,False,True,True
+0xa8deea7a5606019b8c46c6fe9ab22ebeaaff2876,clustered,0.0,,Can't tell yet,69.69858400000001,0.8888888888888888,9,False,False,False,True,True
+0x615532baf974deeb0482c29238dbe0b75e0e9111,clustered,0.0,,Can't tell yet,733.7143779999999,0.9090909090909091,11,False,False,False,True,True
+0xa54cacc9cddb9cc6d2b7b08f2c1173e05ed5a848,clustered,0.0,,Can't tell yet,24.905152,0.9090909090909091,11,False,False,False,True,True
+0xed997f336356fb1d511fcf1e6234ca9463cdfcb5,clustered,0.0,,Can't tell yet,44.713195,0.9,10,False,False,False,True,True
+0xdbe83d88cdc22af98167f2902be6184af734e412,clustered,0.0,,Can't tell yet,533.044212,0.7777777777777778,9,False,False,False,True,True
+0x6e7eb8b88543f9e812f0e4067308059eae5f04bd,clustered,0.0,,Can't tell yet,49.55537699999997,0.7,10,False,False,False,False,True
+0x128a3003b54828d96e6c75ca3b7d4f166c9f7baa,clustered,0.0,,Can't tell yet,72.23703199999997,0.8571428571428571,7,False,False,False,True,True
+0xf46d69f02c5e51bfeb7a760e3e3f6928cb4f703c,clustered,0.0,,Can't tell yet,1398.200955,1.0,8,False,False,False,True,True
+0xb01063bf048cb0c94ce7e9033fd4d1e2dfd55a50,clustered,0.0,,Can't tell yet,381.87858100000005,0.9166666666666666,12,False,False,False,True,True
+0x6e357e41e5df258f70fd62fedf0382934abab7dc,clustered,0.0,,Can't tell yet,32.757805999999995,0.8888888888888888,9,False,False,False,True,True
+0xe40b15d53ad185bb70fefb3e936f7c093154dc72,clustered,0.0,,Can't tell yet,48.93163599999991,0.5555555555555556,9,False,False,False,False,True
+0xdb398620b6db4a92a57ee2b74dd20dc25ef1ee8e,clustered,0.0,,Can't tell yet,2602.6759289999995,0.7777777777777778,9,False,False,False,True,True
+0x5653eca72b2613e9a845357db3a13de5aae6b490,clustered,0.0,,Can't tell yet,154.03706400000002,0.9090909090909091,11,False,False,False,True,True
+0x89d2fba05b85f84013845fcf3fc32ccf6ccd9574,clustered,0.0,,Can't tell yet,975.998403,1.0,7,False,False,False,True,True
+0x373b2abc8a584b0a698fc33506a554b470631be0,clustered,0.0,,Can't tell yet,765.318867,0.7272727272727273,11,False,False,False,True,True
+0xf9ca473823df1ce91ae7c8072956464b99dd4da5,clustered,0.0,,Can't tell yet,205.17926,0.9090909090909091,11,False,False,False,True,True
+0x4d9127f86b3990f3fcc8d489a0cbed5dc87f921e,clustered,0.0,,Can't tell yet,25.681785,0.7,10,False,False,False,False,True
+0x92176e38efe943f604f65d160ae284f9bf3a7902,clustered,0.0,,Can't tell yet,121.19179199999996,0.75,8,False,False,False,True,True
+0x9326da6a3092bc396e2c8d272cb7deb0c9665129,clustered,0.0,,Can't tell yet,202.65042400000002,0.8888888888888888,9,False,False,False,True,True
+0x46b708567c18fe85299ac6ef4642244d51e9c640,clustered,0.0,,Can't tell yet,234.51957100000004,0.875,8,False,False,False,True,True
+0x106aa316d8a7be123abacecf4f9ef5d6de359101,clustered,0.0,,Can't tell yet,54.926564000000006,0.7272727272727273,11,False,False,False,True,True
+0xb72b13a388ed7b75f9d8de6e86f4cb7aa7d41d05,clustered,0.0,,Can't tell yet,190.20195,0.9,10,False,False,False,True,True
+0x46e1b1fbd94c57ff89b3d1086c4b14dc88605d2d,clustered,0.0,,Can't tell yet,190.59241700000004,0.8333333333333334,12,False,False,False,True,True
+0x1f5f94c3e37f14d1606a5c81fc59fb37ab81e7ba,clustered,0.0,,Can't tell yet,311.191658,0.8888888888888888,9,False,False,False,True,True
+0xbd21d550f8d443eb6f3cf45227798c60bc077cfc,clustered,0.0,,Can't tell yet,204.728096,0.8181818181818182,11,False,False,False,True,True
+0xc37b7498dac3458e1aafd433aff04c6979640b0b,clustered,0.0,,Can't tell yet,455.16486000000015,0.7777777777777778,9,False,False,False,True,True
+0x98548915c85f8fc3e9a776270a75150e0fd4f1a2,clustered,0.0,,Can't tell yet,754.3840749999998,0.8888888888888888,9,False,False,False,True,True
+0x7187e0929553e00a8f5aa0b9a5c721b96ab69c0a,clustered,0.0,,Can't tell yet,122.57721500000001,0.7777777777777778,9,False,False,False,True,True
+0xaaf6b63f100815a5f49846bfb878928f852e4b86,clustered,0.0,,Can't tell yet,2280.74711,0.9,10,False,False,False,True,True
+0x9e990dd4ee53a2952f5fa56a038e7d61d8bb4809,clustered,0.0,,Can't tell yet,231.303509,1.0,7,False,False,False,True,True
+0x5d20971823b19bc4b934d4da786d7220d4dbb35e,clustered,0.0,,Can't tell yet,114.70969299999999,0.6666666666666666,12,False,False,False,False,True
+0xca1d8318aab5abc5e7e798c8494d5b7162c59796,clustered,0.0,,Can't tell yet,151.306922,0.8888888888888888,9,False,False,False,True,True
+0x8785cadfbcccf6656db0dd9ff944b303675ab1a3,clustered,0.0,,Can't tell yet,635.8329170000001,0.75,8,False,False,False,True,True
+0x56fc36108306736c9fdd5871b7ccee15637557fa,clustered,0.0,,Can't tell yet,168.336704,0.7777777777777778,9,False,False,False,True,True
+0x5d34d7f8efdb3788cb4569767bbf741634966c90,clustered,0.0,,Can't tell yet,72.62586199999997,0.8,10,False,False,False,True,True
+0xad928de7e945c002dc65bc21a661593262922f3d,clustered,0.0,,Can't tell yet,2087.197836,1.0,9,False,False,False,True,True
+0x548adec157241353d10c24b3a942bab7cf1740b6,clustered,0.0,,Can't tell yet,64.130106,0.7777777777777778,9,False,False,False,True,True
+0x37f0d25282be126f6b7de43ba0e1cf18487dd757,clustered,0.0,,Can't tell yet,1469.874855,0.8888888888888888,9,False,False,False,True,True
+0x80a871ce03068f551fd6df63de43799023682149,clustered,0.0,,Can't tell yet,74.370993,0.8888888888888888,9,False,False,False,True,True
+0x41dc59c353f0d1a211b027633f99586dd1c07c59,clustered,0.0,,Can't tell yet,690.0072570000001,0.6666666666666666,9,False,False,False,False,True
+0x9fbcb4c106b356467261549618866fde6c9fef0b,clustered,0.0,,Can't tell yet,-48.287895000000006,0.5,10,False,False,False,False,True
+0x4e176bc3cd7b9c4d1c17c25e1d04d0d4fc5a96de,clustered,0.0,,Can't tell yet,244.30096300000005,0.8,10,False,False,False,True,True
+0x123528b0ff5e1e31d22a1a74ba61e3eb0e91dee8,clustered,0.0,,Can't tell yet,-266.64488399999993,0.6666666666666666,9,False,False,False,False,True
+0xe2413b5bab385aa9d7265273655863a4f510809c,clustered,0.0,,Can't tell yet,54.684843,0.8571428571428571,7,False,False,False,True,True
+0xdd5f9aa50840ac9b6e2afc1d0e95fd8ad3a4cf27,clustered,0.0,,Can't tell yet,111.85334099999997,0.8,10,False,False,False,True,True
+0x62439832ce849cdd7708f46555e22f1d688d1c55,clustered,0.0,,Can't tell yet,-26.697171999999973,0.8,10,False,False,False,True,True
+0x99e36426949a139e007601a13551e00e22692a94,clustered,0.0,,Can't tell yet,172.48504799999998,0.9,10,False,False,False,True,True
+0xdf8bc94e78a5b4a5604e85a6ec31dfccaa116f62,clustered,0.0,,Can't tell yet,169.62659299999999,1.0,7,False,False,False,True,True
+0xbf2513822d61e4c096a1f99ed2f2beb23eaf119a,clustered,0.0,,Can't tell yet,27157.993849,0.6363636363636364,11,False,False,False,False,True
+0xd5eb8ae756a6a696f1c1cfffdbd8bac6f7cc602f,clustered,0.0,,Can't tell yet,539.443727,0.9,10,False,False,False,True,True
+0x98dd6433f1a7037f58ff7fede4f4083500f4a83c,clustered,0.0,,Can't tell yet,328.77076999999997,0.9166666666666666,12,False,False,False,True,True
+0x41b6b835e170801fa75b12a3fc1d0ee3952e2136,clustered,0.0,,Can't tell yet,736.698819,0.8888888888888888,9,False,False,False,True,True
+0xba9eb6a1a0385fd74067ae189a6f48d7a4034284,clustered,0.0,,Can't tell yet,112.39876599999998,0.875,8,False,False,False,True,True
+0x6639c50b81567dfab66549c229fc68a6e78b40e2,clustered,0.0,,Can't tell yet,44.110962,0.6923076923076923,13,False,False,False,False,True
+0x8c11893d639bbe4e12e6eaaee36bcd26ca828feb,clustered,0.0,,Can't tell yet,-121.39676600000007,0.6666666666666666,9,False,False,False,False,True
+0xfb064d7b0ef090e6959a57d72b3263bbd9800e0c,clustered,0.0,,Can't tell yet,126.763252,0.8571428571428571,7,False,False,False,True,True
+0x312fab97b8e6f659f2f25cdc7548dfb045aeb492,clustered,0.0,,Can't tell yet,349.944921,0.75,8,False,False,False,True,True
+0x4b6f5089dbf3618052746074250f04fff4f9a5f0,clustered,0.0,,Can't tell yet,1205.496838,0.9090909090909091,11,False,False,False,True,True
+0x9f34397adc00762ce77701b6160355afb6aad618,clustered,0.0,,Can't tell yet,733.992103,0.75,12,False,False,False,True,True
+0xa18b30f38a64192267680eed67848f916047fc2c,clustered,0.0,,Can't tell yet,2242.970901,0.8181818181818182,11,False,False,False,True,True
+0xe827ae1a53419fd0aff541cbf61970b3d6340e81,clustered,0.0,,Can't tell yet,447.74793100000005,0.8888888888888888,9,False,False,False,True,True
+0x59c8f239a818fd7f00fd36aa3e981d41f9b96abc,clustered,0.0,,Can't tell yet,367.81942000000004,0.8181818181818182,11,False,False,False,True,True
+0x134d817a0d3e67bca76ec579b67f88823f8dcd02,clustered,0.0,,Can't tell yet,80.07050400000001,0.8,10,False,False,False,True,True
+0x98746d04b858543121d21621f8ad153ca12a5b23,clustered,0.0,,Can't tell yet,1006.1203750000002,0.7777777777777778,9,False,False,False,True,True
+0xa7535f8dc0480f344b7e0150e2376a1aaf55c3da,clustered,0.0,,Can't tell yet,-14.773202000000012,0.7142857142857143,7,False,False,False,True,True
+0x8b35fc4f67ee5906c668f9cf316f4293e3656cec,clustered,0.0,,Can't tell yet,375.061518,0.75,8,False,False,False,True,True
+0x1f0ef14ddec90971b3fa89c01598dc6ae364543a,clustered,0.0,,Can't tell yet,-35.606384000000006,0.6,10,False,False,False,False,True
+0x03a8449085fbcb4770f99da8338442a2f25ccf82,clustered,0.0,,Can't tell yet,44.982932,0.9,10,False,False,False,True,True
+0x1c0078260b9756dc361f027c698959e1e63d19d9,clustered,0.0,,Can't tell yet,11.416482999999985,0.75,12,False,False,False,True,True
+0x5a312478a74aec434195073778cc3aede142ce9f,clustered,0.0,,Can't tell yet,175.023575,0.7777777777777778,9,False,False,False,True,True
+0x4f591e9bc8d93d2f890e43422d0e6ec64d0c33de,clustered,0.0,,Can't tell yet,147.959649,0.7272727272727273,11,False,False,False,True,True
+0xd8b6f14221e3fe114222e1f41882cf777a49cd1d,clustered,0.0,,Can't tell yet,861.8492979999999,0.7,10,False,False,False,False,True
+0x571c87645fa21320f49e87ee7b66938732f26ab5,clustered,0.0,,Can't tell yet,194.394066,0.8,10,False,False,False,True,True
+0xed54d1be26a8961603ab711932880b3f92a2ef9e,clustered,0.0,,Can't tell yet,23.596264000000005,0.6666666666666666,9,False,False,False,False,True
+0xf3ce0dc4fbfc9e15e40cf5ed7557910f531b2572,clustered,0.0,,Can't tell yet,68.638609,0.7692307692307693,13,False,False,False,True,True
+0xa0a6b3825ef38c60af051cacf838298803367412,clustered,0.0,,Can't tell yet,164.93817799999994,0.7142857142857143,7,False,False,False,True,True
+0xea02e78a371c2dcae198c671ca62709278295b71,clustered,0.0,,Can't tell yet,485.59507400000007,0.8571428571428571,7,False,False,False,True,True
+0xf0299a2946e9b7ff819909b35374285ed1788c1b,clustered,0.0,,Can't tell yet,5.035491999999998,0.75,8,False,False,False,True,True
+0x95aee31d9a85f95b05ae4f4582d322bfca28a131,clustered,0.0,,Can't tell yet,73.61628000000002,0.5,10,False,False,False,False,True
+0x8a32e63f0fa15dc49f6a2f4c5ab9ef2f2219a724,clustered,0.0,,Can't tell yet,74.71341299999997,0.8181818181818182,11,False,False,False,True,True
+0xd9a502434af9fa3c5d454e301ee58f93b69d1c45,slow,0.35,,Skilled but not copyable,7694.666899,0.8764044943820225,89,True,False,False,True,True
+0xd38356082cf959982efb342f1aec1902fbfbca67,slow,0.35,,Skilled but not copyable,12449.673965,0.8840579710144928,69,True,False,False,True,True
+0x8bbea04ea55149c7dca06f5d6c3596ca48e14de9,slow,0.35,,Skilled but not copyable,15134.840366,0.7555555555555555,45,True,False,False,True,True
+0xfbae158b96061368906a80bffb47b83f9298b8fb,slow,0.35,,Skilled but not copyable,26408.317130000003,0.8461538461538461,104,True,False,False,True,True
+0xbba7d0ddf7fa0351bbf189d2ebe6518e1b691175,slow,0.35,,Probably luck,14581.944517000002,0.8227848101265823,79,False,False,False,True,False
+0x78fbe2c9493467c94e5886f5aba91fa033957622,slow,0.35,,Skilled but not copyable,883.8893279999999,0.9120879120879121,91,True,False,False,True,True
+0x8974a68fb4123e387204cad414a35a8b001179d5,slow,0.35,,Skilled but not copyable,1056.0764589999999,0.8227848101265823,79,True,False,False,True,True
+0x093e8200d823885683a538987a88b5049476a1f1,slow,0.35,,Skilled but not copyable,3923.269576999999,0.8333333333333334,78,True,False,False,True,True
+0x78936237637ba961e2ca561e09fc0d8b4a8d3222,slow,0.35,,Probably luck,2544.921546,0.8548387096774194,62,False,False,False,True,False
+0xa7a7149a7e650bacd429d9fe6663d37383249913,slow,0.35,,Skilled but not copyable,37718.334043,0.8392857142857143,112,True,False,True,True,True
+0x941ccbf857992243f9565234ba1a1c2e0b2ec81d,slow,0.35,,Skilled but not copyable,23150.313581999995,0.8349514563106796,103,True,False,False,True,True
+0x2a50b12b51347e6315b74f3b37f262673783be12,slow,0.35,,Skilled but not copyable,88676.753891,0.8681318681318682,91,True,False,True,True,True
+0x4f16eba266cd3eff57acf57123156a78cde70dd8,slow,0.35,,Skilled but not copyable,26454.499031000003,0.883495145631068,103,True,False,False,True,True
+0xf4f0a0b120ed773e32e817efff6ea41d5af0bb29,slow,0.35,,Skilled but not copyable,15227.180726,0.8703703703703703,54,True,False,False,True,True
+0x10e30db449800b9d89fd5358ecaa058970b088eb,slow,0.35,,Skilled but not copyable,967.2481479999999,0.8604651162790697,86,True,False,False,True,True
+0xb37d703e351556d35fdd3de40624ceb7ea12c36c,slow,0.35,,Skilled and copyable,735.331168,0.9523809523809523,42,True,True,False,True,False
+0xe48376bbeca90bb4fbb414d11a6636f8ca580e51,slow,0.35,,Skilled but not copyable,8876.597512,0.8,75,True,False,False,True,True
+0x13d1879226df8b09c686d24e1ed039af8eb548ae,slow,0.35,,Skilled but not copyable,43122.13751999999,0.8488372093023255,86,True,False,True,True,True
+0xb637cb34064e87e2622466710cd53c58efb5506a,slow,0.35,,Skilled but not copyable,23648.331241999997,0.8362068965517241,116,True,False,False,True,True
+0xdd06fabea06f3ba02dd18d2faa0c5f98c0bd03f1,slow,0.35,,Skilled but not copyable,3395.7971789999992,0.8414634146341463,82,True,False,False,True,True
+0x33062d15b53037878b0cc9566adf15b1bbc66ddd,slow,0.35,,Skilled but not copyable,3784.020819,0.8160919540229885,87,True,False,False,True,True
+0xcfcc04a2936b179dd6d9068ab84b13a327f8fdf4,slow,0.35,,Probably luck,27346.154064,0.8333333333333334,84,False,False,False,True,False
+0xde894b419b04455e36b8881a416931af10105a37,slow,0.35,,Skilled but not copyable,129556.21406999997,0.8909090909090909,110,True,False,True,True,True
+0x3e79e7fb302c0d064218ecda77a4ec76c81fe9d8,slow,0.35,,Skilled but not copyable,76707.32189899997,0.75,44,True,False,True,True,True
+0xcd1cc2034f9a68632569fcd05774d2be25d55476,slow,0.35,,Skilled but not copyable,34962.716110999994,0.8620689655172413,87,True,False,False,True,True
+0x3046e554c505bca6afcabfa43b138b1dd552430b,slow,0.35,,Skilled but not copyable,16050.702285999998,0.8059701492537313,67,True,False,False,True,True
+0x890371da5cddf352ee36046a7376c15c4ecfae72,slow,0.35,,Skilled but not copyable,3293.625384,0.782608695652174,46,True,False,False,True,True
+0xfa0e0c6b4beee21689c68ca93118204999de1f0d,slow,0.35,,Skilled but not copyable,47795.640629999994,0.898989898989899,99,True,False,True,True,True
+0xd4136a9cc0df1a2c108535a45e947ba708c161fa,slow,0.35,,Skilled but not copyable,32142.858461000003,0.8793103448275862,116,True,False,False,True,True
+0xa00c67f0fb6cea75fc41f30965343af51d4e26c3,slow,0.35,,Skilled but not copyable,107949.73901400002,0.875,112,True,False,True,True,True
+0x682e40e9a2a1cf97e823978584083dada3db854a,slow,0.35,,Skilled but not copyable,553.750043,0.8372093023255814,43,True,False,False,True,True
+0xe47495c6afd9a732d17b41d397573a69ec5735d1,slow,0.35,,Skilled but not copyable,66239.02575300001,0.8588235294117647,85,True,False,True,True,True
+0xa6a6dd670ad7c30705ccd023b11b61dc7c94a478,slow,0.35,,Skilled but not copyable,5530.912593999999,0.8367346938775511,98,True,False,False,True,True
+0xfe71c868aaed02325f762d3be59d5efd34752a7a,slow,0.35,,Skilled and copyable,5885.656107000001,0.9552238805970149,67,True,True,False,True,False
+0xb1329ce6af350ce4fd256679330eac387542c12d,slow,0.35,,Skilled but not copyable,148251.880395,0.8775510204081632,98,True,False,True,True,True
+0x23dc22b37571df8243a51166db162bbb77c50ff6,slow,0.35,,Skilled but not copyable,10467.958424,0.8541666666666666,48,True,False,False,True,True
+0x26b35561c508ca65267bb232f73d606e6c9bcd46,slow,0.35,,Skilled but not copyable,4665.858827999999,0.7938144329896907,97,True,False,False,True,True
+0x649615b09cf305ff95133cdec161a2919de1e9c0,slow,0.35,,Skilled but not copyable,37412.0546,0.8571428571428571,56,True,False,False,True,True
+0xcb9318a7696d58074a9b7276820236aeff879ee8,slow,0.35,,Skilled but not copyable,30303.429457,0.8645833333333334,96,True,False,False,True,True
+0x159e5dc817886dda43780af93cefa0c995f076f5,slow,0.35,,Skilled but not copyable,10329.04749,0.9047619047619048,84,True,False,False,True,True
+0xc6448e511c072c040d83ef1065f8b17be4f4a91d,farmer,0.0,hook_25_0 (found after 261 farmers),Probably luck,31.253833999999987,1.0,25,False,False,False,True,True
+0x4b55558b5dd5a0be91617debaa0c113ce47eac90,skilled,0.15,contrast_skilled,Skilled and copyable,4691.581054,0.65,220,True,True,False,False,True
+0x1978fad60b1851ac8c24655ed47bada9a8daffb2,clustered,0.0,unclear_for_live_control,Can't tell yet,152.6258449999999,0.7272727272727273,11,False,False,False,True,True

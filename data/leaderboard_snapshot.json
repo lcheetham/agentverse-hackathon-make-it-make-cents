@@ -1,0 +1,76 @@
+{
+ "fetched_at": 1794073097.0,
+ "about": "the ten wallets copied in the real-data test (Polymarket monthly leaderboard, 7 Nov 2026). Profit figures were not stored with this copy.",
+ "rows": [
+  {
+   "rank": 1,
+   "address": "0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+   "name": null,
+   "profit": null,
+   "volume": null
+  },
+  {
+   "rank": 2,
+   "address": "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
+   "name": null,
+   "profit": null,
+   "volume": null
+  },
+  {
+   "rank": 3,
+   "address": "0x3eb31daa061a19855cbf0a4884c202fb86976a2a",
+   "name": null,
+   "profit": null,
+   "volume": null
+  },
+  {
+   "rank": 4,
+   "address": "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7",
+   "name": null,
+   "profit": null,
+   "volume": null
+  },
+  {
+   "rank": 5,
+   "address": "0x5fdd66ffd0325d4e8d1d86fbec50caa31770a747",
+   "name": null,
+   "profit": null,
+   "volume": null
+  },
+  {
+   "rank": 6,
+   "address": "0xe18ecc345e00ee7c4f2d1f676f3dd2acb112f826",
+   "name": null,
+   "profit": null,
+   "volume": null
+  },
+  {
+   "rank": 7,
+   "address": "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+   "name": null,
+   "profit": null,
+   "volume": null
+  },
+  {
+   "rank": 8,
+   "address": "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+   "name": null,
+   "profit": null,
+   "volume": null
+  },
+  {
+   "rank": 9,
+   "address": "0xc4d1a863e9cc45d02ba22d3a1ae9ba7822018ce8",
+   "name": null,
+   "profit": null,
+   "volume": null
+  },
+  {
+   "rank": 10,
+   "address": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+   "name": null,
+   "profit": null,
+   "volume": null
+  }
+ ]
+}

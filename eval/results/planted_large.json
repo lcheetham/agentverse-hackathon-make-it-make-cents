@@ -1,0 +1,296 @@
+{
+  "synthetic": true,
+  "data": "data/planted_large",
+  "n_wallets": 1003,
+  "freeze_hash": "92465b6b62360be3",
+  "types": {
+    "luck": 700,
+    "farmer": 101,
+    "skilled": 81,
+    "clustered": 81,
+    "slow": 40
+  },
+  "judges": {
+    "engine": {
+      "name": "This engine (frozen)",
+      "false_alarm (no-skill called skilled)": {
+        "k": 0,
+        "n": 882,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.004336666961678025
+      },
+      "recommends copying a no-skill wallet": {
+        "k": 0,
+        "n": 882,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.004336666961678025
+      },
+      "precision (of copy calls, truly skilled & copyable)": {
+        "k": 12,
+        "n": 14,
+        "rate": 0.8571428571428571,
+        "lo": 0.600580922361363,
+        "hi": 0.9599069262620787
+      },
+      "copy_calls": 14,
+      "overall correct": {
+        "k": 910,
+        "n": 1003,
+        "rate": 0.9072781655034895,
+        "lo": 0.887741108426603,
+        "hi": 0.92370728623647
+      },
+      "not-copyable caught (slow -> 'Skilled but not copyable')": {
+        "k": 16,
+        "n": 40,
+        "rate": 0.4,
+        "lo": 0.2634811061240136,
+        "hi": 0.5540438017260649
+      },
+      "95c farmers -> 'Probably luck'": {
+        "k": 101,
+        "n": 101,
+        "rate": 1.0,
+        "lo": 0.9633580563440465,
+        "hi": 0.9999999999999998
+      },
+      "cluster traps not called skilled": {
+        "k": 81,
+        "n": 81,
+        "rate": 1.0,
+        "lo": 0.954720325877871,
+        "hi": 0.9999999999999999
+      }
+    },
+    "prototype": {
+      "name": "Prototype engine (Streamlit build)",
+      "false_alarm (no-skill called skilled)": {
+        "k": 0,
+        "n": 882,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.004336666961678025
+      },
+      "recommends copying a no-skill wallet": {
+        "k": 0,
+        "n": 882,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.004336666961678025
+      },
+      "precision (of copy calls, truly skilled & copyable)": {
+        "k": 28,
+        "n": 30,
+        "rate": 0.9333333333333333,
+        "lo": 0.7867618227892791,
+        "hi": 0.9815233646723066
+      },
+      "copy_calls": 30,
+      "overall correct": {
+        "k": 945,
+        "n": 1003,
+        "rate": 0.942173479561316,
+        "lo": 0.9259700144333077,
+        "hi": 0.9550027224897594
+      },
+      "not-copyable caught (slow -> 'Skilled but not copyable')": {
+        "k": 35,
+        "n": 40,
+        "rate": 0.875,
+        "lo": 0.7388757932976187,
+        "hi": 0.9454058022645873
+      },
+      "95c farmers -> 'Probably luck'": {
+        "k": 101,
+        "n": 101,
+        "rate": 1.0,
+        "lo": 0.9633580563440465,
+        "hi": 0.9999999999999998
+      },
+      "cluster traps not called skilled": {
+        "k": 81,
+        "n": 81,
+        "rate": 1.0,
+        "lo": 0.954720325877871,
+        "hi": 0.9999999999999999
+      }
+    },
+    "naive_top10": {
+      "name": "Naive: top 10 by profit",
+      "false_alarm (no-skill called skilled)": {
+        "k": 0,
+        "n": 882,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.004336666961678025
+      },
+      "recommends copying a no-skill wallet": {
+        "k": 0,
+        "n": 882,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.004336666961678025
+      },
+      "precision (of copy calls, truly skilled & copyable)": {
+        "k": 1,
+        "n": 10,
+        "rate": 0.1,
+        "lo": 0.01787574951572113,
+        "hi": 0.4041563854975721
+      },
+      "copy_calls": 10
+    },
+    "naive_top10_roi": {
+      "name": "Naive: top 10 by ROI ('up 400%')",
+      "false_alarm (no-skill called skilled)": {
+        "k": 2,
+        "n": 882,
+        "rate": 0.0022675736961451248,
+        "lo": 0.0006220578871264817,
+        "hi": 0.008230089042979309
+      },
+      "recommends copying a no-skill wallet": {
+        "k": 2,
+        "n": 882,
+        "rate": 0.0022675736961451248,
+        "lo": 0.0006220578871264817,
+        "hi": 0.008230089042979309
+      },
+      "precision (of copy calls, truly skilled & copyable)": {
+        "k": 0,
+        "n": 10,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.2775401687666166
+      },
+      "copy_calls": 10
+    },
+    "naive_winrate70": {
+      "name": "Naive: win rate > 70%",
+      "false_alarm (no-skill called skilled)": {
+        "k": 287,
+        "n": 882,
+        "rate": 0.3253968253968254,
+        "lo": 0.2952909155360129,
+        "hi": 0.35701712689504933
+      },
+      "recommends copying a no-skill wallet": {
+        "k": 287,
+        "n": 882,
+        "rate": 0.3253968253968254,
+        "lo": 0.2952909155360129,
+        "hi": 0.35701712689504933
+      },
+      "precision (of copy calls, truly skilled & copyable)": {
+        "k": 32,
+        "n": 359,
+        "rate": 0.08913649025069638,
+        "lo": 0.0638463886449518,
+        "hi": 0.12312665964940032
+      },
+      "copy_calls": 359
+    }
+  },
+  "power_curve": {
+    "engine": [
+      {
+        "edge_bin": "0.02-0.06",
+        "k": 0,
+        "n": 19,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.16818436536845052
+      },
+      {
+        "edge_bin": "0.06-0.10",
+        "k": 1,
+        "n": 17,
+        "rate": 0.058823529411764705,
+        "lo": 0.01046013064516424,
+        "hi": 0.269825452035628
+      },
+      {
+        "edge_bin": "0.10-0.14",
+        "k": 2,
+        "n": 16,
+        "rate": 0.125,
+        "lo": 0.034976749337057134,
+        "hi": 0.3602333143674828
+      },
+      {
+        "edge_bin": "0.14-0.20",
+        "k": 9,
+        "n": 29,
+        "rate": 0.3103448275862069,
+        "lo": 0.17275424489768068,
+        "hi": 0.49230470472718546
+      }
+    ],
+    "prototype": [
+      {
+        "edge_bin": "0.02-0.06",
+        "k": 0,
+        "n": 19,
+        "rate": 0.0,
+        "lo": 0.0,
+        "hi": 0.16818436536845052
+      },
+      {
+        "edge_bin": "0.06-0.10",
+        "k": 2,
+        "n": 17,
+        "rate": 0.11764705882352941,
+        "lo": 0.03287908001292092,
+        "hi": 0.3433684249770991
+      },
+      {
+        "edge_bin": "0.10-0.14",
+        "k": 5,
+        "n": 16,
+        "rate": 0.3125,
+        "lo": 0.14164435051961052,
+        "hi": 0.5559606813326594
+      },
+      {
+        "edge_bin": "0.14-0.20",
+        "k": 21,
+        "n": 29,
+        "rate": 0.7241379310344828,
+        "lo": 0.5428252365556403,
+        "hi": 0.8530141866149725
+      }
+    ]
+  },
+  "confusion_engine": {
+    "Can't tell yet": {
+      "clustered": 0,
+      "farmer": 0,
+      "luck": 0,
+      "skilled": 20,
+      "slow": 8
+    },
+    "Probably luck": {
+      "clustered": 81,
+      "farmer": 101,
+      "luck": 700,
+      "skilled": 49,
+      "slow": 14
+    },
+    "Skilled and copyable": {
+      "clustered": 0,
+      "farmer": 0,
+      "luck": 0,
+      "skilled": 12,
+      "slow": 2
+    },
+    "Skilled but not copyable": {
+      "clustered": 0,
+      "farmer": 0,
+      "luck": 0,
+      "skilled": 0,
+      "slow": 16
+    }
+  }
+}

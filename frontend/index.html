@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copy-Trader Due Diligence</title>
+<meta name="description" content="Is a Polymarket top trader skilled or lucky, and could you still capture the edge? Paper trading only.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="banner" role="region" aria-label="Safety notice and data mode">
+  <p class="banner-text"><strong>Paper trading only.</strong> Information, not financial advice.</p>
+  <div class="banner-chips" id="chips" aria-live="polite"><span class="chip chip-dark">Loading mode…</span></div>
+</div>
+
+<header class="topbar">
+  <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true"></span>Copy-Trader Due Diligence</a>
+  <nav aria-label="Main" id="nav">
+    <a class="btn nav-link" href="#/" data-route="home">Home</a>
+    <a class="btn nav-link" href="#/paper" data-route="paper">Paper trading</a>
+    <a class="btn nav-link" href="#/hood" data-route="hood">Under the hood</a>
+  </nav>
+  <div class="topbar-tools">
+    <a class="chip" id="ks-ind" href="#/paper" aria-live="polite">Copying: …</a>
+    <label class="tech-toggle" title="Show raw fields, hashes and engine diagnostics"><input type="checkbox" id="tech"> Technical details</label>
+  </div>
+</header>
+
+<main id="main" tabindex="-1"></main>
+
+<footer class="footer">
+  <p id="foot-sources">Leaderboard and pasted wallets: Polymarket's public read-only APIs (Data API v2, Gamma, CLOB price history). Demo wallets and Paper trading: synthetic practice data, labelled wherever shown.</p>
+  <p>Paper trading only. Information, not financial advice. No wallets, keys or orders exist in this app.</p>
+  <p id="foot-version">Version …</p>
+</footer>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
