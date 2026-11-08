@@ -18,6 +18,11 @@ from .config import EVAL_DIR
 from .engine.stats import wilson
 
 RES = EVAL_DIR / "results"
+# Engine v2 (v0.7.0): grouping fix. Its results live in their own folder; engine v1's original runs stay in RES.
+ENGINE_RES = RES / "v2_engine"
+V1_FRESH = RES / "v1_engine_seed4242"       # engine v1 on the same fresh batch, for the side-by-side
+FRESH_SEED = 4242
+ENGINE_HASHES = {"v1": "92465b6b62360be3", "v2": "1e14c2d1e9f39823"}
 SKILLED = ("Skilled and copyable", "Skilled but not copyable")
 OK = {  # verdicts that count as correct for each planted type
     "skilled_slow": {"Skilled and copyable"},
@@ -44,8 +49,19 @@ def _clean(x):
     return x
 
 
-def planted(seed: int = 303) -> dict | None:
-    path = RES / "compare_wallets.csv"
+def _engine_metrics(w: pd.DataFrame) -> dict:
+    v = w["v2_verdict"]
+    skilled_call, no_skill = v.isin(SKILLED), w["kind"].isin(NO_SKILL)
+    skilled_true, approved = w["kind"].isin(("skilled_slow", "skilled_fast")), v == "Skilled and copyable"
+    ok = sum(r.v2_verdict in OK[r.kind] for r in w.itertuples(index=False))
+    return {"false_alarm": _rate(int((skilled_call & no_skill).sum()), int(no_skill.sum())),
+            "precision": _rate(int((approved & (w["kind"] == "skilled_slow")).sum()), int(approved.sum())),
+            "detection": _rate(int((skilled_call & skilled_true).sum()), int(skilled_true.sum())),
+            "correct": _rate(int(ok), int(len(w)))}
+
+
+def planted(seed: int = FRESH_SEED, folder=ENGINE_RES) -> dict | None:
+    path = folder / "compare_wallets.csv"
     if not path.exists():
         return None
     w = pd.read_csv(path)
@@ -77,7 +93,7 @@ def planted(seed: int = 303) -> dict | None:
     confusion = {k: {CODES[c]: int(n) for c, n in g["v2_verdict"].value_counts().items()} for k, g in w.groupby("kind")}
 
     baselines = []
-    comp = json.loads((RES / "compare.json").read_text())["scores"].get(f"Seed {seed} (holdout)", {}).get("methods", {})
+    comp = json.loads((folder / "compare.json").read_text())["scores"].get(f"Seed {seed} (holdout)", {}).get("methods", {})
     n_ns, n_sk = int(no_skill.sum()), int(skilled_true.sum())
     for name, key in (("Copy the top 10 by ROI ('up 400%')", "naive: top 10 by ROI"), ("Win rate > 70% = skilled", "naive: win rate > 70%")):
         m = comp.get(key)
@@ -92,12 +108,27 @@ def planted(seed: int = 303) -> dict | None:
         if r.v2_verdict not in OK[r.kind]:
             errors.append({"wallet": r.wallet, "planted": r.kind, "true_edge": r.edge_true, "verdict": r.v2_verdict,
                            "profit": r.profit, "win_rate": r.win_rate})
+    engines = [{"name": "Engine v2 (this build)", "hash": ENGINE_HASHES["v2"], **_engine_metrics(w)}]
+    v1p = V1_FRESH / "compare_wallets.csv"
+    if v1p.exists():
+        w1 = pd.read_csv(v1p)
+        w1 = w1[w1["seed"] == seed]
+        if len(w1):
+            engines.append({"name": "Engine v1 (v0.6.0)", "hash": ENGINE_HASHES["v1"], **_engine_metrics(w1),
+                            "changed": int((w.set_index("wallet")["v2_verdict"] != w1.set_index("wallet")["v2_verdict"]).sum())})
     return _clean({
-        "label": f"SYNTHETIC planted traders (holdout seed {seed})", "batch": "holdout", "dev_seeds": [101], "test_seeds": [seed],
+        "engines": engines,
+        "label": f"SYNTHETIC planted traders (fresh seed {seed})", "batch": "holdout", "dev_seeds": [101], "test_seeds": [seed],
         "n_wallets": int(len(w)), "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(path.stat().st_mtime)),
         "metrics": metrics, "power_curve": power, "confusion": confusion, "baselines": baselines, "errors": errors,
         "notes": [
-            "Thresholds were chosen on dev seed 101 only, then frozen; seed 303 was run afterwards.",
+            f"Seed {seed} had never been used. It was run once, after engine v2 was frozen (hash {ENGINE_HASHES['v2']}), "
+            f"with both engines. Thresholds are unchanged since they were set on dev seed 101.",
+            "Engine v1's original holdout (seed 303) is kept in the repo (eval/results/compare.md).",
+            "The one false alarm is a cluster trap: three election stories, every bet won. The grouping split each "
+            "story in two, because the place name appeared in so many of this trader's markets that an existing rule "
+            "treats it as a common word. Engines v1 and v2 share that rule and both made this error. It was found on "
+            "test data, so it is reported here, not fixed: a fix needs another fresh batch to be tested on.",
             "Planted traders are simpler than real ones; accuracy may not transfer exactly.",
             "Every miss is listed above. All errors are skilled traders the agent did not clear: it leans cautious by design.",
             "A small edge needs a very long record: a 5c edge needs roughly 2,000+ bets to stand out from a 1,000-wallet field.",
@@ -106,9 +137,13 @@ def planted(seed: int = 303) -> dict | None:
 
 
 def walkforward() -> dict | None:
-    path = RES / "walkforward.json"
+    v2 = ENGINE_RES / "walkforward.json"
+    path = v2 if v2.exists() else RES / "walkforward.json"
     if not path.exists():
         return None
+    engine_note = (f"Run with engine v2 (hash {ENGINE_HASHES['v2']})." if path == v2 else
+                   f"Run with engine v1 (hash {ENGINE_HASHES['v1']}). Re-running it with engine v2 needs internet access "
+                   f"(README: 'Re-running the real-data test').")
     d = json.loads(path.read_text())
     t, a, diff = d["top10"], d["agent_approved"], d["approved_minus_top10"]
     cutoff = pd.Timestamp(d["cutoff_utc"], tz="UTC").timestamp()
@@ -130,20 +165,27 @@ def walkforward() -> dict | None:
             "Abstaining beat copying the top 10 by the difference shown: evidence the leaderboard was not worth copying, "
             "not evidence that the agent picks winners (it picked none).",
             *d.get("bias_notes", []),
+            engine_note,
         ],
     })
 
 
 def planted_large() -> dict | None:
-    path = RES / "planted_large.json"
+    path = ENGINE_RES / "planted_large.json"
     if not path.exists():
         return None
     d = json.loads(path.read_text(encoding="utf-8"))
     r = lambda x: {"rate": x["rate"], "ci_low": x["lo"], "ci_high": x["hi"], "k": x["k"], "n": x["n"]}  # noqa: E731
-    judges = [{"key": k, "name": j["name"], "copy_calls": j["copy_calls"],
+    judges = [{"key": k, "name": ("Engine v2 (this build)" if k == "engine" else j["name"]), "copy_calls": j["copy_calls"],
                "no_skill_copied": r(j["recommends copying a no-skill wallet"]),
                "precision": r(j["precision (of copy calls, truly skilled & copyable)"])}
               for k, j in d["judges"].items()]
+    old = RES / "planted_large.json"                       # engine v1's run on the same wallets
+    if old.exists():
+        j = json.loads(old.read_text(encoding="utf-8"))["judges"]["engine"]
+        judges.insert(1, {"key": "engine_v1", "name": "Engine v1 (v0.6.0)", "copy_calls": j["copy_calls"],
+                          "no_skill_copied": r(j["recommends copying a no-skill wallet"]),
+                          "precision": r(j["precision (of copy calls, truly skilled & copyable)"])})
     pretty = {"false_alarm (no-skill called skilled)": "False alarms: no-skill wallet called skilled",
               "overall correct": "Overall: verdict acceptable for the planted type"}
     detail = {k: [{"name": pretty.get(m, m[0].upper() + m[1:]), **r(x)} for m, x in j.items() if isinstance(x, dict) and "k" in x
@@ -153,6 +195,8 @@ def planted_large() -> dict | None:
         "label": "Synthetic, independent generator", "n_wallets": d["n_wallets"], "types": d["types"],
         "freeze_hash": d["freeze_hash"], "judges": judges, "detail": detail, "power_curve": d["power_curve"],
         "notes": [
+            "This batch was already used to test engine v1, so for engine v2 it is a second look, not a fresh test. "
+            "The fresh test of v2 is Test 1's new seed.",
             "Made by a different generator (the Streamlit prototype's) that this engine was never tuned on. "
             "The prototype engine was tuned on this generator's dev batch, so it has home advantage here.",
             "Both engines recommended 0 of 882 no-skill wallets. This engine is more cautious: it clears fewer "

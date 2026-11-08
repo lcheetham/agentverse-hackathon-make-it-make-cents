@@ -59,6 +59,36 @@ Cut-off 24 Oct 2026, 60 leaderboard wallets, 40 with ≥ 20 settled bets before 
 - An earlier run with the same cut-off measured the top 10 at −4.1% (CI −19% to +11%): the post-cut-off window runs to the time of the run, so more markets had settled. Both runs are kept (`walkforward_v1.md`, `walkforward.md`).
 - Biases: today's leaderboard defines the universe; followers hold to resolution; paged history is short for very active wallets.
 
+## Engine v2 (8 Nov 2026): grouping by match, not by name
+
+**What changed.** Only the grouping of related bets (`ctdd/agent/text_jobs.py`); thresholds, the luck score,
+the verdict rules and the prompts are untouched. Freeze hash `92465b6b62360be3` (v1) → `1e14c2d1e9f39823` (v2).
+
+- v1 linked any two markets whose titles shared a name and that resolved within 3 days, and the links chained.
+  On a real e-sports wallet, League of Legends, Dota 2 and Counter-Strike matches became one 200-market "event",
+  so the no-skill twins treated 200 bets as one draw. That overstates the luck score and widens the edge interval
+  (it only ever pushes towards "luck", never towards "skilled").
+- v2: head-to-head markets ("A vs B", "Will A beat B?") link only to markets on the same pair of sides settling
+  within a day; a rematch days later is a new event. Team names no longer link other markets to each other; a
+  team's side market ("Will A win by 2+?") joins the single closest match involving that team. One event slug
+  that spans several matches is split by match. Gemini can still merge groups, but code refuses any merge that
+  would join two different matches.
+
+**Why it changed after the freeze, and how it was re-tested.** The flaw was found by inspecting a real wallet
+on 8 Nov, not from test scores. Re-scoring the same test data after changing the engine would contaminate it,
+so v2 was frozen first and then tested on a planted seed that had never been used (4242), once, with both
+engines side by side.
+
+| Grouping accuracy (agreement with the true events, Rand index) | v1 | v2 |
+|---|---|---|
+| Simulated e-sports month (150 matches, shared team names; `tests/esports_world.py`) | 0.672 (3 groups) | **0.998** |
+| Joyce's 1,003 wallets (true event ids) | 0.987 | 0.987 |
+| Planted cluster traps, dev seed 101 | 0.913 | 0.913 |
+
+Verdicts on dev seed 101: 0 of 58 changed. Fresh-seed and Joyce-batch verdicts: see "How we tested it" in the
+app and `eval/results/v2_engine/`. Engine v1 on the fresh seed: `eval/results/v1_engine_seed4242/`. The real
+walk-forward (Test 3) was run with v1; re-running it with v2 needs internet access (README).
+
 ## Limits
 
 - Synthetic prices are fair by construction, so the coin-flip and calibrated nulls only differ from v1 on real data.

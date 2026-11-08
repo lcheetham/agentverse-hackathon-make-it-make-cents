@@ -160,7 +160,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", default=str(ROOT / "data" / "planted_large"))
     ap.add_argument("--limit", type=int, default=None, help="score only the first N wallets (quick check)")
+    ap.add_argument("--out", default=None, help="folder for the results (default eval/results); keeps runs of different engines apart")
     a = ap.parse_args()
+    global RESULTS
+    if a.out:
+        RESULTS = Path(a.out).resolve()
     data_dir = Path(a.data).resolve()
     print(f"Scoring {data_dir} with the frozen engine (hash {freeze_hash()}) ...", flush=True)
     df = score(data_dir, a.limit)

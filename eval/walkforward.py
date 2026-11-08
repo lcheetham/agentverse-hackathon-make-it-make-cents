@@ -15,6 +15,7 @@
 from __future__ import annotations
 
 import argparse
+from pathlib import Path
 import json
 import time
 
@@ -100,7 +101,11 @@ def main():
     ap.add_argument("--min-pre", type=int, default=20, help="min resolved positions before the cut-off")
     ap.add_argument("--cutoff-ts", type=int, default=None, help="fixed cut-off (unix seconds) to reuse cached pulls")
     ap.add_argument("--price-positions", type=int, default=25, help="pre-cut-off positions priced for the copy-delay test")
+    ap.add_argument("--out", default=None, help="folder for the results (default eval/results); keeps runs of different engines apart")
     a = ap.parse_args()
+    global RESULTS
+    if a.out:
+        RESULTS = Path(a.out).resolve()
 
     th = load_thresholds()
     delay, hs, fee = th["verdict"]["copy_delay_s"], th["costs"]["half_spread"], th["costs"]["fee_rate"]

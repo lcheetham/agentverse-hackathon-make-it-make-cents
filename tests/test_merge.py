@@ -119,7 +119,7 @@ def test_real_dataset_includes_conversions_but_input_checks_ignore_them(tmp_path
 
 # ---------------- large planted batch ----------------
 def test_large_planted_results_match_frozen_engine():
-    p = EVAL_DIR / "results" / "planted_large.json"
+    p = EVAL_DIR / "results" / "v2_engine" / "planted_large.json"     # engine v2 (v0.7.0); v1's run stays in results/
     res = json.loads(p.read_text(encoding="utf-8"))
     assert res["freeze_hash"] == freeze_hash()
     assert res["n_wallets"] == 1003 and res["synthetic"]

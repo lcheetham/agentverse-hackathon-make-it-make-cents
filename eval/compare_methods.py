@@ -16,6 +16,7 @@ usable answer ("Can't tell yet" with no bottom line), and the Brier score of P(e
 from __future__ import annotations
 
 import argparse
+from pathlib import Path
 import json
 import time
 
@@ -141,7 +142,11 @@ def main():
     ap.add_argument("--seeds", type=int, nargs="+", default=[101, 202])
     ap.add_argument("--watch-p", type=float, default=WATCH_E)
     ap.add_argument("--reuse", action="store_true", help="re-score saved raw results without re-running wallets")
+    ap.add_argument("--out", default=None, help="folder for the results (default eval/results); keeps runs of different engines apart")
     a = ap.parse_args()
+    global RESULTS
+    if a.out:
+        RESULTS = Path(a.out).resolve()
     th = load_thresholds()
     RESULTS.mkdir(parents=True, exist_ok=True)
     raw = {}

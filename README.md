@@ -2,7 +2,7 @@
 
 **A backtest tells you what a trader made. We tell you whether it was skill, and whether *you* can still get it.**
 
-Agentverse 2026 · Finance track · **Version 0.6.0** (see `VERSION`; the team keeps a separate changelog). Someone with £200 sees a "copy this wallet, up 400%" post. The app reads a Polymarket wallet's public history and gives one verdict: **Skilled and copyable · Skilled but not copyable · Can't tell yet · Probably luck**, or **Hold – human review** if the input data looks manipulated. Every number traces back to the trades behind it.
+Agentverse 2026 · Finance track · **Version 0.7.0** (see `VERSION`; the team keeps a separate changelog). Someone with £200 sees a "copy this wallet, up 400%" post. The app reads a Polymarket wallet's public history and gives one verdict: **Skilled and copyable · Skilled but not copyable · Can't tell yet · Probably luck**, or **Hold – human review** if the input data looks manipulated. Every number traces back to the trades behind it.
 
 > **Paper trading only. Information, not financial advice.** There are no wallet keys or order endpoints in this codebase.
 
@@ -14,7 +14,7 @@ This is the team's combined build. **Diego** wrote the engine, real-data loader 
 python -m venv .venv
 .venv\Scripts\activate                 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-python -m pytest -q                    # 70 tests
+python -m pytest -q                    # 75 tests
 python -m ctdd.api                     # http://127.0.0.1:8000  (PORT=... to change)
 python demo.py                         # backup: the 4-minute demo in the terminal, offline (--yes runs straight through)
 python -m eval.run_large_planted       # ~3 min: re-scores the 1,003-wallet batch with the frozen engine
@@ -56,7 +56,7 @@ Without a key, everything except the agent works: report text comes from a templ
 2. **Contrast.** Open `0xDEMO-messy-skilled`: only 55% wins, but *Skilled and copyable*. Then `0xDEMO-fast-mover`: real edge, but 5 minutes late the follower's edge is gone, so *Skilled but not copyable*.
 3. **Agent.** Ask "I want to put £30 on 0xDEMO-perfect-25-0. Can I?". It analyses the wallet, runs the risk checks, and explains both blocks. If it tries to answer without the risk check, code rejects the answer.
 4. **Live control.** In Paper trading, pick the 25–0 trader, click **Next bet**, set the stake to £50 and approve. It's blocked by the per-trade cap, the verdict gate and the event-exposure cap. Then click **Stop all copying** and watch every proposal fail.
-5. **Results.** Under the hood → Why rankings mislead (reveal), then How we tested it: 0/26 false alarms against 10/26 and 17/26 for the naive judges. On 1,003 wallets from a generator the engine never saw, it recommended **0 of 882 no-skill wallets**, and 12 of its 14 copy calls (86%) were truly skilled and copyable, against 1 in 10 for "top 10 by profit". On real wallets, copying the top 10 lost 19.1% per copy, while the agent approved none and held cash.
+5. **Results.** Under the hood → Why rankings mislead (reveal), then How we tested it: on a fresh batch never used before, 1/26 false alarms against 10/26 and 16/26 for the naive judges (the one miss is shown and explained on the page). On 1,003 wallets from a different generator, it recommended **0 of 882 no-skill wallets**, and 11 of its 13 copy calls (85%) were truly skilled and copyable, against 1 in 10 for "top 10 by profit". On real wallets, copying the top 10 lost 19.1% per copy, while the agent approved none and held cash.
 
 **If the web app or Wi-Fi fails:** `python demo.py` runs the same five steps in the terminal, offline, through the same engine, controls, kill switch and audit log.
 
@@ -87,7 +87,7 @@ live: agent proposes -> code controls (kill switch, hold, cap, verdict gate, exp
 | Joyce's Streamlit prototype (app, engine, Gemini client) | One engine is easier to defend than two. Its planted batch, its verdicts on that batch, its split/merge handling and its demo script were kept; see below |
 | Fixture/mock mode in the frontend | The sample data was out of date |
 
-**The engine itself was not edited.** `ctdd/engine/*`, the prompts, `text_jobs.py` and `thresholds.json` are covered by the freeze hash (`92465b6b62360be3`, unchanged). Diego's frozen test results are therefore still valid. The trimming above is all in the presentation layer (`ctdd/adapter.py`).
+**The engine was edited once, openly, in v0.7.0.** `ctdd/engine/*`, the prompts, `text_jobs.py` and `thresholds.json` are covered by the freeze hash: `92465b6b62360be3` for engine v1 (Diego's frozen results), `1e14c2d1e9f39823` for engine v2 (the grouping fix only). Everything else above is in the presentation layer (`ctdd/adapter.py`).
 
 ## Second planted test: 1,003 wallets from an independent generator
 
@@ -95,7 +95,8 @@ live: agent proposes -> code controls (kill switch, hold, cap, verdict gate, exp
 
 | Judge (same 1,003 wallets) | Recommends copying a no-skill wallet | Of its "copy" calls, truly skilled & copyable |
 |---|---|---|
-| **This engine (frozen)** | **0 / 882** (CI 0–0.4%) | **12 / 14 = 86%** (CI 60–96%) |
+| **Engine v2 (this build)** | **0 / 882** (CI 0–0.4%) | **11 / 13 = 85%** |
+| Engine v1 (v0.6.0) | 0 / 882 (CI 0–0.4%) | 12 / 14 = 86% (CI 60–96%) |
 | Prototype engine | 0 / 882 | 28 / 30 = 93% |
 | Naive: top 10 by profit | 0 / 882 | 1 / 10 = 10% |
 | Naive: top 10 by ROI | 2 / 882 | 0 / 10 |
@@ -127,7 +128,7 @@ What to say about it:
 
 - **Planted traders are simpler than real ones.** All 16 evaluation errors are skilled traders the agent didn't clear, so it leans cautious. A 5c edge needs about 2,000+ bets to stand out against 1,000 wallets.
 - **The real walk-forward approved no wallets.** It shows that the leaderboard wasn't worth copying, not that the agent picks winners. Its universe is today's leaderboard, followers hold to resolution, and history is paged.
-- **Related-bet grouping can be too coarse on real sports and e-sports wallets.** Markets are linked when their titles share a name and they resolve close together, and those links chain, so a busy month of matches can become one "event". That makes the luck score and edge interval more sceptical than they should be (never less). The engine is frozen, so v0.6.0 flags it on the card ("Check the grouping") instead of changing it; a fix is planned as engine v2, re-tested on fresh data.
+- **Engine v2 changed the grouping after the original freeze.** v1 linked markets that shared any name, and the links chained (a month of e-sports matches became one "event"). v2 groups by match. It was frozen before testing and tested once on a never-used planted seed, with v1 alongside; see `docs/METHODS.md`. The real-data walk-forward was run with v1 and still needs a v2 re-run (below). The "Check the grouping" note on report cards stays as a safety net.
 - **The luck twin is a clone of the trader.** Positions sold early are excluded from the luck score; coverage is shown on the card.
 - **Splits and merges are approximate.** A split is recorded as buying both outcomes at 50c and a merge as selling both at 50c, so each market's total P&L is exact but the split between outcomes is approximate. Where Polymarket's own closed position matches, its P&L is used anyway. Converted rows are kept out of the input checks (a split is not "betting both sides"). The published real walk-forward was run before this change and uses trades only.
 - **Not yet tested in this combined build:**
@@ -135,6 +136,16 @@ What to say about it:
   - real-wallet analysis through the new web UI;
   - the live leaderboard fetch against Polymarket (tested with recorded-shape responses; field names are read defensively);
   - split/merge conversion against the live API (tested against recorded-shape fake responses only). Diego's real-data pipeline itself was run end to end on real wallets.
+
+## Re-running the real-data test (Test 3) with engine v2
+
+Needs internet (Polymarket's public API), about 5 minutes. Use the same cut-off as the original run so the two engines see identical data:
+
+```
+python -m eval.walkforward --cutoff-ts 1792863497 --out eval/results/v2_engine
+```
+
+The app then shows the v2 result under Test 3 automatically (restart it). Note that today's leaderboard differs from 7 Nov's, so the wallet universe may differ slightly; the output says which wallets were judged.
 
 ## Data and licences
 
