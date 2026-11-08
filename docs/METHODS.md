@@ -89,6 +89,14 @@ Verdicts on dev seed 101: 0 of 58 changed. Fresh-seed and Joyce-batch verdicts: 
 app and `eval/results/v2_engine/`. Engine v1 on the fresh seed: `eval/results/v1_engine_seed4242/`. The real
 walk-forward (Test 3) was run with v1; re-running it with v2 needs internet access (README).
 
+### Re-run with engine v2 (8 Nov 2026, same cut-off)
+
+39 wallets judged (38 "Probably luck", 1 "Can't tell yet"); none approved. Copying the top 10 after the cut-off:
+225 copies, **−18.7% per copy** (95% CI −34.1% to −2.6%), wiped out at £10 a copy; the leaders' own return on the
+same bets was −10.6%. Abstaining avoided **+18.7 per copy** (CI +2.4 to +33.8). More bets had settled and the
+leaderboard had moved since the v1 run, so this confirms the result rather than repeating it on identical data.
+Files: `eval/results/v2_engine/walkforward.*`.
+
 ## Limits
 
 - Synthetic prices are fair by construction, so the coin-flip and calibrated nulls only differ from v1 on real data.

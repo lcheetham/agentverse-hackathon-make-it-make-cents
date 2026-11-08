@@ -161,7 +161,9 @@ def walkforward() -> dict | None:
         "diff": {"mean": (a["mean_ret"] if a["n_wallets"] else 0.0) - t["mean_ret"], "ci_low": diff["lo"], "ci_high": diff["hi"]},
         "verdict_counts": d["verdict_counts"],
         "notes": [
-            f"The agent judged {d['judged']} leaderboard wallets as of the cut-off: {d['verdict_counts']}. It approved none, so it held cash.",
+            f"The agent judged {d['judged']} leaderboard wallets as of the cut-off: "
+            f"{', '.join(f'{n} {v}' for v, n in sorted(d['verdict_counts'].items(), key=lambda kv: -kv[1]))}. "
+            f"It approved none, so it held cash.",
             "Abstaining beat copying the top 10 by the difference shown: evidence the leaderboard was not worth copying, "
             "not evidence that the agent picks winners (it picked none).",
             *d.get("bias_notes", []),
