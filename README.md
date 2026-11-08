@@ -2,11 +2,11 @@
 
 **A backtest tells you what a trader made. We tell you whether it was skill, and whether *you* can still get it.**
 
-Agentverse 2026 · Finance track · **Version 0.7.1** (see `VERSION`; the team keeps a separate changelog). Someone with £200 sees a "copy this wallet, up 400%" post. The app reads a Polymarket wallet's public history and gives one verdict: **Skilled and copyable · Skilled but not copyable · Can't tell yet · Probably luck**, or **Hold – human review** if the input data looks manipulated. Every number traces back to the trades behind it.
+Agentverse 2026 · Finance track · **Version 0.7.2** (see `VERSION`; the team keeps a separate changelog). Someone with £200 sees a "copy this wallet, up 400%" post. The app reads a Polymarket wallet's public history and gives one verdict: **Skilled and copyable · Skilled but not copyable · Can't tell yet · Probably luck**, or **Hold – human review** if the input data looks manipulated. Every number traces back to the trades behind it.
 
 > **Paper trading only. Information, not financial advice.** There are no wallet keys or order endpoints in this codebase.
 
-This is the team's combined build. **Diego** wrote the engine, real-data loader and evaluation. **Adrian** wrote the web frontend. **Lawrence** wrote the chat agent and persistent kill switch. **Joyce**'s Streamlit prototype (a separate build of the same spec) contributed the 1,003-wallet planted batch and its verdicts, split/merge handling for the Polymarket pull, and the terminal demo.
+Built with help from Claude (Anthropic) as a coding assistant; the app's own language model is Gemini. This is the team's combined build. **Diego** wrote the engine, real-data loader and evaluation. **Adrian** wrote the web frontend. **Lawrence** wrote the chat agent and persistent kill switch. **Joyce**'s Streamlit prototype (a separate build of the same spec) contributed the 1,003-wallet planted batch and its verdicts, split/merge handling for the Polymarket pull, and the terminal demo.
 
 ## Run it
 
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 python -m pytest -q                    # 75 tests
 python -m ctdd.api                     # http://127.0.0.1:8000  (PORT=... to change)
 python demo.py                         # backup: the 4-minute demo in the terminal, offline (--yes runs straight through)
-python -m eval.run_large_planted       # ~3 min: re-scores the 1,003-wallet batch with the frozen engine
+python -m eval.run_large_planted --out eval/results/v2_engine   # ~3 min: re-scores the 1,003-wallet batch with the frozen engine
 ```
 
 **Gemini (optional, needed for the chat agent):**
@@ -136,6 +136,8 @@ What to say about it:
   - real-wallet analysis through the new web UI;
   - the live leaderboard fetch against Polymarket (tested with recorded-shape responses; field names are read defensively);
   - split/merge conversion against the live API (tested against recorded-shape fake responses only). Diego's real-data pipeline itself was run end to end on real wallets.
+
+**Keep the `--out` folders.** Engine v1's original results stay in `eval/results/` and are shown as the comparison rows; running an evaluation script without `--out eval/results/v2_engine` would overwrite them with engine v2's numbers.
 
 ## Re-running the real-data test (Test 3) with engine v2
 
