@@ -8,8 +8,6 @@ Agentverse 2026 · Finance track · **Version 0.7.3** (see `VERSION`; the team k
 
 Built with help from Claude (Anthropic) as a coding assistant; the app's own language model is Gemini. Each of us first built our own prototype of the full app; this is the combined build, merging the best of all four. **Diego** wrote the engine, real-data loader and evaluation. **Adrian** wrote the web frontend, the report card and the Gemini integration. **Lawrence** wrote the chat agent and persistent kill switch. **Joyce**'s prototype contributed the 1,003-wallet planted batch and its verdicts, split/merge handling for the Polymarket pull, and the terminal demo.
 
-I cut "(a separate build of the same spec)" from Joyce's line, since the new opening sentence now says that for everyone.
-
 ## Run it
 
 ```bash
